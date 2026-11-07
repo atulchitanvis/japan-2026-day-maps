@@ -1,0 +1,1764 @@
+[
+  {
+    "day": 1,
+    "date": "19 Nov 2026",
+    "weekday": "Thu",
+    "city": "Osaka",
+    "title": "Land at KIX, first night in Osaka",
+    "stay": "BON Condominium Umeda",
+    "bookings": [
+      {
+        "label": "Flights CX660/CX598",
+        "done": true
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kansai Airport (KIX)",
+        "mapsQuery": "Kansai International Airport, Japan",
+        "lat": 34.43433,
+        "lng": 135.2442,
+        "time": "~17:40",
+        "notes": "Immigration + bags ~45-60 min. Buy 4× ICOCA (¥2,000 incl ¥500 deposit) and load ~¥10,000 each."
+      },
+      {
+        "n": 2,
+        "name": "BON Condominium Umeda",
+        "mapsQuery": "BON Condominium Umeda Osaka, Japan",
+        "lat": 34.7065,
+        "lng": 135.4975,
+        "time": "~19:40",
+        "notes": "Check in, drop bags.",
+        "arriveBy": "bus",
+        "legNote": "Airport Limousine Bus to Umeda, ~60-70 min, pay at counter"
+      },
+      {
+        "n": 3,
+        "name": "Dinner: Kinryu Ramen Midosuji",
+        "mapsQuery": "Kinryu Ramen Midosuji Dotonbori Osaka, Japan",
+        "lat": 34.66807,
+        "lng": 135.50059,
+        "time": "Evening",
+        "notes": "Or Ichiran. Skip Dotonbori if too tired, eat near hotel.",
+        "meal": true,
+        "arriveBy": "train",
+        "legNote": "Midosuji Line Umeda → Namba, ~15 min"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "date": "20 Nov 2026",
+    "weekday": "Fri",
+    "city": "Osaka",
+    "title": "Katsuo-ji, Minoh Falls, Shinsekai",
+    "stay": "BON Condominium Umeda",
+    "bookings": [],
+    "stops": [
+      {
+        "n": 1,
+        "name": "BON Condominium Umeda",
+        "mapsQuery": "Osaka Umeda Station Hankyu, Japan",
+        "lat": 34.70542,
+        "lng": 135.49837,
+        "time": "7:30-8:00",
+        "notes": "Leave hotel."
+      },
+      {
+        "n": 2,
+        "name": "Minoh Station",
+        "mapsQuery": "Minoh Station Hankyu, Japan",
+        "lat": 34.83516,
+        "lng": 135.46848,
+        "time": "~8:30",
+        "notes": "Taxi stand at the station.",
+        "arriveBy": "train",
+        "legNote": "Hankyu Takarazuka Line, change at Ishibashi Handai-mae, ~30 min"
+      },
+      {
+        "n": 3,
+        "name": "Katsuo-ji (daruma temple)",
+        "mapsQuery": "Katsuoji Temple Minoh, Japan",
+        "lat": 34.86562,
+        "lng": 135.49226,
+        "time": "9:00-12:00",
+        "notes": "¥500/pp. 2.5-3 h.",
+        "arriveBy": "taxi",
+        "legNote": "Taxi ~15-20 min, ~¥3,000"
+      },
+      {
+        "n": 4,
+        "name": "Minoh Falls + Ryuanji",
+        "mapsQuery": "Minoh Falls, Japan",
+        "lat": 34.85389,
+        "lng": 135.47197,
+        "time": "12:25-13:00",
+        "notes": "33 m falls, Top 100 waterfalls.",
+        "arriveBy": "taxi",
+        "legNote": "Taxi ~10 min (~¥1,500) + 10 min walk"
+      },
+      {
+        "n": 5,
+        "name": "Walk down to Minoh Station",
+        "mapsQuery": "Minoh Station Hankyu, Japan",
+        "lat": 34.83516,
+        "lng": 135.46848,
+        "time": "13:00-14:00",
+        "notes": "2.7 km gentle downhill. Lunch at Yuzuriha on the way, momiji tempura snack. Derailleur Brew Works at the station (optional).",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~45-60 min"
+      },
+      {
+        "n": 6,
+        "name": "Osaka Castle (Otemon Gate)",
+        "mapsQuery": "Otemon Gate Osaka Castle, Japan",
+        "lat": 34.68508,
+        "lng": 135.52304,
+        "time": "Afternoon",
+        "notes": "Exterior + moat walk, free. Drops first if the day runs long.",
+        "optional": true,
+        "arriveBy": "train",
+        "legNote": "Hankyu back to Umeda, then Tanimachi Line to Tanimachi 4-chome"
+      },
+      {
+        "n": 7,
+        "name": "Shinsekai + Tsutenkaku",
+        "mapsQuery": "Tsutenkaku Shinsekai Osaka, Japan",
+        "lat": 34.65254,
+        "lng": 135.50631,
+        "time": "Late afternoon",
+        "notes": "Retro district.",
+        "arriveBy": "taxi",
+        "legNote": "Taxi ~20 min"
+      },
+      {
+        "n": 8,
+        "name": "Dinner: Yaekatsu (kushikatsu)",
+        "mapsQuery": "Yaekatsu Janjan Yokocho Osaka, Japan",
+        "lat": 34.64987,
+        "lng": 135.50662,
+        "time": "Evening",
+        "notes": "Backups Tengu, Omiya, Daruma. Home via Shin-Imamiya → Loop Line to Osaka.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "date": "21 Nov 2026",
+    "weekday": "Sat",
+    "city": "Ise",
+    "title": "Ise Jingu day trip",
+    "stay": "BON Condominium Umeda",
+    "bookings": [
+      {
+        "label": "Kintetsu A47431 / A07557",
+        "done": true
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Osaka-Namba (Kintetsu)",
+        "mapsQuery": "Osaka Namba Station Kintetsu, Japan",
+        "lat": 34.66718,
+        "lng": 135.49778,
+        "time": "07:05",
+        "notes": "Train 6703, Car 2, Seats 8A-8D. Show the live e-ticket on the Kintetsu site (no screenshots). Base fare: tap ICOCA.",
+        "tags": [
+          "Booked A47431"
+        ]
+      },
+      {
+        "n": 2,
+        "name": "Iseshi Station",
+        "mapsQuery": "Iseshi Station, Japan",
+        "lat": 34.49104,
+        "lng": 136.70962,
+        "time": "08:53",
+        "notes": "Arrive.",
+        "arriveBy": "train",
+        "legNote": "Kintetsu Limited Express, 1h48m"
+      },
+      {
+        "n": 3,
+        "name": "Ise Jingu Geku (Outer Shrine)",
+        "mapsQuery": "Ise Jingu Geku, Japan",
+        "lat": 34.48735,
+        "lng": 136.7037,
+        "time": "Morning",
+        "notes": "45 min-1 h. Free.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 4,
+        "name": "Ise Jingu Naiku (Inner Shrine)",
+        "mapsQuery": "Ise Jingu Naiku Uji Bridge, Japan",
+        "lat": 34.45868,
+        "lng": 136.72333,
+        "time": "Late morning",
+        "notes": "Main highlight, 1-1.5 h.",
+        "arriveBy": "bus",
+        "legNote": "Shrine bus / CAN Bus ~15-20 min, ICOCA"
+      },
+      {
+        "n": 5,
+        "name": "Lunch: Fukusuke + Okage Yokocho",
+        "mapsQuery": "Fukusuke Okage Yokocho Ise, Japan",
+        "lat": 34.46234,
+        "lng": 136.7231,
+        "time": "Lunch",
+        "notes": "Ise udon, ★3.60. Browse Okage Yokocho after.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 6,
+        "name": "Meoto Iwa (Wedded Rocks)",
+        "mapsQuery": "Meoto Iwa Futami, Japan",
+        "lat": 34.50834,
+        "lng": 136.7888,
+        "time": "Afternoon",
+        "notes": "Only if pacing allows.",
+        "optional": true,
+        "arriveBy": "bus",
+        "legNote": "CAN Bus ~25-30 min"
+      },
+      {
+        "n": 7,
+        "name": "Iseshi Station",
+        "mapsQuery": "Iseshi Station, Japan",
+        "lat": 34.49104,
+        "lng": 136.70962,
+        "time": "15:50",
+        "notes": "Vistacar Train 7504, Car 6, Seats 8A-8D.",
+        "tags": [
+          "Booked A07557"
+        ],
+        "arriveBy": "bus",
+        "legNote": "Bus back to Iseshi"
+      },
+      {
+        "n": 8,
+        "name": "Dotonbori + Hozenji Yokocho",
+        "mapsQuery": "Hozenji Yokocho Osaka, Japan",
+        "lat": 34.66797,
+        "lng": 135.50332,
+        "time": "17:33 →",
+        "notes": "Dinner open, decide on the spot. Tonight: stroller to Yamato for 22 Nov delivery to Kyoto.",
+        "meal": true,
+        "arriveBy": "train",
+        "legNote": "Kintetsu to Osaka-Namba (arr 17:33), walk"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "date": "22 Nov 2026",
+    "weekday": "Sun",
+    "city": "Kyoto",
+    "title": "Arashiyama, then check in to Kyoto",
+    "stay": "Rinn Kamiebisu",
+    "bookings": [
+      {
+        "label": "Daizen lunch",
+        "done": false
+      },
+      {
+        "label": "Hana-Tanuki dinner",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Osaka Station",
+        "mapsQuery": "Osaka Station JR, Japan",
+        "lat": 34.70181,
+        "lng": 135.49449,
+        "time": "~6:30",
+        "notes": "Rucksacks with you."
+      },
+      {
+        "n": 2,
+        "name": "Saga-Arashiyama Station",
+        "mapsQuery": "Saga-Arashiyama Station, Japan",
+        "lat": 35.02066,
+        "lng": 135.68099,
+        "time": "~7:30",
+        "notes": "Lockers for rucksacks.",
+        "arriveBy": "train",
+        "legNote": "JR Kyoto Line → Kyoto, JR Sagano Line, ~55 min"
+      },
+      {
+        "n": 3,
+        "name": "Bamboo Grove",
+        "mapsQuery": "Arashiyama Bamboo Grove, Japan",
+        "lat": 35.01674,
+        "lng": 135.67115,
+        "time": "7:30-8:20",
+        "notes": "Before the crowds.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 4,
+        "name": "Tenryu-ji",
+        "mapsQuery": "Tenryuji Temple Kyoto, Japan",
+        "lat": 35.01593,
+        "lng": 135.677,
+        "time": "8:30-9:30",
+        "notes": "",
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 5,
+        "name": "Gio-ji",
+        "mapsQuery": "Giouji Temple Kyoto, Japan",
+        "lat": 35.02352,
+        "lng": 135.6668,
+        "time": "10:00-10:45",
+        "notes": "Moss garden.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~30 min via backstreets"
+      },
+      {
+        "n": 6,
+        "name": "Adashino Nenbutsuji",
+        "mapsQuery": "Adashino Nenbutsuji, Japan",
+        "lat": 35.02692,
+        "lng": 135.66463,
+        "time": "11:05-11:40",
+        "notes": "¥500/pp.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~20 min"
+      },
+      {
+        "n": 7,
+        "name": "Otagi Nenbutsuji",
+        "mapsQuery": "Otagi Nenbutsuji, Japan",
+        "lat": 35.03116,
+        "lng": 135.66123,
+        "time": "11:50-12:35",
+        "notes": "1,200 stone statues.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 8,
+        "name": "Lunch: Arashiyama Daizen",
+        "mapsQuery": "Arashiyama Daizen Kyoto, Japan",
+        "lat": 35.01434,
+        "lng": 135.68344,
+        "time": "~13:15",
+        "notes": "★3.61 regional sushi, near Randen Saga. Call 075-882-0018.",
+        "tags": [
+          "Reserve"
+        ],
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk back ~40 min (or taxi)"
+      },
+      {
+        "n": 9,
+        "name": "Rinn Kamiebisu (drop bags)",
+        "mapsQuery": "Rinn Kamiebisu Kyoto, Japan",
+        "lat": 34.98641,
+        "lng": 135.75061,
+        "time": "~15:30",
+        "notes": "Hotel holds bags; check-in 16:00. Stroller arrives via Yamato.",
+        "arriveBy": "train",
+        "legNote": "JR Sagano Line Saga-Arashiyama → Umekoji-Kyotonishi"
+      },
+      {
+        "n": 10,
+        "name": "To-ji illumination",
+        "mapsQuery": "To-ji Temple Kyoto, Japan",
+        "lat": 34.98063,
+        "lng": 135.74772,
+        "time": "18:00-21:00",
+        "notes": "¥1,000. Optional.",
+        "optional": true,
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 11,
+        "name": "Dinner: Hana-Tanuki",
+        "mapsQuery": "Hana Tanuki Kyoto okonomiyaki, Japan",
+        "lat": 34.98867,
+        "lng": 135.76096,
+        "time": "Evening",
+        "notes": "Okonomiyaki. 075-371-0068.",
+        "tags": [
+          "Reserve"
+        ],
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "date": "23 Nov 2026",
+    "weekday": "Mon",
+    "city": "Nara",
+    "title": "Nara day trip (public holiday)",
+    "stay": "Rinn Kamiebisu",
+    "bookings": [
+      {
+        "label": "Kintetsu A29965 / A52558",
+        "done": true
+      },
+      {
+        "label": "Tsujiy dinner",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kintetsu Kyoto Station",
+        "mapsQuery": "Kintetsu Kyoto Station, Japan",
+        "lat": 34.98481,
+        "lng": 135.75741,
+        "time": "08:00",
+        "notes": "Train 807, Car 2, Seats 8A-8D. Live e-ticket + ICOCA for base fare.",
+        "tags": [
+          "Booked A29965"
+        ]
+      },
+      {
+        "n": 2,
+        "name": "Kintetsu-Nara Station",
+        "mapsQuery": "Kintetsu Nara Station, Japan",
+        "lat": 34.68419,
+        "lng": 135.82822,
+        "time": "08:34",
+        "notes": "",
+        "arriveBy": "train",
+        "legNote": "Kintetsu Limited Express, 34 min"
+      },
+      {
+        "n": 3,
+        "name": "Nakatanidou (mochi pounding)",
+        "mapsQuery": "Nakatanidou Nara, Japan",
+        "lat": 34.68193,
+        "lng": 135.82886,
+        "time": "Morning",
+        "notes": "¥130-250 per piece. Pounding shows are irregular.",
+        "optional": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 4,
+        "name": "Todai-ji (Great Buddha Hall)",
+        "mapsQuery": "Todaiji Temple Nara, Japan",
+        "lat": 34.68849,
+        "lng": 135.84043,
+        "time": "Morning",
+        "notes": "¥800/pp, cash.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~15 min through Nara Park"
+      },
+      {
+        "n": 5,
+        "name": "Nara Park deer",
+        "mapsQuery": "Nara Park, Japan",
+        "lat": 34.6851,
+        "lng": 135.843,
+        "time": "Late morning",
+        "notes": "Crackers ¥200.",
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 6,
+        "name": "Lunch: Mizuya Chaya",
+        "mapsQuery": "Mizuya Chaya Nara, Japan",
+        "lat": 34.68349,
+        "lng": 135.84679,
+        "time": "Lunch",
+        "notes": "Udon + matcha on the road to Kasuga Taisha.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 7,
+        "name": "Kasuga Taisha",
+        "mapsQuery": "Kasuga Taisha, Japan",
+        "lat": 34.68084,
+        "lng": 135.84712,
+        "time": "Afternoon",
+        "notes": "Stone lanterns. Inner sanctuary ~¥500-700.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 8,
+        "name": "Naramachi",
+        "mapsQuery": "Naramachi Nara, Japan",
+        "lat": 34.67691,
+        "lng": 135.83015,
+        "time": "Afternoon",
+        "notes": "Old merchant quarter.",
+        "optional": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~20 min"
+      },
+      {
+        "n": 9,
+        "name": "Kintetsu-Nara Station",
+        "mapsQuery": "Kintetsu Nara Station, Japan",
+        "lat": 34.68419,
+        "lng": 135.82822,
+        "time": "16:25",
+        "notes": "Train 1606, Car 6, Seats 8A-8D.",
+        "tags": [
+          "Booked A52558"
+        ],
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 10,
+        "name": "Dinner: Kyoto Sumibi Kushiyaki Tsujiy",
+        "mapsQuery": "Kyoto Sumibi Kushiyaki Tsujiy, Japan",
+        "lat": 34.9872,
+        "lng": 135.755,
+        "time": "~19:30",
+        "notes": "Chicken yakitori ★3.35. 075-341-1819.",
+        "tags": [
+          "Reserve"
+        ],
+        "meal": true,
+        "arriveBy": "train",
+        "legNote": "Kintetsu to Kyoto (arr 17:01), walk"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "date": "24 Nov 2026",
+    "weekday": "Tue",
+    "city": "Kyoto",
+    "title": "Fushimi Inari to Gion",
+    "stay": "Rinn Kamiebisu",
+    "bookings": [
+      {
+        "label": "Collect Klook tickets tonight",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Fushimi Inari Taisha",
+        "mapsQuery": "Fushimi Inari Taisha, Japan",
+        "lat": 34.9671,
+        "lng": 135.7727,
+        "time": "Early",
+        "notes": "Free, open 24 h. Go at first light."
+      },
+      {
+        "n": 2,
+        "name": "Kiyomizu-dera",
+        "mapsQuery": "Kiyomizu-dera, Japan",
+        "lat": 34.9943,
+        "lng": 135.78444,
+        "time": "Morning",
+        "notes": "¥500 cash, opens 6am.",
+        "arriveBy": "train",
+        "legNote": "Keihan Line Fushimi-Inari → Kiyomizu-Gojo, then walk uphill"
+      },
+      {
+        "n": 3,
+        "name": "Mochi Mochi + Ninenzaka / Sannenzaka",
+        "mapsQuery": "Sannenzaka Kyoto, Japan",
+        "lat": 34.99648,
+        "lng": 135.78132,
+        "time": "Late morning",
+        "notes": "Mochi pounding ¥1,000. Yasaka Pagoda on the way.",
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 4,
+        "name": "Lunch: Nishiki Market",
+        "mapsQuery": "Nishiki Market Kyoto, Japan",
+        "lat": 35.00502,
+        "lng": 135.76557,
+        "time": "Lunch",
+        "notes": "Graze stall to stall.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~20 min or taxi"
+      },
+      {
+        "n": 5,
+        "name": "Ginkaku-ji",
+        "mapsQuery": "Ginkakuji Temple Kyoto, Japan",
+        "lat": 35.0269,
+        "lng": 135.79837,
+        "time": "Afternoon",
+        "notes": "",
+        "arriveBy": "bus",
+        "legNote": "Bus 5 or 17 from Shijo-Kawaramachi, ~25 min"
+      },
+      {
+        "n": 6,
+        "name": "Philosopher's Path (south)",
+        "mapsQuery": "Philosopher's Path Kyoto, Japan",
+        "lat": 35.02252,
+        "lng": 135.79499,
+        "time": "Afternoon",
+        "notes": "30-40 min stroll toward Nanzen-ji.",
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 7,
+        "name": "Eikan-do",
+        "mapsQuery": "Eikando Zenrinji Kyoto, Japan",
+        "lat": 35.01471,
+        "lng": 135.79381,
+        "time": "Afternoon",
+        "notes": "Top foliage spot. Optional.",
+        "optional": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 8,
+        "name": "Gion (Hanamikoji)",
+        "mapsQuery": "Hanamikoji Street Kyoto, Japan",
+        "lat": 35.00448,
+        "lng": 135.77514,
+        "time": "Evening",
+        "notes": "Short walk-through, first to trim.",
+        "arriveBy": "taxi",
+        "legNote": "Taxi ~15 min or walk"
+      },
+      {
+        "n": 9,
+        "name": "Dinner: Kyoto Gion Okaru",
+        "mapsQuery": "Gion Okaru Kyoto, Japan",
+        "lat": 35.0045,
+        "lng": 135.777,
+        "time": "Evening",
+        "notes": "Curry udon ★3.59, cash. Backup Musou Shin Gion.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 10,
+        "name": "Kyoto Station: collect Klook tickets",
+        "mapsQuery": "Kyoto Station JR, Japan",
+        "lat": 34.98512,
+        "lng": 135.75833,
+        "time": "Night",
+        "notes": "Scan Klook QR at a JR machine for the Nagoya → Matsumoto and Matsumoto → Kiso tickets. Stroller to Yamato at the hotel (→ Kanazawa, 29 Nov).",
+        "tags": [
+          "To do"
+        ],
+        "arriveBy": "bus",
+        "legNote": "Bus 206 or taxi"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "date": "25 Nov 2026",
+    "weekday": "Wed",
+    "city": "Kiso Valley",
+    "title": "Kyoto → Matsumoto → Kiso-Fukushima",
+    "stay": "Kiso Mikawaya (check-in by 18:30)",
+    "bookings": [
+      {
+        "label": "Nozomi 74 SmartEX",
+        "done": true
+      },
+      {
+        "label": "Shinano 5 + 20 Klook",
+        "done": true
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kyoto Station (Shinkansen)",
+        "mapsQuery": "Kyoto Station Shinkansen, Japan",
+        "lat": 34.98535,
+        "lng": 135.75877,
+        "time": "07:45",
+        "notes": "Nozomi 74, Car 16, Seats B-E (SmartEX).",
+        "tags": [
+          "Booked"
+        ]
+      },
+      {
+        "n": 2,
+        "name": "Nagoya Station",
+        "mapsQuery": "Nagoya Station, Japan",
+        "lat": 35.17073,
+        "lng": 136.88184,
+        "time": "08:19 → 09:00",
+        "notes": "Change to Ltd Express Shinano 5.",
+        "tags": [
+          "Booked"
+        ],
+        "arriveBy": "train",
+        "legNote": "Tokaido Shinkansen, 34 min"
+      },
+      {
+        "n": 3,
+        "name": "Matsumoto Station",
+        "mapsQuery": "Matsumoto Station, Japan",
+        "lat": 36.23073,
+        "lng": 137.96444,
+        "time": "11:05",
+        "notes": "Lockers for rucksacks.",
+        "arriveBy": "train",
+        "legNote": "Shinano 5, 2h05m"
+      },
+      {
+        "n": 4,
+        "name": "Lunch: Miyota Matsumoto",
+        "mapsQuery": "Miyota Matsumoto soba, Japan",
+        "lat": 36.2318,
+        "lng": 137.9667,
+        "time": "Lunch",
+        "notes": "Toji soba ★3.49.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 5,
+        "name": "Matsumoto Castle (exterior)",
+        "mapsQuery": "Matsumoto Castle, Japan",
+        "lat": 36.23864,
+        "lng": 137.96887,
+        "time": "Midday",
+        "notes": "Free from the grounds.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~15 min"
+      },
+      {
+        "n": 6,
+        "name": "Nakamachi + Nawate Streets",
+        "mapsQuery": "Nakamachi Street Matsumoto, Japan",
+        "lat": 36.2338,
+        "lng": 137.9715,
+        "time": "Afternoon",
+        "notes": "Optional stroll.",
+        "optional": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 7,
+        "name": "Matsumoto Station",
+        "mapsQuery": "Matsumoto Station, Japan",
+        "lat": 36.23073,
+        "lng": 137.96444,
+        "time": "~16:54",
+        "notes": "Shinano 20 (check exact time on the Klook ticket).",
+        "tags": [
+          "Booked"
+        ],
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 8,
+        "name": "Kiso-Fukushima Station",
+        "mapsQuery": "Kiso-Fukushima Station, Japan",
+        "lat": 35.84394,
+        "lng": 137.6936,
+        "time": "17:30",
+        "notes": "Dinner at Dining KAWAI by the station, then check in by 18:30.",
+        "arriveBy": "train",
+        "legNote": "Shinano 20, ~36 min"
+      },
+      {
+        "n": 9,
+        "name": "Kiso Mikawaya",
+        "mapsQuery": "Kiso Mikawaya Kiso-Fukushima, Japan",
+        "lat": 35.85107,
+        "lng": 137.69941,
+        "time": "By 18:30",
+        "notes": "Hard check-in deadline. Dinner not included.",
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "date": "26 Nov 2026",
+    "weekday": "Thu",
+    "city": "Kiso Valley",
+    "title": "Nakasendo hike: Magome → Tsumago",
+    "stay": "Kiso Mikawaya",
+    "bookings": [],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kiso-Fukushima Station",
+        "mapsQuery": "Kiso-Fukushima Station, Japan",
+        "lat": 35.84394,
+        "lng": 137.6936,
+        "time": "07:43",
+        "notes": "CASH only in the Kiso area (no ICOCA)."
+      },
+      {
+        "n": 2,
+        "name": "Nakatsugawa Station",
+        "mapsQuery": "Nakatsugawa Station, Japan",
+        "lat": 35.5005,
+        "lng": 137.50312,
+        "time": "08:21",
+        "notes": "Bus stop 3, Kitaena bus to Magome.",
+        "arriveBy": "train",
+        "legNote": "Shinano 2, ~38 min"
+      },
+      {
+        "n": 3,
+        "name": "Magome-juku",
+        "mapsQuery": "Magome-juku, Japan",
+        "lat": 35.52684,
+        "lng": 137.56772,
+        "time": "Morning",
+        "notes": "Snack at Cafe Kappe (gohei mochi).",
+        "arriveBy": "bus",
+        "legNote": "Kitaena bus ~25 min"
+      },
+      {
+        "n": 4,
+        "name": "Magome Pass",
+        "mapsQuery": "Magome Pass Nakasendo, Japan",
+        "lat": 35.5389,
+        "lng": 137.5847,
+        "time": "Midway",
+        "notes": "The one real climb is done by here.",
+        "arriveBy": "walk",
+        "legNote": "Nakasendo trail"
+      },
+      {
+        "n": 5,
+        "name": "Tsumago-juku + lunch at Otokichi",
+        "mapsQuery": "Tsumago-juku, Japan",
+        "lat": 35.57699,
+        "lng": 137.59542,
+        "time": "~Lunch",
+        "notes": "~8 km total, 3-3.5 h. Sawadaya chestnut sweets after.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Trail, downhill and flat"
+      },
+      {
+        "n": 6,
+        "name": "Nagiso Station",
+        "mapsQuery": "Nagiso Station, Japan",
+        "lat": 35.59881,
+        "lng": 137.60865,
+        "time": "Afternoon",
+        "notes": "Trains are about hourly: 14:34 or ~17:16.",
+        "arriveBy": "taxi",
+        "legNote": "Taxi ~10 min, cash"
+      },
+      {
+        "n": 7,
+        "name": "Kiso-Fukushima + dinner Shirasagi",
+        "mapsQuery": "Kiso-Fukushima Station, Japan",
+        "lat": 35.84394,
+        "lng": 137.6936,
+        "time": "Evening",
+        "notes": "Izakaya near the station.",
+        "meal": true,
+        "arriveBy": "train",
+        "legNote": "JR Chuo Line ~42 min"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "date": "27 Nov 2026",
+    "weekday": "Fri",
+    "city": "Takayama",
+    "title": "Matsumoto → scenic bus to Takayama",
+    "stay": "Hida-Takayama Michi",
+    "bookings": [
+      {
+        "label": "12Go bus M26128470",
+        "done": true
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kiso-Fukushima Station",
+        "mapsQuery": "Kiso-Fukushima Station, Japan",
+        "lat": 35.84394,
+        "lng": 137.6936,
+        "time": "09:26",
+        "notes": "Buy paper ticket with CASH."
+      },
+      {
+        "n": 2,
+        "name": "Matsumoto Station",
+        "mapsQuery": "Matsumoto Station, Japan",
+        "lat": 36.23073,
+        "lng": 137.96444,
+        "time": "~10:10",
+        "notes": "",
+        "arriveBy": "train",
+        "legNote": "JR, ~40-50 min"
+      },
+      {
+        "n": 3,
+        "name": "Matsumoto Bus Terminal",
+        "mapsQuery": "Matsumoto Bus Terminal, Japan",
+        "lat": 36.23036,
+        "lng": 137.96615,
+        "time": "11:55",
+        "notes": "Seats 1A-1D. PRINTED voucher only, driver keeps it.",
+        "tags": [
+          "Booked M26128470"
+        ],
+        "arriveBy": "walk",
+        "legNote": "Walk ~6 min"
+      },
+      {
+        "n": 4,
+        "name": "Takayama Nohi Bus Center",
+        "mapsQuery": "Takayama Nohi Bus Center, Japan",
+        "lat": 36.1419,
+        "lng": 137.2514,
+        "time": "14:25",
+        "notes": "Late lunch: Menya Shirakawa (Takayama ramen).",
+        "meal": true,
+        "arriveBy": "bus",
+        "legNote": "Nohi bus via Abo Tunnel, 2h30m"
+      },
+      {
+        "n": 5,
+        "name": "Sanmachi Suji old town",
+        "mapsQuery": "Sanmachi Suji Takayama, Japan",
+        "lat": 36.14087,
+        "lng": 137.25966,
+        "time": "Afternoon",
+        "notes": "Merchant houses, sake breweries. Dinner: Ajihei near the station.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "date": "28 Nov 2026",
+    "weekday": "Sat",
+    "city": "Takayama",
+    "title": "Morning market, Jinya, Hida Furukawa",
+    "stay": "Hida-Takayama Michi",
+    "bookings": [],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Miyagawa Morning Market",
+        "mapsQuery": "Miyagawa Morning Market Takayama, Japan",
+        "lat": 36.14469,
+        "lng": 137.25785,
+        "time": "Morning",
+        "notes": ""
+      },
+      {
+        "n": 2,
+        "name": "Takayama Jinya",
+        "mapsQuery": "Takayama Jinya, Japan",
+        "lat": 36.13983,
+        "lng": 137.25908,
+        "time": "Morning",
+        "notes": "",
+        "arriveBy": "walk",
+        "legNote": "Walk ~8 min"
+      },
+      {
+        "n": 3,
+        "name": "Takayama Station",
+        "mapsQuery": "Takayama Station, Japan",
+        "lat": 36.14113,
+        "lng": 137.25128,
+        "time": "Midday",
+        "notes": "",
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 4,
+        "name": "Hida Furukawa + lunch",
+        "mapsQuery": "Hida-Furukawa Station, Japan",
+        "lat": 36.23673,
+        "lng": 137.18961,
+        "time": "Lunch",
+        "notes": "Seto River canal, Your Name spots. Ajidokoro Furukawa (before 14:00) or Soba Sho Nakaya.",
+        "meal": true,
+        "arriveBy": "train",
+        "legNote": "JR Takayama Line ~15 min"
+      },
+      {
+        "n": 5,
+        "name": "Sanmachi Suji + Hirase sake tasting",
+        "mapsQuery": "Sanmachi Suji Takayama, Japan",
+        "lat": 36.14087,
+        "lng": 137.25966,
+        "time": "Afternoon",
+        "notes": "Second, unhurried pass. Dinner: Kikyoya (ramen).",
+        "arriveBy": "train",
+        "legNote": "JR back ~15 min, walk"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "date": "29 Nov 2026",
+    "weekday": "Sun",
+    "city": "Shirakawa-go",
+    "title": "Shirakawa-go, then Kanazawa",
+    "stay": "Hotel Forza Kanazawa",
+    "bookings": [
+      {
+        "label": "Bus 08:10 · 10292020881",
+        "done": true
+      },
+      {
+        "label": "Irori 13:30",
+        "done": true
+      },
+      {
+        "label": "Bus 15:10 · 10292014581",
+        "done": true
+      },
+      {
+        "label": "Fukuwauchi dinner",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Takayama Nohi Bus Center",
+        "mapsQuery": "Takayama Nohi Bus Center, Japan",
+        "lat": 36.1419,
+        "lng": 137.2514,
+        "time": "08:10",
+        "notes": "Car 01, Seats 9A/9B/10A/10B. Printed e-ticket.",
+        "tags": [
+          "Booked"
+        ]
+      },
+      {
+        "n": 2,
+        "name": "Shirakawa-go bus terminal",
+        "mapsQuery": "Shirakawago Bus Terminal, Japan",
+        "lat": 36.262,
+        "lng": 136.90688,
+        "time": "09:00",
+        "notes": "Lockers at the terminal.",
+        "arriveBy": "bus",
+        "legNote": "Nohi Bus, 50 min"
+      },
+      {
+        "n": 3,
+        "name": "Shiroyama Viewpoint",
+        "mapsQuery": "Shiroyama Viewpoint Shirakawago, Japan",
+        "lat": 36.26295,
+        "lng": 136.90796,
+        "time": "Morning",
+        "notes": "Best panoramic view. Shuttle bus up, walk down.",
+        "arriveBy": "bus",
+        "legNote": "Shuttle ~5 min (or 20 min walk up)"
+      },
+      {
+        "n": 4,
+        "name": "Wada House + village",
+        "mapsQuery": "Wada House Shirakawago, Japan",
+        "lat": 36.25996,
+        "lng": 136.90703,
+        "time": "Morning",
+        "notes": "¥300 farmhouse.",
+        "arriveBy": "walk",
+        "legNote": "Walk down 15 min"
+      },
+      {
+        "n": 5,
+        "name": "Lunch: Irori",
+        "mapsQuery": "Shirakawago Irori restaurant, Japan",
+        "lat": 36.26091,
+        "lng": 136.90693,
+        "time": "13:30",
+        "notes": "Reservation confirmed. Purin no Ie pudding after (optional).",
+        "tags": [
+          "Booked"
+        ],
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 6,
+        "name": "Shirakawa-go bus terminal",
+        "mapsQuery": "Shirakawago Bus Terminal, Japan",
+        "lat": 36.262,
+        "lng": 136.90688,
+        "time": "15:10",
+        "notes": "Be there by ~14:55. Seats 6A/6B/7A/7B. Printed e-ticket.",
+        "tags": [
+          "Booked"
+        ],
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 7,
+        "name": "Kanazawa Station (West Exit)",
+        "mapsQuery": "Kanazawa Station, Japan",
+        "lat": 36.57732,
+        "lng": 136.64728,
+        "time": "16:35",
+        "notes": "Arrive at stop 4.",
+        "arriveBy": "bus",
+        "legNote": "Hokutetsu bus, 1h25m"
+      },
+      {
+        "n": 8,
+        "name": "Hotel Forza Kanazawa",
+        "mapsQuery": "Hotel Forza Kanazawa, Japan",
+        "lat": 36.57276,
+        "lng": 136.65569,
+        "time": "~17:00",
+        "notes": "Check in. Stroller arrives via Yamato.",
+        "arriveBy": "bus",
+        "legNote": "City bus or taxi ~10 min"
+      },
+      {
+        "n": 9,
+        "name": "Higashi Chaya + Kazuemachi",
+        "mapsQuery": "Higashi Chaya District Kanazawa, Japan",
+        "lat": 36.57256,
+        "lng": 136.66668,
+        "time": "Evening",
+        "notes": "Lantern-lit teahouse streets. Dinner: Fukuwauchi (~6pm, closes 19:30).",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~15 min or bus"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "date": "30 Nov 2026",
+    "weekday": "Mon",
+    "city": "Kanazawa",
+    "title": "Kenrokuen, samurai, gold leaf",
+    "stay": "Hotel Forza Kanazawa",
+    "bookings": [
+      {
+        "label": "Gold leaf 15:00",
+        "done": true
+      },
+      {
+        "label": "Ninja Temple call",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kenrokuen (early, free entry)",
+        "mapsQuery": "Kenrokuen Garden Mayumizaka Gate, Japan",
+        "lat": 36.56243,
+        "lng": 136.66235,
+        "time": "Early",
+        "notes": "Free before opening via Mayumizaka gate."
+      },
+      {
+        "n": 2,
+        "name": "Kanazawa Castle Park + Gyokusen-an",
+        "mapsQuery": "Gyokusen-an Kanazawa, Japan",
+        "lat": 36.56536,
+        "lng": 136.65696,
+        "time": "Morning",
+        "notes": "Grounds free. Matcha at Gyokusen-an ¥800/pp.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 3,
+        "name": "Nagamachi + Nomura Samurai House",
+        "mapsQuery": "Nomura Samurai House Kanazawa, Japan",
+        "lat": 36.56408,
+        "lng": 136.65,
+        "time": "Late morning",
+        "notes": "¥550/pp. isotope café nearby.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~15 min"
+      },
+      {
+        "n": 4,
+        "name": "Lunch: Morimori Zushi, Omicho Market",
+        "mapsQuery": "Morimori Sushi Omicho Kanazawa, Japan",
+        "lat": 36.5714,
+        "lng": 136.65784,
+        "time": "Lunch",
+        "notes": "★3.49, expect a queue.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~15 min"
+      },
+      {
+        "n": 5,
+        "name": "Gold-leaf workshop: Kanazawa Katani",
+        "mapsQuery": "Kanazawa Katani gold leaf, Japan",
+        "lat": 36.5735,
+        "lng": 136.6615,
+        "time": "15:00",
+        "notes": "~60 min, confirmed for 4.",
+        "tags": [
+          "Booked"
+        ],
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 6,
+        "name": "Myoryuji Ninja Temple",
+        "mapsQuery": "Myoryuji Ninja Temple Kanazawa, Japan",
+        "lat": 36.55538,
+        "lng": 136.64903,
+        "time": "~16:30",
+        "notes": "¥1,200/pp. Phone booking +81-76-241-0888.",
+        "tags": [
+          "Call"
+        ],
+        "optional": true,
+        "arriveBy": "bus",
+        "legNote": "Bus or taxi ~15 min"
+      },
+      {
+        "n": 7,
+        "name": "Dinner: Izakaya Gappa",
+        "mapsQuery": "Izakaya Gappa Kanazawa, Japan",
+        "lat": 36.5772,
+        "lng": 136.649,
+        "time": "Evening",
+        "notes": "Station front. Tonight: collect Kagayaki tickets, stroller to Yamato (→ Tokyo, 3 Dec).",
+        "meal": true,
+        "arriveBy": "bus",
+        "legNote": "Bus or taxi ~15 min"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "date": "1 Dec 2026",
+    "weekday": "Tue",
+    "city": "Kawaguchiko",
+    "title": "Kanazawa → Tokyo → Fuji",
+    "stay": "Kawaguchiko Hotel",
+    "bookings": [
+      {
+        "label": "Kagayaki 502 · 47910",
+        "done": true
+      },
+      {
+        "label": "Fuji Excursion 93",
+        "done": true
+      },
+      {
+        "label": "Funari dinner",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kanazawa Station",
+        "mapsQuery": "Kanazawa Station, Japan",
+        "lat": 36.57817,
+        "lng": 136.64879,
+        "time": "07:03",
+        "notes": "Kagayaki 502, Car 5, Seats 10D/10E/11D/11E. Breakfast: convenience store.",
+        "tags": [
+          "Booked"
+        ]
+      },
+      {
+        "n": 2,
+        "name": "Tokyo Station",
+        "mapsQuery": "Tokyo Station, Japan",
+        "lat": 35.68259,
+        "lng": 139.76618,
+        "time": "09:32",
+        "notes": "",
+        "arriveBy": "train",
+        "legNote": "Hokuriku Shinkansen, 2h29m"
+      },
+      {
+        "n": 3,
+        "name": "Shinjuku Station (Platform 9)",
+        "mapsQuery": "Shinjuku Station, Japan",
+        "lat": 35.69026,
+        "lng": 139.70051,
+        "time": "11:34",
+        "notes": "Collect Fuji Excursion tickets (Klook QR) at a JR machine first. Car 4, Seats 3A/3B/4A/4B. Grab ekiben for lunch.",
+        "tags": [
+          "Booked"
+        ],
+        "arriveBy": "train",
+        "legNote": "JR Chuo Line Rapid, ~15 min"
+      },
+      {
+        "n": 4,
+        "name": "Kawaguchiko Station",
+        "mapsQuery": "Kawaguchiko Station, Japan",
+        "lat": 35.49835,
+        "lng": 138.76861,
+        "time": "13:31",
+        "notes": "",
+        "arriveBy": "train",
+        "legNote": "Fuji Excursion 93, 1h57m"
+      },
+      {
+        "n": 5,
+        "name": "Kawaguchiko Hotel",
+        "mapsQuery": "Kawaguchiko Hotel, Japan",
+        "lat": 35.5045,
+        "lng": 138.7705,
+        "time": "Afternoon",
+        "notes": "Check in, rest. No sightseeing today on purpose.",
+        "arriveBy": "taxi",
+        "legNote": "Taxi or walk"
+      },
+      {
+        "n": 6,
+        "name": "Dinner: Houtou Kura Funari",
+        "mapsQuery": "Houtou Kura Funari Kawaguchiko, Japan",
+        "lat": 35.49062,
+        "lng": 138.7606,
+        "time": "Evening",
+        "notes": "Hoto noodles ★3.49.",
+        "tags": [
+          "Reserve"
+        ],
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk or local bus"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "date": "2 Dec 2026",
+    "weekday": "Wed",
+    "city": "Kawaguchiko",
+    "title": "Fuji day (order follows the weather)",
+    "stay": "Kawaguchiko Hotel",
+    "bookings": [],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Oishi Park",
+        "mapsQuery": "Oishi Park Kawaguchiko, Japan",
+        "lat": 35.52329,
+        "lng": 138.74654,
+        "time": "Before 9:00",
+        "notes": "Clearest air early. Breakfast at Café DINA."
+      },
+      {
+        "n": 2,
+        "name": "Chureito Pagoda",
+        "mapsQuery": "Chureito Pagoda, Japan",
+        "lat": 35.50129,
+        "lng": 138.80136,
+        "time": "Morning",
+        "notes": "~400 steps up. Go early to beat groups.",
+        "arriveBy": "bus",
+        "legNote": "Bus/train via Kawaguchiko to Shimoyoshida, ~30 min"
+      },
+      {
+        "n": 3,
+        "name": "Lunch: Koubaiya / Kitchen Fujiyama View",
+        "mapsQuery": "Oishi Park Kawaguchiko, Japan",
+        "lat": 35.52329,
+        "lng": 138.74654,
+        "time": "Lunch",
+        "notes": "Houtou with a Fuji view.",
+        "meal": true,
+        "arriveBy": "bus",
+        "legNote": "Bus back"
+      },
+      {
+        "n": 4,
+        "name": "Oshino Hakkai",
+        "mapsQuery": "Oshino Hakkai, Japan",
+        "lat": 35.46024,
+        "lng": 138.8327,
+        "time": "Afternoon",
+        "notes": "Spring-fed ponds. Good if Fuji clouds over.",
+        "optional": true,
+        "arriveBy": "bus",
+        "legNote": "Bus ~30 min"
+      },
+      {
+        "n": 5,
+        "name": "Kachi Kachi Ropeway",
+        "mapsQuery": "Kachi Kachi Ropeway, Japan",
+        "lat": 35.50378,
+        "lng": 138.77441,
+        "time": "Optional",
+        "notes": "Only if Fuji is visible and queues are short.",
+        "optional": true,
+        "arriveBy": "bus",
+        "legNote": "Bus"
+      },
+      {
+        "n": 6,
+        "name": "Dinner: Koshu Houtou Kosaku",
+        "mapsQuery": "Koshu Houtou Kosaku Kawaguchiko, Japan",
+        "lat": 35.4998,
+        "lng": 138.7712,
+        "time": "Evening",
+        "notes": "★3.49. Backup Hoto Fudo. Onsen at the hotel.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk or bus"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "date": "3 Dec 2026",
+    "weekday": "Thu",
+    "city": "Tokyo",
+    "title": "Shinjuku, Harajuku, Shibuya",
+    "stay": "APA Hotel Higashi Shinjuku Kabukicho Tower",
+    "bookings": [
+      {
+        "label": "Fujiyama bus 3260686",
+        "done": true
+      },
+      {
+        "label": "Shibuya Sky (optional)",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "Kawaguchiko Station",
+        "mapsQuery": "Kawaguchiko Station, Japan",
+        "lat": 35.49835,
+        "lng": 138.76861,
+        "time": "09:10",
+        "notes": "Bus 1102, Seats 01C/01D/02C/02D. QR on phone. Last Fuji look before.",
+        "tags": [
+          "Booked"
+        ]
+      },
+      {
+        "n": 2,
+        "name": "Busta Shinjuku (South Exit)",
+        "mapsQuery": "Busta Shinjuku, Japan",
+        "lat": 35.68873,
+        "lng": 139.7006,
+        "time": "10:55",
+        "notes": "",
+        "arriveBy": "bus",
+        "legNote": "Fujiyama Connect bus, 1h45m"
+      },
+      {
+        "n": 3,
+        "name": "APA Hotel Kabukicho Tower (drop bags)",
+        "mapsQuery": "APA Hotel Higashi Shinjuku Kabukicho Tower, Japan",
+        "lat": 35.69803,
+        "lng": 139.70384,
+        "time": "~11:15",
+        "notes": "Stroller arrives via Yamato.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~15 min or taxi"
+      },
+      {
+        "n": 4,
+        "name": "Meiji Jingu",
+        "mapsQuery": "Meiji Jingu, Japan",
+        "lat": 35.67484,
+        "lng": 139.69963,
+        "time": "Late morning",
+        "notes": "Or Shinjuku Gyoen (flatter, closer).",
+        "arriveBy": "train",
+        "legNote": "JR Yamanote Shinjuku → Harajuku, 5 min"
+      },
+      {
+        "n": 5,
+        "name": "Lunch: Sakuratei",
+        "mapsQuery": "Sakuratei Harajuku, Japan",
+        "lat": 35.6706,
+        "lng": 139.70833,
+        "time": "Lunch",
+        "notes": "DIY okonomiyaki ★3.35.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~12 min"
+      },
+      {
+        "n": 6,
+        "name": "Takeshita Street",
+        "mapsQuery": "Takeshita Street Harajuku, Japan",
+        "lat": 35.6716,
+        "lng": 139.70302,
+        "time": "Afternoon",
+        "notes": "",
+        "arriveBy": "walk",
+        "legNote": "Walk ~5 min"
+      },
+      {
+        "n": 7,
+        "name": "Omotesando + Cat Street",
+        "mapsQuery": "Cat Street Harajuku, Japan",
+        "lat": 35.66472,
+        "lng": 139.70344,
+        "time": "Afternoon",
+        "notes": "Onitsuka Tiger, Iyoshi Cola (1-7pm).",
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 8,
+        "name": "Shibuya Crossing at sunset",
+        "mapsQuery": "Shibuya Scramble Crossing, Japan",
+        "lat": 35.6595,
+        "lng": 139.7005,
+        "time": "~16:30",
+        "notes": "Shibuya Sky optional.",
+        "arriveBy": "walk",
+        "legNote": "Walk down Cat Street ~15 min"
+      },
+      {
+        "n": 9,
+        "name": "Dinner: Tori Take Souhonten",
+        "mapsQuery": "Toritake Sohonten Shibuya, Japan",
+        "lat": 35.65805,
+        "lng": 139.69899,
+        "time": "Evening",
+        "notes": "Yakitori ★3.49, expect a wait.",
+        "meal": true,
+        "arriveBy": "walk",
+        "legNote": "Walk ~3 min"
+      },
+      {
+        "n": 10,
+        "name": "Omoide Yokocho / Golden Gai / Don Quijote",
+        "mapsQuery": "Omoide Yokocho Shinjuku, Japan",
+        "lat": 35.69287,
+        "lng": 139.69955,
+        "time": "Night",
+        "notes": "Pick by energy. Tokyo Metropolitan Govt Building view is free.",
+        "optional": true,
+        "arriveBy": "train",
+        "legNote": "JR Yamanote Shibuya → Shinjuku, 7 min"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "date": "4 Dec 2026",
+    "weekday": "Fri",
+    "city": "Tokyo",
+    "title": "Ueno, Kappabashi, Akihabara, Jimbocho, Ginza",
+    "stay": "APA Hotel Higashi Shinjuku Kabukicho Tower",
+    "bookings": [
+      {
+        "label": "Call Galerie Dentsdelion",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "APA Hotel / Higashi-Shinjuku Station",
+        "mapsQuery": "Higashi-shinjuku Station, Japan",
+        "lat": 35.6979,
+        "lng": 139.70754,
+        "time": "Morning",
+        "notes": ""
+      },
+      {
+        "n": 2,
+        "name": "Ueno Park + Ameyoko",
+        "mapsQuery": "Ameyoko Ueno, Japan",
+        "lat": 35.71002,
+        "lng": 139.77454,
+        "time": "Morning",
+        "notes": "",
+        "arriveBy": "train",
+        "legNote": "Toei Oedo Line → Ueno-okachimachi, ~20 min"
+      },
+      {
+        "n": 3,
+        "name": "Kappabashi Kitchen Town",
+        "mapsQuery": "Kappabashi Dougu Street, Japan",
+        "lat": 35.71306,
+        "lng": 139.7885,
+        "time": "Morning",
+        "notes": "Knives, kitchenware.",
+        "arriveBy": "walk",
+        "legNote": "Walk ~15 min"
+      },
+      {
+        "n": 4,
+        "name": "Galerie Dentsdelion",
+        "mapsQuery": "Galerie Dentsdelion Tokyo, Japan",
+        "lat": 35.7108,
+        "lng": 139.78,
+        "time": "Late morning",
+        "notes": "Call first: +81 3-3837-1980. Pin is approximate.",
+        "tags": [
+          "Call"
+        ],
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 5,
+        "name": "Lunch: Mendokoro Honta, Akihabara",
+        "mapsQuery": "Mendokoro Honta Akihabara, Japan",
+        "lat": 35.699,
+        "lng": 139.772,
+        "time": "Lunch",
+        "notes": "Ramen ★3.69. Backups Tsumugi Mugi, Manriki.",
+        "meal": true,
+        "arriveBy": "train",
+        "legNote": "Ginza Line to Suehirocho or taxi, ~10 min"
+      },
+      {
+        "n": 6,
+        "name": "Akihabara: Animate / Mandarake / Radio Kaikan",
+        "mapsQuery": "Akihabara Radio Kaikan, Japan",
+        "lat": 35.69788,
+        "lng": 139.77195,
+        "time": "Afternoon",
+        "notes": "",
+        "arriveBy": "walk",
+        "legNote": "Walk"
+      },
+      {
+        "n": 7,
+        "name": "Hara Shobo, Jimbocho",
+        "mapsQuery": "Hara Shobo Jimbocho, Japan",
+        "lat": 35.69576,
+        "lng": 139.75723,
+        "time": "Afternoon",
+        "notes": "Ukiyo-e prints. Mita Arts Gallery optional.",
+        "arriveBy": "train",
+        "legNote": "Toei Shinjuku Line Iwamotocho → Jimbocho, ~5 min"
+      },
+      {
+        "n": 8,
+        "name": "Ginza",
+        "mapsQuery": "Ginza 4-chome, Japan",
+        "lat": 35.67122,
+        "lng": 139.76504,
+        "time": "Late afternoon",
+        "notes": "S. Watanabe prints, watches, Uniqlo flagship. Flex block.",
+        "arriveBy": "train",
+        "legNote": "Toei Mita Line → Hibiya, walk ~5 min"
+      },
+      {
+        "n": 9,
+        "name": "Dinner, then pack",
+        "mapsQuery": "Shinjuku Kakekomi Gyoza, Japan",
+        "lat": 35.69477,
+        "lng": 139.70239,
+        "time": "Back by ~20:30",
+        "notes": "Ginza or Shinjuku Kakekomi Gyoza. Pack tonight.",
+        "meal": true,
+        "arriveBy": "train",
+        "legNote": "Marunouchi Line → Shinjuku-sanchome, ~20 min"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "date": "5 Dec 2026",
+    "weekday": "Sat",
+    "city": "Departure",
+    "title": "Shinjuku → Narita → Mumbai",
+    "stay": "Flight home",
+    "bookings": [
+      {
+        "label": "Limousine bus 08:30",
+        "done": false
+      }
+    ],
+    "stops": [
+      {
+        "n": 1,
+        "name": "APA Hotel Kabukicho Tower",
+        "mapsQuery": "APA Hotel Higashi Shinjuku Kabukicho Tower, Japan",
+        "lat": 35.69803,
+        "lng": 139.70384,
+        "time": "~08:10",
+        "notes": "Check out."
+      },
+      {
+        "n": 2,
+        "name": "Tokyu Kabukicho Tower bus stop",
+        "mapsQuery": "Tokyu Kabukicho Tower, Japan",
+        "lat": 35.69594,
+        "lng": 139.70066,
+        "time": "08:30",
+        "notes": "Be there by 08:20.",
+        "tags": [
+          "To book"
+        ],
+        "arriveBy": "walk",
+        "legNote": "Walk ~10 min"
+      },
+      {
+        "n": 3,
+        "name": "Narita Airport Terminal 2",
+        "mapsQuery": "Narita Airport Terminal 2, Japan",
+        "lat": 35.77291,
+        "lng": 140.38761,
+        "time": "~10:30",
+        "notes": "Cathay checks in at T2 (confirm). 3 h buffer.",
+        "arriveBy": "bus",
+        "legNote": "Airport Limousine Bus, ~1h45-2h"
+      },
+      {
+        "n": 4,
+        "name": "Depart CX527 → HKG → CX663",
+        "mapsQuery": "Narita Airport Terminal 2, Japan",
+        "lat": 35.77291,
+        "lng": 140.38761,
+        "time": "14:20",
+        "notes": "Home to Mumbai.",
+        "arriveBy": "flight",
+        "legNote": ""
+      }
+    ]
+  }
+]
