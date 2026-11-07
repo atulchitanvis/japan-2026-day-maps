@@ -15,6 +15,7 @@
 <link rel="icon" href="icons/icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" crossorigin="">
 <style>
 :root{
   --bg:#f5f4f0; --card:#ffffff; --ink:#1b1c21; --muted:#5f6571; --line:#e2e0d9; --soft:#efede7;
@@ -64,7 +65,6 @@ body.bigmap #mapwrap{flex-basis:74%}
 @keyframes spin{to{transform:rotate(360deg)}}
 .leaflet-control-attribution{font-size:10px}
 @media (prefers-color-scheme: dark){
-  .osm{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.55)}
   .leaflet-control-attribution{background:rgba(20,22,28,.75)!important;color:#aab}
   .leaflet-control-attribution a{color:#cfd3ff}
 }
@@ -183,8 +183,8 @@ progress{width:100%;height:10px;accent-color:var(--indigo)}
 
 <dialog id="dlg">
   <h3>Offline maps</h3>
-  <p>Saves OpenStreetMap tiles around every stop (zoom 12–16), along walking routes, and each day's overview. The app and itinerary are already saved for offline use.</p>
-  <p>OSM's servers are run by volunteers, so this downloads slowly and is capped. Best done on hotel Wi-Fi the night before. Maps you've already viewed are saved automatically.</p>
+  <p>Saves the map around every stop, along walking routes, and each day's overview (works for light and dark mode, sharp at every zoom). The app and itinerary are already saved for offline use.</p>
+  <p>Best done on Wi-Fi. Maps you've already viewed are saved automatically.</p>
   <div class="col">
     <button class="btn" data-scope="day" id="dlDay">This day <span></span></button>
     <button class="btn" data-scope="all" id="dlAll">All 17 days <span></span></button>
@@ -200,16 +200,23 @@ progress{width:100%;height:10px;accent-color:var(--indigo)}
 <div id="toast" role="status"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js" crossorigin=""></script>
 <script>
 "use strict";
 /* ---------- constants ---------- */
-// OpenStreetMap standard tiles. (CARTO's free styles now need an API key.)
-// Dark mode reuses the same tiles with a CSS filter, so offline downloads cover both themes.
-const TILE_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
-const ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-const TILE_CACHE = 'tiles-v1';
-const MAX_TILES = 3000;      // OSM tile policy: keep bulk downloads small, zoom <= 16
-const DL_WORKERS = 2, DL_GAP_MS = 250;
+// Base map: OpenFreeMap vector tiles (OpenStreetMap data, free, no API key), drawn by MapLibre GL
+// under Leaflet. Labels are rewritten to English, falling back to romaji.
+const OFM = 'https://tiles.openfreemap.org';
+const STYLE_LIGHT = OFM + '/styles/liberty', STYLE_DARK = OFM + '/styles/dark';
+const LABEL_EN = ['coalesce', ['get','name:en'], ['get','name:latin'], ''];  // English, else romaji, never Japanese
+const ATTR = '<a href="https://openfreemap.org">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+const TILE_CACHE = 'ofm-v1';   // must match sw.js
+const MAX_TILES = 3000;
+const DL_WORKERS = 3, DL_GAP_MS = 100;
+const FONT_RANGES = ['0-255','256-511','512-767','7680-7935','8192-8447'];
+// Vector tile URLs contain a data version; cache them version-free so saved maps survive updates (same rule in sw.js).
+const canonTile = u => u.replace(/\/planet\/[^/]+\//, '/planet/v/');
 const WALK_ROUTER = 'https://routing.openstreetmap.de/routed-foot/route/v1/foot/';
 const MODES = {
   train:  {label:'Train',  icon:'🚆', travel:'transit', style:{weight:4}},
@@ -298,7 +305,23 @@ async function copy(text){
 /* ---------- map ---------- */
 const map = L.map('map', {zoomControl:false, tap:false, worldCopyJump:false}).setView([35.5,137.5], 6);
 map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
-L.tileLayer(TILE_URL, {maxZoom:19, attribution:ATTR, crossOrigin:true, className:'osm'}).addTo(map);
+const darkMQ = matchMedia('(prefers-color-scheme: dark)');
+let gl = null, styleCache = {};
+async function englishStyle(url){
+  if (styleCache[url]) return styleCache[url];
+  const st = await (await fetch(url)).json();
+  for (const l of st.layers) { const tf = l.layout && l.layout['text-field']; if (tf && /name/.test(JSON.stringify(tf))) l.layout['text-field'] = LABEL_EN; }
+  return (styleCache[url] = st);
+}
+async function setBase(){
+  try {
+    const st = await englishStyle(darkMQ.matches ? STYLE_DARK : STYLE_LIGHT);
+    if (!gl) gl = L.maplibreGL({style: st, attribution: ATTR, interactive: false}).addTo(map);
+    else gl.getMaplibreMap().setStyle(st);
+  } catch (e) { console.warn('base map unavailable', e); }
+}
+setBase();
+darkMQ.addEventListener?.('change', setBase);
 const lineLayer = L.layerGroup().addTo(map), markerLayer = L.layerGroup().addTo(map), youLayer = L.layerGroup().addTo(map);
 let dayBounds = null;
 function fitDay(animate){ if (dayBounds) map.fitBounds(dayBounds, {paddingTopLeft:[36,36], paddingBottomRight:[64,30], maxZoom:16, animate}); }
@@ -581,7 +604,7 @@ function addBox(set, s, w, n, e, z){
   for (let x=x0;x<=x1;x++) for (let y=y0;y<=y1;y++) set.add(`${z}/${x}/${y}`);
 }
 function addAround(set, lat, lng, km, z){ const dl=km/111, dg=km/(111*Math.cos(lat*Math.PI/180)); addBox(set, lat-dl, lng-dg, lat+dl, lng+dg, z); }
-const RADII = {16:.45, 15:.9, 14:1.8, 13:3.2, 12:5.5};
+const RADII = {14:1.0, 13:2.2, 12:4.5, 11:8};   // vector tiles stop at z14 and stay sharp when zoomed further
 function dayTiles(d, set=new Set()){
   const st = d.stops;
   for (const s of st) for (const z in RADII) addAround(set, s.lat, s.lng, RADII[z], +z);
@@ -589,10 +612,10 @@ function dayTiles(d, set=new Set()){
     if (!i || s.arriveBy!=='walk') return;
     const g = walkGeom(st[i-1], s) || [[st[i-1].lat,st[i-1].lng],[s.lat,s.lng]];
     for (let k=1;k<g.length;k++){ const [a1,b1]=g[k-1],[a2,b2]=g[k]; const steps=Math.ceil(map.distance([a1,b1],[a2,b2])/200)||1;
-      for (let t=0;t<=steps;t++){ const la=a1+(a2-a1)*t/steps, lo=b1+(b2-b1)*t/steps; addAround(set,la,lo,.25,16); addAround(set,la,lo,.4,15); } }
+      for (let t=0;t<=steps;t++){ const la=a1+(a2-a1)*t/steps, lo=b1+(b2-b1)*t/steps; addAround(set,la,lo,.35,14); } }
   });
   const b = L.latLngBounds(st.map(s=>[s.lat,s.lng])).pad(0.15);
-  const fz = Math.min(15, map.getBoundsZoom(b) + 1);
+  const fz = Math.min(14, map.getBoundsZoom(b));
   for (let z=5; z<=fz; z++) addBox(set, b.getSouth(), b.getWest(), b.getNorth(), b.getEast(), z);
   return set;
 }
@@ -602,12 +625,22 @@ function tileList(scope){
   else trip.forEach(d=>dayTiles(d, set));
   return [...set];
 }
-const tileUrl = k => `https://tile.openstreetmap.org/${k}.png`;
+async function assetUrls(keys){
+  // vector tiles (+ the shaded-relief raster used at low zoom), fonts and sprites
+  const tj = await (await fetch(OFM + '/planet')).json(), tpl = tj.tiles[0];
+  const urls = keys.map(k => tpl.replace('{z}/{x}/{y}', k));
+  keys.forEach(k => { if (+k.split('/')[0] <= 6) urls.push(`${OFM}/natural_earth/ne2sr/${k}.png`); });
+  const st = await englishStyle(STYLE_LIGHT), fonts = new Set();
+  for (const u of [STYLE_LIGHT, STYLE_DARK]) (await englishStyle(u)).layers.forEach(l => { const f = l.layout && l.layout['text-font']; if (Array.isArray(f)) fonts.add(f.join(',')); });
+  for (const f of fonts) for (const r of FONT_RANGES) urls.push(st.glyphs.replace('{fontstack}', encodeURIComponent(f)).replace('{range}', r));
+  for (const sfx of ['.json', '.png', '@2x.json', '@2x.png']) urls.push(st.sprite + sfx);
+  return urls;
+}
 let dlAbort = false, dlBusy = false;
 async function cacheStats(){
   try { const c = await caches.open(TILE_CACHE); const n = (await c.keys()).length;
     let est = ''; if (navigator.storage?.estimate) { const e = await navigator.storage.estimate(); est = ` · app storage ${(e.usage/1048576).toFixed(0)} MB`; }
-    return `${n.toLocaleString()} map tiles saved${est}`; } catch { return 'Offline storage not available in this browser'; }
+    return `${n.toLocaleString()} map files saved${est}`; } catch { return 'Offline storage not available in this browser'; }
 }
 async function openOffline(){
   const dlg = $('#dlg');
@@ -622,20 +655,22 @@ async function download(scope){
   if (dlBusy) return; if (!('caches' in window)) return toast('Offline storage not supported here');
   dlBusy = true; dlAbort = false;
   try { await navigator.storage?.persist?.(); } catch {}
-  const keys = tileList(scope).slice(0, MAX_TILES);
-  const jobs = keys;
-  const c = await caches.open(TILE_CACHE), prog = $('#dlProg'), status = $('#dlStatus');
+  const prog = $('#dlProg'), status = $('#dlStatus');
+  let jobs;
+  try { jobs = await assetUrls(tileList(scope).slice(0, MAX_TILES)); }
+  catch { dlBusy = false; status.textContent = 'Could not reach the map server. Try again when online.'; return; }
+  const c = await caches.open(TILE_CACHE);
   prog.hidden = false; prog.max = jobs.length; prog.value = 0; $('#dlCancel').hidden = false;
   let done = 0, saved = 0, failed = 0, bytes = 0, idx = 0;
   async function worker(){
     while (idx < jobs.length && !dlAbort) {
-      const key = tileUrl(jobs[idx++]);
+      const url = jobs[idx++], key = canonTile(url);
       try {
         if (!(await c.match(key))) {
-          const r = await fetch(key, {mode:'cors', credentials:'omit'});
-          if (r.ok) { const blob = await r.blob(); bytes += blob.size; await c.put(key, new Response(blob, {headers:{'Content-Type':'image/png'}})); saved++; }
-          else failed++;
-          await new Promise(res=>setTimeout(res, DL_GAP_MS)); // be gentle with the volunteer-run OSM tile servers
+          const r = await fetch(url, {mode:'cors', credentials:'omit'});
+          if (r.ok) { const blob = await r.blob(); bytes += blob.size; await c.put(key, new Response(blob, {headers:{'Content-Type': r.headers.get('Content-Type') || 'application/octet-stream'}})); saved++; }
+          else if (r.status !== 404) failed++;   // 404 = empty sea tile, fine
+          await new Promise(res=>setTimeout(res, DL_GAP_MS)); // be gentle with the free tile server
         }
       } catch { failed++; }
       done++;
