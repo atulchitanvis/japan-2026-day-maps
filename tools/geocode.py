@@ -48,6 +48,8 @@ OVERRIDES = {
     "Kansai International Airport, Japan": ["関西国際空港 第1ターミナル", "Kansai Airport Terminal 1"],
     "BON Condominium Umeda Osaka, Japan": ["BON Condominium Umeda", "ボンコンドミニアム梅田"],
     "Kinryu Ramen Midosuji Dotonbori Osaka, Japan": ["金龍ラーメン 御堂筋店", "金龍ラーメン", "Kinryu Ramen"],
+    "Excelsior Caffe Shibuya, Japan": "chain: matched the Dogenzaka branch; there are others nearby",
+    "Derailleur Brew Works Minoh, Japan": "matched their 'Yama no Fumoto' tap room on the falls road; the brewery itself may differ",
     "Osaka Umeda Station Hankyu, Japan": ["大阪梅田駅", "Osaka-umeda"],
     "Minoh Falls, Japan": ["箕面大滝", "Minoo Falls"],
     "Yaekatsu Janjan Yokocho Osaka, Japan": ["八重勝", "Yaekatsu"],
@@ -85,6 +87,49 @@ OVERRIDES = {
     "Galerie Dentsdelion Tokyo, Japan": ["ギャルリー・ダンドリオン", "Galerie Dentsdelion"],
     "Mendokoro Honta Akihabara, Japan": ["麺処 ほん田 秋葉原本店", "ほん田 秋葉原", "Mendokoro Honda"],
     "Ginza 4-chome, Japan": ["銀座四丁目交差点", "Ginza 4-chome Intersection"],
+    # quick stops
+    "Takoyaki Wanaka Dotonbori Osaka, Japan": ["わなか 道頓堀", "たこ焼道楽 わなか"],
+    "Rikuro Ojisan Namba Honten Osaka, Japan": ["りくろーおじさんの店 なんば本店", "りくろーおじさんの店"],
+    "Onigiri Gorichan Nakazakicho Osaka, Japan": ["おにぎりごりちゃん", "Onigiri Gorichan"],
+    "Derailleur Brew Works Minoh, Japan": ["Derailleur Brew Works", "ディレイラ ブリューワークス"],
+    "Takoyaki Wanaka Osaka Castle Park, Japan": ["わなか 大阪城"],
+    "Grenier Umeda Osaka, Japan": ["グルニエ 梅田", "Grenier"],
+    "Ajinoya Honten Namba Osaka, Japan": ["味乃家 本店", "味乃家"],
+    "Hokkyokusei Shinsaibashi Honten Osaka, Japan": ["北極星 心斎橋本店", "北極星"],
+    "MooKEN Shinsaibashi Osaka, Japan": ["ムーケン", "MooKEN"],
+    "Tofu Sorano Minami Senba Osaka, Japan": ["TOFU SORANO", "空野"],
+    "Arashiyama Yoshimura, Japan": ["嵐山よしむら", "よしむら"],
+    "Inari Futaba Fushimi, Japan": ["稲荷ふたば"],
+    "ICHiMARU5 Kiyomizu Kyoto, Japan": ["ICHiMARU5"],
+    "Kasagiya Kyoto, Japan": ["かさぎ屋"],
+    "Fujinami Kodaiji Kyoto, Japan": ["ふじ波", "藤菜美"],
+    "THISIS SHIZEN Shinpuhkan Kyoto, Japan": ["THISIS SHIZEN", "新風館"],
+    "Maccha House Kyoto Shijo Kawaramachi, Japan": ["MACCHA HOUSE 抹茶館", "抹茶館"],
+    "amam dacotan Kyoto, Japan": ["amam dacotan", "アマムダコタン"],
+    "Demachi Futaba Kyoto, Japan": ["出町ふたば"],
+    "Cafe Kappe Magome, Japan": ["かっぺ 馬籠", "Cafe Kappe"],
+    "Sawadaya Tsumago, Japan": ["澤田屋", "沢田屋"],
+    "Shirakawago Purin no Ie, Japan": ["白川郷 プリンの家", "プリンの家"],
+    "isotope Kanazawa, Japan": ["isotope"],
+    "Cafe DINA Kawaguchiko, Japan": ["Cafe DINA", "カフェ ディナ"],
+    "Iyoshi Cola Harajuku, Japan": ["伊良コーラ", "Iyoshi Cola"],
+    "SILKREAM Shibuya, Japan": ["SILKREAM", "シルクリーム"],
+    "Excelsior Caffe Shibuya, Japan": ["エクセルシオール カフェ 渋谷"],
+    "Excelsior Caffe Akihabara, Japan": ["エクセルシオール カフェ 秋葉原"],
+    "Imo Pippi Asakusa, Japan": ["芋ぴっぴ"],
+    "Heckeln Toranomon Tokyo, Japan": ["ヘッケルン", "Heckeln"],
+    # shop stops
+    "Kiyomizuzaka Kyoto pottery, Japan": ["清水坂", "五条坂"],
+    "Teramachi Dori Oike Kyoto Ippodo, Japan": ["一保堂茶舗", "Ippodo Tea"],
+    "Shinmonzen Dori Kyoto, Japan": ["新門前通", "Shinmonzen-dori"],
+    "Furumonzen Dori Kyoto, Japan": ["古門前通", "Furumonzen-dori"],
+    "Kenninji Temple Kyoto, Japan": ["建仁寺", "Kennin-ji"],
+    "Kami-Ninomachi Takayama, Japan": ["上二之町", "Kami-ninomachi"],
+    "Mishima Rosoku Hida Furukawa, Japan": ["三嶋和ろうそく店", "三嶋 ろうそく"],
+    "Shintatemachi Kanazawa, Japan": ["新竪町", "Shintatemachi"],
+    "Oriental Bazaar Omotesando Tokyo, Japan": ["オリエンタルバザー", "Oriental Bazaar"],
+    "S. Watanabe Color Print Ginza, Japan": ["渡邊木版美術画舗", "S. Watanabe"],
+    "Antique Mall Ginza Tokyo, Japan": ["アンティークモール銀座", "Antique Mall Ginza"],
 }
 
 # Matches we looked at and rejected: keep the hand-placed pin.
@@ -92,10 +137,13 @@ KEEP_ORIGINAL = {
     "Kawaguchiko Hotel, Japan": "Nominatim returns other hotels (Kawaguchiko Park Hotel / Tominoko Hotel)",
     "Fushimi Inari Taisha, Japan": "OSM centroid is up the mountain; original pin is the main gate",
     "Nara Park, Japan": "OSM centroid is far east of the deer area by Todai-ji",
+    "Teramachi Dori Oike Kyoto Ippodo, Japan": "Nominatim finds an Ippodo branch on Shijo, not the Teramachi-Nijo main shop",
 }
 CHECK = {
     "Houtou Kura Funari Kawaguchiko, Japan": "matched the Funari on Route 139 (Oarashi); confirm it is the branch you want",
     "APA Hotel Higashi Shinjuku Kabukicho Tower, Japan": "OSM only says 'APA Hotel' (Kabukicho 2-chome, Shokuan-dori); several APAs nearby",
+    "Excelsior Caffe Shibuya, Japan": "chain: matched the Dogenzaka branch; there are others nearby",
+    "Derailleur Brew Works Minoh, Japan": "matched their 'Yama no Fumoto' tap room on the falls road; the brewery itself may differ",
     "Osaka Umeda Station Hankyu, Japan": "Day 2 stop 1 is named BON Condominium but its mapsQuery is Hankyu Osaka-umeda Station, so the pin is the station",
 }
 
@@ -118,40 +166,45 @@ COARSE = {"city", "town", "village", "county", "state", "region", "administrativ
 trip = json.load(open(os.path.join(ROOT, "trip.json")))
 CITY = {"Kiso Valley": "Kiso", "Departure": "Narita", "Shirakawa-go": "Shirakawa"}
 rows, unmatched, kept = [], [], []
+# Route stops may sit up to MAXKM from their rough pin; quick/shop stops only 1.2 km
+# (chains like Excelsior Caffe have several branches close together).
+KINDS = [("stops", "", MAXKM), ("quickStops", "Q", 1.2), ("shopStops", "S", 1.2)]
 for d in trip:
     city = CITY.get(d["city"], d["city"])
-    for s in d["stops"]:
-        best = None
-        if s["mapsQuery"] in KEEP_ORIGINAL:
-            kept.append((d["day"], s["n"], s["name"], KEEP_ORIGINAL[s["mapsQuery"]]))
-            print(d["day"], s["n"], s["name"], "-> KEPT"); continue
-        for q in variants(s, city):
-            for r in search(q):
-                if r.get("type") in COARSE or r.get("addresstype") in COARSE:
-                    continue
-                dist = km(s["lat"], s["lng"], float(r["lat"]), float(r["lon"]))
-                if dist <= MAXKM and (best is None or dist < best[1]):
-                    best = (r, dist, q)
+    for kind, prefix, maxkm in KINDS:
+        for idx, s in enumerate(d.get(kind, [])):
+            label = f"{prefix}{s['n']}" if kind == "stops" else f"{prefix}{idx+1}"
+            best = None
+            if s["mapsQuery"] in KEEP_ORIGINAL:
+                kept.append((d["day"], label, s["name"], KEEP_ORIGINAL[s["mapsQuery"]]))
+                print(d["day"], label, s["name"], "-> KEPT"); continue
+            for q in variants(s, city):
+                for r in search(q):
+                    if r.get("type") in COARSE or r.get("addresstype") in COARSE:
+                        continue
+                    dist = km(s["lat"], s["lng"], float(r["lat"]), float(r["lon"]))
+                    if dist <= maxkm and (best is None or dist < best[1]):
+                        best = (r, dist, q)
+                if best:
+                    break
             if best:
-                break
-        if best:
-            r, dist, q = best
-            rows.append((d["day"], s["n"], s["name"], q, r["display_name"][:70], round(dist * 1000), float(r["lat"]), float(r["lon"])))
-            s["_new"] = (round(float(r["lat"]), 5), round(float(r["lon"]), 5))
-        else:
-            unmatched.append((d["day"], s["n"], s["name"], s["mapsQuery"]))
-        print(d["day"], s["n"], s["name"], "->", "OK %dm" % rows[-1][5] if best else "UNMATCHED", flush=True)
+                r, dist, q = best
+                rows.append((d["day"], label, s["name"], q, r["display_name"][:70], round(dist * 1000), float(r["lat"]), float(r["lon"])))
+                s["_new"] = (round(float(r["lat"]), 5), round(float(r["lon"]), 5))
+            else:
+                unmatched.append((d["day"], label, s["name"], s["mapsQuery"]))
+            print(d["day"], label, s["name"], "->", "OK %dm" % rows[-1][5] if best else "UNMATCHED", flush=True)
 
 with open(os.path.join(ROOT, "GEOCODE_LOG.md"), "w") as f:
-    f.write("# Geocoding log\n\nNominatim (OpenStreetMap), queried with each stop's `mapsQuery` (fallbacks: query without ', Japan', then stop name + city). "
-            f"A match is accepted only if it is a specific place (not a city/district polygon) within {MAXKM} km of the original pin.\n\n")
+    f.write("# Geocoding log\n\nNominatim (OpenStreetMap), queried with each stop's `mapsQuery`. `#` is the route stop number, `Q1`… quick stops and `S1`… shop stops, in the order they appear in that day (fallbacks: query without ', Japan', then stop name + city). "
+            f"A match is accepted only if it is a specific place (not a city/district polygon) within {MAXKM} km of the original pin (1.2 km for quick and shop stops).\n\n")
     f.write(f"## Could not match ({len(unmatched)}) — original approximate pin kept, please check\n\n| Day | # | Stop | mapsQuery |\n|---|---|---|---|\n")
     for u in unmatched:
         f.write("| %s | %s | %s | %s |\n" % u)
     f.write(f"\n## Kept original pin on purpose ({len(kept)})\n\n| Day | # | Stop | Why |\n|---|---|---|---|\n")
     for k in kept:
         f.write("| %s | %s | %s | %s |\n" % k)
-    chk = [(d["day"], s["n"], s["name"], CHECK[s["mapsQuery"]]) for d in trip for s in d["stops"] if s["mapsQuery"] in CHECK]
+    chk = [(d["day"], s.get("n", "Q/S"), s["name"], CHECK[s["mapsQuery"]]) for d in trip for k, _, _ in KINDS for s in d.get(k, []) if s["mapsQuery"] in CHECK]
     f.write(f"\n## Matched but worth a glance ({len(chk)})\n\n| Day | # | Stop | Note |\n|---|---|---|---|\n")
     for k in chk:
         f.write("| %s | %s | %s | %s |\n" % k)
@@ -161,7 +214,7 @@ with open(os.path.join(ROOT, "GEOCODE_LOG.md"), "w") as f:
 
 if "--write" in sys.argv:
     for d in trip:
-        for s in d["stops"]:
+        for s in [x for k, _, _ in KINDS for x in d.get(k, [])]:
             if "_new" in s:
                 s["lat"], s["lng"] = s.pop("_new")
     txt = json.dumps(trip, ensure_ascii=False, indent=2)

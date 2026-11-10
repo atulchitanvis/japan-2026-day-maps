@@ -23,6 +23,7 @@
   --indigo:#4f46e5; --amber:#c26a04; --plum:#8e3b8a; --walk:#6b7280; --teal:#0d9488; --meal:#ea6c0a;
   --ok:#166534; --ok-bg:#e3f4e8; --warn:#8a4b00; --warn-bg:#fcefd6; --neutral:#4b5160; --neutral-bg:#ecebe6;
   --you:#1a73e8; --shadow:0 1px 2px rgba(0,0,0,.06),0 2px 8px rgba(0,0,0,.06);
+  --shop:#7c3aed; --shop-bg:#f1eafe; --quick:#15803d;
 }
 @media (prefers-color-scheme: dark){
   :root{
@@ -31,6 +32,7 @@
     --indigo:#8b93ff; --amber:#f5a524; --plum:#d58ad1; --walk:#a3aab6; --teal:#2dd4bf; --meal:#fb923c;
     --ok:#7ee2a0; --ok-bg:#16301f; --warn:#fbc66a; --warn-bg:#3a2a0e; --neutral:#c4c9d2; --neutral-bg:#2a2e37;
     --you:#4c9bff; --shadow:0 1px 2px rgba(0,0,0,.4);
+    --shop:#b794f6; --shop-bg:#2b2340; --quick:#4ade80;
   }
 }
 *{box-sizing:border-box}
@@ -79,6 +81,17 @@ body.bigmap #mapwrap{flex-basis:74%}
 .pin.active span{transform:scale(1.22);box-shadow:0 0 0 4px rgba(79,70,229,.35),0 1px 4px rgba(0,0,0,.35)}
 .pin.base span{width:34px;height:34px;font-size:15px}
 .pin.end span{background:var(--teal);font-size:12px}
+.pin.small span{width:26px;height:26px;border-width:2px}
+.pin.small svg{width:15px;height:15px}
+.pin.shop span{background:var(--shop);color:#fff}
+.pin.quick span{background:var(--quick);color:#fff}
+@media (prefers-color-scheme: dark){ .pin.shop span,.pin.quick span{color:#14111f} }
+.pin.small.active span{transform:scale(1.25)}
+.pin.cluster span{width:auto;min-width:42px;height:28px;padding:0 8px;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:3px;
+  font-size:13px;font-weight:800;background:var(--card);color:var(--shop);border:2.5px solid var(--shop)}
+.pin.cluster.quick span{color:var(--quick);border-color:var(--quick);background:var(--card)}
+.pin.cluster svg{width:13px;height:13px}
+@media (prefers-color-scheme: dark){ .pin.cluster span,.pin.cluster.quick span{background:var(--card)} .pin.cluster.shop span{color:var(--shop)} .pin.cluster.quick span{color:var(--quick)} }
 .youdot{width:18px;height:18px;border-radius:50%;background:var(--you);border:3px solid #fff;box-shadow:0 0 0 2px rgba(26,115,232,.35),0 1px 3px rgba(0,0,0,.4)}
 
 /* Route lines (colours via CSS so they follow the theme) */
@@ -140,11 +153,54 @@ li.legrow.walk::before{border-left-style:dotted} li.legrow.bus::before,li.legrow
 .legtxt{flex:1;min-width:0;font-size:13.5px;color:var(--muted)}
 .legtxt b{color:var(--c);font-weight:700}
 .legrow a.btn{flex:0 0 auto}
+/* backups, nearby shops / quick bites */
+.backups{margin:0 0 8px;font-size:13.5px;color:var(--muted)}
+.backups b{color:var(--ink);font-weight:600}
+.near{display:flex;gap:9px;align-items:flex-start;width:100%;text-align:left;background:var(--soft);border:0;border-radius:10px;
+  padding:9px 10px;margin-top:8px;min-height:44px;font-size:13.5px;line-height:1.35;cursor:pointer;color:var(--ink)}
+.near b{font-weight:650}
+.near small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
+.nico{flex:0 0 auto;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--shop);color:#fff}
+.nico svg{width:14px;height:14px}
+.near.quick .nico,.nico.quick{background:var(--quick)}
+@media (prefers-color-scheme: dark){ .nico{color:#14111f} }
+.near.active,.shoprow.active{box-shadow:0 0 0 2px var(--shop)}
+/* layer toggles + category chips */
+.layers{margin:16px 0 0;display:flex;flex-direction:column;gap:6px}
+.lrow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:1px}
+.lrow::-webkit-scrollbar{display:none}
+.ltog{flex:0 0 auto;min-height:44px;padding:0 12px;border-radius:22px;border:1.5px solid var(--line);background:var(--card);color:var(--muted);
+  font-size:13.5px;font-weight:600;display:flex;align-items:center;gap:7px;cursor:pointer}
+.ltog i{width:11px;height:11px;border-radius:50%;background:var(--c);opacity:.3}
+.ltog[aria-pressed="true"]{color:var(--ink);border-color:var(--c)}
+.ltog[aria-pressed="true"] i{opacity:1}
+.catchip{flex:0 0 auto;min-height:44px;padding:0 13px;border-radius:22px;border:1.5px solid var(--shop);background:transparent;color:var(--shop);font-size:13.5px;font-weight:600;cursor:pointer}
+.catchip[aria-pressed="true"]{background:var(--shop);color:#fff}
+@media (prefers-color-scheme: dark){ .catchip[aria-pressed="true"]{color:#14111f} }
+.catbadge{background:var(--shop-bg);color:var(--shop)}
+.visit{background:var(--neutral-bg);color:var(--neutral)}
+/* shopping sections */
+details.shopsec{margin:18px 0 0;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+details.shopsec>summary{list-style:none;display:flex;align-items:center;gap:10px;min-height:52px;padding:0 14px;font-weight:700;font-size:16px;cursor:pointer}
+details.shopsec>summary::-webkit-details-marker{display:none}
+details.shopsec>summary::after{content:"";margin-left:auto;width:9px;height:9px;border-right:2.5px solid var(--muted);border-bottom:2.5px solid var(--muted);transform:rotate(45deg);transition:transform .2s}
+details.shopsec[open]>summary::after{transform:rotate(-135deg)}
+.count{font-size:12px;font-weight:700;background:var(--shop-bg);color:var(--shop);border-radius:999px;padding:2px 8px}
+ul.shoplist{list-style:none;margin:0;padding:0 10px 10px}
+.shoprow{display:flex;gap:10px;padding:10px 6px;border-top:1px solid var(--line);cursor:pointer;border-radius:10px}
+.shoprow h3{font-size:15px;margin:0 0 4px;line-height:1.25}
+.shoprow p{margin:4px 0 0;font-size:13.5px}
+.shoprow .price{color:var(--muted)}
+.dayhdr{font-size:12.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;padding:12px 6px 4px}
+.empty{padding:10px 6px 4px;color:var(--muted);font-size:13.5px}
+.pop .tags{margin:4px 0}
+.pop .price{color:var(--muted);margin-top:0}
 .foot{margin:22px 2px 0;font-size:12.5px;color:var(--muted)}
 .foot p{margin:4px 0}
 .reminders{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 14px;margin:12px 0}
 .reminders li{margin:4px 0}
 .legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--muted);margin-top:16px}
+.legend .dot{display:inline-block;width:11px;height:11px;border-radius:50%;background:var(--c);vertical-align:middle;margin-right:5px}
 .legend i{display:inline-block;width:22px;height:0;border-top:3px solid var(--c);vertical-align:middle;margin-right:5px}
 
 /* Toast + dialog */
@@ -234,6 +290,14 @@ const BASES = [ // overview: matched to stop names in trip.json so edits flow th
   {city:'Kawaguchiko', dates:'1–3 Dec', day:13, match:'Kawaguchiko Hotel'},
   {city:'Tokyo', dates:'3–5 Dec', day:15, match:'APA Hotel'},
 ];
+const CATS = ['ceramics','prints','antiques','screens','crafts'];
+const CAT_LABEL = {ceramics:'Ceramics', prints:'Prints', antiques:'Antiques', screens:'Screens', crafts:'Crafts'};
+const LAYERS = [['route','Route','indigo'],['meals','Meals','meal'],['quick','Quick stops','quick'],['shop','Shopping','shop']];
+const SVG = {
+  bag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 8h13l-1.2 12.5H6.7z"/><path d="M9 10V6.5a3 3 0 0 1 6 0V10"/></svg>',
+  eye: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>',
+  food: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v18M4.5 3v5a2.5 2.5 0 0 0 5 0V3M17 21V3c-2.2 0-3.5 2.4-3.5 5.5S14.8 13 17 13"/></svg>',
+};
 const MONTHS = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
 const WORD_TIMES = [[/late afternoon/i,960],[/late morning/i,660],[/early/i,420],[/morning/i,540],[/midday/i,720],
   [/lunch/i,750],[/afternoon/i,840],[/evening/i,1110],[/night/i,1230]];
@@ -247,7 +311,11 @@ const store = {
   set(k,v){ try { localStorage.setItem(k,v); } catch {} },
 };
 const params = new URLSearchParams(location.search);
-let trip = [], routes = {}, view = null, activeIdx = -1, markers = [];
+let trip = [], routes = {}, view = null, markers = [], extras = [], activeMk = null, activeEl = null;
+const readJSON = k => { try { return JSON.parse(store.get(k)); } catch { return null; } };
+const layers = Object.assign({route:true, meals:true, quick:true, shop:true}, readJSON('layers') || {});
+let catOn = new Set(Array.isArray(readJSON('shopCats')) ? readJSON('shopCats') : CATS);
+const shopVisible = sh => (sh.categories || []).some(c => catOn.has(c)) || !(sh.categories || []).length;
 
 function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove('show'),2200); }
 function isoOf(d){ const [dd,mon,yy]=d.date.split(' '); return `${yy}-${String(MONTHS[mon]).padStart(2,'0')}-${dd.padStart(2,'0')}`; }
@@ -326,8 +394,15 @@ const lineLayer = L.layerGroup().addTo(map), markerLayer = L.layerGroup().addTo(
 let dayBounds = null;
 function fitDay(animate){ if (dayBounds) map.fitBounds(dayBounds, {paddingTopLeft:[36,36], paddingBottomRight:[64,30], maxZoom:16, animate}); }
 
-function pinIcon(label, cls, dx=0, dy=0){
-  return L.divIcon({className:'', html:`<div class="pin${cls}"><span>${esc(label)}</span></div>`, iconSize:[44,44], iconAnchor:[22-dx,22-dy], popupAnchor:[dx,dy-16]});
+function pinIcon(label, cls, dx=0, dy=0, html){
+  return L.divIcon({className:'', html:`<div class="pin${cls}"><span>${html ?? esc(label)}</span></div>`, iconSize:[44,44], iconAnchor:[22-dx,22-dy], popupAnchor:[dx,dy-(cls.includes('small')?12:16)]});
+}
+const numIconFn = (label, cls) => (dx, dy, act) => pinIcon(label, cls + (act ? ' active' : ''), dx, dy);
+const shopIconFn = sh => (dx, dy, act) => pinIcon('', ' small shop' + (act ? ' active' : ''), dx, dy, sh.visit === 'see' ? SVG.eye : SVG.bag);
+const quickIconFn = () => (dx, dy, act) => pinIcon('', ' small quick' + (act ? ' active' : ''), dx, dy, SVG.food);
+function makeMarker(ll, iconFn, opts){
+  const mk = L.marker(ll, {icon: iconFn(0, 0, false), keyboard: true, ...opts});
+  mk._iconFn = iconFn; mk._dx = 0; mk._dy = 0; return mk;
 }
 /* Markers that overlap on screen (same station visited twice, or close stops at a
    low zoom) are fanned out side by side so every number stays tappable. Re-run on zoom. */
@@ -336,16 +411,48 @@ function layout(pts, groups){
   const pos = pts.map(p=>[p.x,p.y]);
   for (const g of groups) {
     if (g.length < 2) continue;
-    const cx = g.reduce((a,i)=>a+pts[i].x,0)/g.length, cy = g.reduce((a,i)=>a+pts[i].y,0)/g.length;
+    let cx = g.reduce((a,i)=>a+pts[i].x,0)/g.length, cy = g.reduce((a,i)=>a+pts[i].y,0)/g.length;
     const perRow = Math.min(g.length, 6), rows = Math.ceil(g.length/perRow);
+    // keep a fanned-out group inside the visible map (leave room for the buttons on the right)
+    const sz = map.getSize(), hw = (perRow-1)/2*GAP + 22, hh = (rows-1)/2*GAP + 22;
+    if (cx >= 0 && cx <= sz.x && cy >= 0 && cy <= sz.y) {
+      cx = Math.min(Math.max(cx, hw), Math.max(hw, sz.x - 58 - hw));
+      cy = Math.min(Math.max(cy, hh), Math.max(hh, sz.y - hh));
+    }
     g.forEach((i,j)=>{ const row=Math.floor(j/perRow), col=j%perRow, inRow=Math.min(perRow, g.length-row*perRow);
       pos[i] = [cx + (col-(inRow-1)/2)*GAP, cy + (row-(rows-1)/2)*GAP]; });
   }
   return pos;
 }
+const clusterLayer = L.layerGroup().addTo(map);
+/* 3+ overlapping shop (or quick-stop) pins collapse into one count bubble; tap it to zoom in. */
+function clusterExtras(){
+  clusterLayer.clearLayers();
+  const out = [];
+  for (const kind of ['shop', 'quick']) {
+    const ex = extras.filter(e => e.kind === kind && e.mk._vis);
+    const pts = ex.map(e => map.latLngToContainerPoint(e.mk.getLatLng()));
+    const parent = ex.map((_, i) => i), find = i => parent[i] === i ? i : (parent[i] = find(parent[i]));
+    for (let i = 0; i < ex.length; i++) for (let j = i + 1; j < ex.length; j++) if (pts[i].distanceTo(pts[j]) < 30) parent[find(i)] = find(j);
+    const groups = new Map(); ex.forEach((e, i) => { const r = find(i); if (!groups.has(r)) groups.set(r, []); groups.get(r).push(e); });
+    for (const g of groups.values()) {
+      const big = g.length >= 3 && !g.some(e => e.mk === activeMk);
+      g.forEach(e => { if (big) markerLayer.removeLayer(e.mk); else if (!markerLayer.hasLayer(e.mk)) markerLayer.addLayer(e.mk); });
+      if (!big) continue;
+      const b = L.latLngBounds(g.map(e => e.mk.getLatLng()));
+      const fn = (dx, dy) => pinIcon('', ` small cluster ${kind}`, dx, dy, `${kind === 'shop' ? SVG.bag : SVG.food}<b>${g.length}</b>`);
+      const cm = makeMarker(b.getCenter(), fn, {zIndexOffset:60, title:`${g.length} ${kind === 'shop' ? 'shops' : 'quick bites'} — tap to zoom in`})
+        .on('click', () => map.fitBounds(b.pad(0.4), {maxZoom:18, paddingTopLeft:[40,40], paddingBottomRight:[70,40]}));
+      clusterLayer.addLayer(cm); out.push(cm);
+    }
+  }
+  return out;
+}
 function declutter(){
-  if (!markers.length) return;
-  const pts = markers.map(m=>map.latLngToContainerPoint(m.getLatLng())), n = pts.length;
+  const clusters = clusterExtras();
+  const vis = markers.concat(extras.map(e=>e.mk)).filter(m=>markerLayer.hasLayer(m)).concat(clusters);
+  if (!vis.length) return;
+  const pts = vis.map(m=>map.latLngToContainerPoint(m.getLatLng())), n = pts.length;
   const parent = pts.map((_,i)=>i), find = i => parent[i]===i ? i : (parent[i]=find(parent[i]));
   const near = (a,b) => Math.hypot(a[0]-b[0], a[1]-b[1]) < 31;
   let pos = pts.map(p=>[p.x,p.y]), groups;
@@ -356,10 +463,10 @@ function declutter(){
     groups = [...m.values()]; pos = layout(pts, groups);
     if (!merged) break;
   }
-  markers.forEach((mk,i)=>{
+  vis.forEach((mk,i)=>{
     const dx = Math.round(pos[i][0]-pts[i].x), dy = Math.round(pos[i][1]-pts[i].y);
     if (mk._dx===dx && mk._dy===dy) return;
-    mk._dx = dx; mk._dy = dy; mk.setIcon(pinIcon(mk._lbl, mk._cls + (i===activeIdx?' active':''), dx, dy));
+    mk._dx = dx; mk._dy = dy; mk.setIcon(mk._iconFn(dx, dy, mk === activeMk));
   });
 }
 map.on('zoomend', declutter);
@@ -372,7 +479,7 @@ function drawLeg(a, b, geom){
 /* ---------- rendering ---------- */
 function renderChips(){
   const today = todayDay();
-  const chips = [`<button class="chip" data-v="overview"><b>Trip overview</b></button>`]
+  const chips = [`<button class="chip" data-v="overview"><b>Trip overview</b></button>`, `<button class="chip" data-v="shopping"><b>🛍 Shopping</b></button>`]
     .concat(trip.map(d=>`<button class="chip" data-v="${d.day}" id="chip-${d.day}"><b>${esc(shortDate(d))}</b> · ${esc(d.city)}${d.day===today?' <span class="today">Today</span>':''}</button>`));
   $('#chips').innerHTML = chips.join('');
 }
@@ -390,8 +497,87 @@ function popupHtml(d, i){
     ${dir?`<a class="btn sm" href="${dir}" target="_blank" rel="noopener">Directions</a>`:''}</div></div>`;
 }
 
+const walkDir = (a, b) => `https://www.google.com/maps/dir/?api=1&origin=${enc(a.mapsQuery)}&destination=${enc(b.mapsQuery)}&travelmode=walking`;
+const visitLabel = v => v === 'see' ? 'See' : v === 'buy' ? 'Buy' : 'See & buy';
+const catBadges = sh => (sh.categories || []).map(c => `<span class="tag catbadge">${esc(CAT_LABEL[c] || c)}</span>`).join('') + `<span class="tag visit">${sh.visit === 'see' ? SVG.eye.replace('<svg', '<svg class="copyico"') : SVG.bag.replace('<svg', '<svg class="copyico"')} ${visitLabel(sh.visit)}</span>`;
+function nearOf(d, x){ return d.stops.find(s => s.n === x.nearStop); }
+function placeActs(d, x){
+  const near = nearOf(d, x), dir = near && near.mapsQuery !== x.mapsQuery ? walkDir(near, x) : null;
+  return `<div class="acts"><a class="btn sm primary" href="${mapsSearch(x)}" target="_blank" rel="noopener">Open in Maps</a>
+    ${dir ? `<a class="btn sm" href="${dir}" target="_blank" rel="noopener" aria-label="Walking directions from stop ${esc(near.n)}">🚶 From stop ${esc(near.n)}</a>` : ''}</div>`;
+}
+function shopPopup(d, sh, j, tripWide){
+  const near = nearOf(d, sh);
+  return `<div class="pop"><div class="t">${tripWide ? `Day ${d.day} · ${esc(d.city)}` : 'Shopping'}${near ? ` · near ${esc(near.n)}. ${esc(near.name)}` : ''}</div>
+    <h4>${esc(sh.name)}</h4><div class="tags">${catBadges(sh)}</div>
+    ${sh.whatToFind ? `<p>${esc(sh.whatToFind)}</p>` : ''}${sh.priceRange ? `<p class="price">💴 ${esc(sh.priceRange)}</p>` : ''}
+    ${sh.notes ? `<p>${esc(sh.notes)}</p>` : ''}${placeActs(d, sh)}
+    ${tripWide ? `<div class="acts"><button class="btn sm" data-goshop="${d.day}:${j}">Open day ${d.day} →</button></div>` : ''}</div>`;
+}
+function quickPopup(d, q){
+  const near = nearOf(d, q);
+  return `<div class="pop"><div class="t">Quick bite${near ? ` · near ${esc(near.n)}. ${esc(near.name)}` : ''}</div><h4>${esc(q.name)}</h4>
+    ${q.whatToEat ? `<p>${esc(q.whatToEat)}</p>` : ''}${q.notes ? `<p>${esc(q.notes)}</p>` : ''}${placeActs(d, q)}</div>`;
+}
+function addExtras(d, kinds, tripWide){
+  if (kinds.includes('shop')) (d.shopStops || []).forEach((sh, j) => {
+    const e = {kind:'shop', day:d.day, j, data:sh};
+    e.mk = makeMarker([sh.lat, sh.lng], shopIconFn(sh), {zIndexOffset:50, title:sh.name, alt:`Shop: ${sh.name}`})
+      .bindPopup(() => shopPopup(d, sh, j, tripWide), {autoPanPadding:[40,40], maxWidth:290})
+      .on('click', () => activate(e.mk, extraEl(e), true));
+    extras.push(e);
+  });
+  if (kinds.includes('quick')) (d.quickStops || []).forEach((q, j) => {
+    const e = {kind:'quick', day:d.day, j, data:q};
+    e.mk = makeMarker([q.lat, q.lng], quickIconFn(), {zIndexOffset:40, title:q.name, alt:`Quick bite: ${q.name}`})
+      .bindPopup(() => quickPopup(d, q), {autoPanPadding:[40,40], maxWidth:290})
+      .on('click', () => activate(e.mk, extraEl(e), true));
+    extras.push(e);
+  });
+}
+function extraEl(e){
+  return document.querySelector(view === 'shopping' ? `.shoprow[data-day="${e.day}"][data-j="${e.j}"]` : `.near[data-kind="${e.kind}"][data-j="${e.j}"]`);
+}
+/* Which markers/lines are on the map, from the layer toggles and category filter. */
+function applyLayers(){
+  const dayView = typeof view === 'number';
+  if (!dayView || layers.route) lineLayer.addTo(map); else map.removeLayer(lineLayer);
+  const set = (mk, on) => { on = on || mk === activeMk; if (on && !markerLayer.hasLayer(mk)) markerLayer.addLayer(mk); else if (!on && markerLayer.hasLayer(mk)) markerLayer.removeLayer(mk); };
+  markers.forEach(mk => set(mk, !dayView || (mk._meal ? layers.meals : layers.route)));
+  extras.forEach(e => { e.mk._vis = e.mk === activeMk || (e.kind === 'quick' ? layers.quick : (view === 'shopping' || layers.shop) && shopVisible(e.data));
+    if (!e.mk._vis) markerLayer.removeLayer(e.mk); });
+  declutter();
+}
+function layersHtml(withToggles){
+  const tog = withToggles ? `<div class="lrow" role="group" aria-label="Map layers">${LAYERS.map(([k,l,c]) =>
+      `<button class="ltog" data-layer="${k}" aria-pressed="${layers[k]}" style="--c:var(--${c})"><i></i>${l}</button>`).join('')}</div>` : '';
+  const cats = `<div class="lrow cats" role="group" aria-label="Shop categories"${withToggles && !layers.shop ? ' hidden' : ''}>${CATS.map(c =>
+      `<button class="catchip" data-cat="${c}" aria-pressed="${catOn.has(c)}">${CAT_LABEL[c]}</button>`).join('')}</div>`;
+  return `<div class="layers">${tog}${cats}</div>`;
+}
+/* Category filter also hides matching rows in the lists (no re-render, keeps scroll). */
+function filterShopEls(){
+  document.querySelectorAll('[data-cats]').forEach(el => { el.hidden = !el.dataset.cats.split(' ').some(c => catOn.has(c)); });
+  document.querySelectorAll('details.shopsec').forEach(sec => {
+    const rows = [...sec.querySelectorAll('.shoprow')], n = rows.filter(r => !r.hidden).length;
+    const c = sec.querySelector('.count'); if (c) c.textContent = n;
+    sec.querySelectorAll('.dayhdr').forEach(h => { let el = h.nextElementSibling, any = false; while (el && el.classList.contains('shoprow')) { any ||= !el.hidden; el = el.nextElementSibling; } h.hidden = !any; });
+    const em = sec.querySelector('.empty'); if (em) em.hidden = n > 0 || !rows.length;
+  });
+}
+function shopRowHtml(d, sh, j, withDay){
+  const near = nearOf(d, sh);
+  return `<li class="shoprow" data-day="${d.day}" data-j="${j}" data-cats="${esc((sh.categories || []).join(' '))}">
+    <span class="nico">${sh.visit === 'see' ? SVG.eye : SVG.bag}</span>
+    <div>${withDay ? `<div class="time">Day ${d.day} · ${esc(d.weekday)} ${esc(shortDate(d))} · ${esc(d.city)}</div>` : ''}
+      <h3>${esc(sh.name)}</h3><div class="tags">${catBadges(sh)}</div>
+      ${sh.whatToFind ? `<p>${esc(sh.whatToFind)}</p>` : ''}
+      <p class="price">${sh.priceRange ? `💴 ${esc(sh.priceRange)}` : ''}${near ? ` · near ${esc(near.n)}. ${esc(near.name)}` : ''}</p>
+      ${sh.notes ? `<p>${esc(sh.notes)}</p>` : ''}</div></li>`;
+}
+
 function renderDay(d){
-  lineLayer.clearLayers(); markerLayer.clearLayers(); markers = []; activeIdx = -1;
+  lineLayer.clearLayers(); markerLayer.clearLayers(); clusterLayer.clearLayers(); markers = []; extras = []; activeMk = activeEl = null;
   const st = d.stops;
   // route lines
   st.forEach((s,i)=>{
@@ -403,13 +589,14 @@ function renderDay(d){
   });
   // markers
   st.forEach((s,i)=>{
-    const mk = L.marker([s.lat,s.lng], {icon:pinIcon(s.n, stopClass(s)), zIndexOffset: 100+i, keyboard:true, title:`${s.n}. ${s.name}`, alt:`Stop ${s.n}`})
+    const mk = makeMarker([s.lat,s.lng], numIconFn(s.n, stopClass(s)), {zIndexOffset: 100+i, title:`${s.n}. ${s.name}`, alt:`Stop ${s.n}`})
       .bindPopup(()=>popupHtml(d,i), {autoPanPadding:[40,40], maxWidth:290})
-      .on('click', ()=>selectStop(i, true)).addTo(markerLayer);
-    mk._lbl = s.n; mk._cls = stopClass(s); markers.push(mk);
+      .on('click', ()=>selectStop(i, true));
+    mk._meal = !!s.meal; markers.push(mk);
   });
+  addExtras(d, ['shop', 'quick'], false);
   dayBounds = L.latLngBounds(st.map(s=>[s.lat,s.lng]));
-  fitDay(false); declutter();
+  fitDay(false); applyLayers();
 
   // list
   const isToday = d.day === todayDay();
@@ -425,12 +612,20 @@ function renderDay(d){
     const tags = (s.tags||[]).map(t=>tagHtml(t, tagClass(t)));
     if (s.optional && !(s.tags||[]).some(t=>/optional/i.test(t))) tags.push(`<span class="tag neutral">Optional</span>`);
     if (s.meal) tags.push(`<span class="tag mealtag">Meal</span>`);
+    const near = (d.shopStops || []).map((sh, j) => sh.nearStop === s.n ? `<button class="near shop" data-kind="shop" data-j="${j}" data-cats="${esc((sh.categories || []).join(' '))}">
+          <span class="nico">${sh.visit === 'see' ? SVG.eye : SVG.bag}</span>
+          <span><b>Shopping nearby:</b> ${esc(sh.name)}${sh.whatToFind ? ` — ${esc(sh.whatToFind)}` : ''}${sh.priceRange ? ` (${esc(sh.priceRange)})` : ''}${sh.notes ? `<small>${esc(sh.notes)}</small>` : ''}</span></button>` : '')
+      .concat((d.quickStops || []).map((q, j) => q.nearStop === s.n ? `<button class="near quick" data-kind="quick" data-j="${j}">
+          <span class="nico">${SVG.food}</span>
+          <span><b>Quick bite nearby:</b> ${esc(q.name)}${q.whatToEat ? ` — ${esc(q.whatToEat)}` : ''}${q.notes ? `<small>${esc(q.notes)}</small>` : ''}</span></button>` : '')).join('');
+    const backups = (s.backupOptions || []).length ? `<p class="backups"><b>Backups:</b> ${s.backupOptions.map(esc).join(' · ')}</p>` : '';
     return legs[i] + `<li class="stop${stopClass(s)}" id="stop-${i}" data-i="${i}">
       <div class="num"><span>${esc(s.n)}</span></div>
       <div class="body"><div class="time">${esc(s.time)}</div><h3>${esc(s.name)}</h3>
-        ${s.notes?`<p>${esc(s.notes)}</p>`:''}
+        ${s.notes?`<p>${esc(s.notes)}</p>`:''}${backups}
         ${tags.length?`<div class="tags">${tags.join('')}</div>`:''}
         <div class="btns"><a class="btn sm" href="${mapsSearch(s)}" target="_blank" rel="noopener">Open in Maps</a></div>
+        ${near}
       </div></li>`;
   }).join('');
   const pills = d.bookings.map(b=>{
@@ -450,15 +645,23 @@ function renderDay(d){
         <button class="btn" id="btnOffline">⬇ Offline maps</button>
       </div>
     </section>
+    ${layersHtml(true)}
     <ol class="stops">${items}</ol>
+    ${(d.shopStops || []).length ? `<details class="shopsec" id="shopToday"${store.get('shopTodayOpen') === '0' ? '' : ' open'}>
+      <summary>🛍 Shopping today <span class="count">${d.shopStops.length}</span></summary>
+      <ul class="shoplist">${d.shopStops.map((sh, j) => shopRowHtml(d, sh, j, false)).join('')}</ul>
+      <p class="empty" hidden>No shops today in the selected categories.</p></details>` : ''}
     ${legendHtml()}
     <div class="foot"><p>Pins are from OpenStreetMap and may be off by a little; the Google Maps links search by name.</p></div>`;
   if (isToday) updateNowNext(d);
+  filterShopEls();
+  $('#shopToday')?.addEventListener('toggle', e => store.set('shopTodayOpen', e.target.open ? '1' : '0'));
   $('#list').scrollTop = 0;
 }
 
 function legendHtml(){
-  return `<div class="legend">${Object.entries(MODES).map(([k,m])=>`<span style="--c:var(--${k==='train'?'indigo':k==='bus'?'amber':k==='taxi'?'plum':k==='flight'?'teal':'walk'})"><i style="border-top-style:${k==='walk'?'dotted':k==='bus'||k==='taxi'?'dashed':'solid'}"></i>${m.label}</span>`).join('')}</div>`;
+  return `<div class="legend">${Object.entries(MODES).map(([k,m])=>`<span style="--c:var(--${k==='train'?'indigo':k==='bus'?'amber':k==='taxi'?'plum':k==='flight'?'teal':'walk'})"><i style="border-top-style:${k==='walk'?'dotted':k==='bus'||k==='taxi'?'dashed':'solid'}"></i>${m.label}</span>`).join('')}
+    <span style="--c:var(--meal)"><span class="dot"></span>Meal</span><span style="--c:var(--quick)"><span class="dot"></span>Quick bite</span><span style="--c:var(--shop)"><span class="dot"></span>Shop</span></div>`;
 }
 
 function updateNowNext(d){
@@ -475,7 +678,7 @@ function updateNowNext(d){
 }
 
 function renderOverview(){
-  lineLayer.clearLayers(); markerLayer.clearLayers(); markers = []; activeIdx = -1;
+  lineLayer.clearLayers(); markerLayer.clearLayers(); clusterLayer.clearLayers(); markers = []; extras = []; activeMk = activeEl = null;
   const all = trip.flatMap(d=>d.stops);
   const bases = BASES.map(b=>({...b, stop: all.find(s=>s.name.startsWith(b.match)) || trip.find(d=>d.day===b.day)?.stops[0], stay: trip.find(d=>d.day===b.day)?.stay}));
   const first = trip[0]?.stops[0], last = trip[trip.length-1]?.stops.slice(-1)[0];
@@ -486,14 +689,14 @@ function renderOverview(){
   if (last) { L.polyline([pts[pts.length-1], [last.lat,last.lng]], {className:'leg leg-flight', weight:3, dashArray:'6 6', interactive:false}).addTo(lineLayer);
     L.marker([last.lat,last.lng], {icon:pinIcon('NRT',' end',0)}).bindPopup(`<div class="pop"><div class="t">Depart 5 Dec</div><h4>Narita Airport</h4></div>`).addTo(markerLayer); }
   bases.forEach((b,i)=>{
-    const mk = L.marker([b.stop.lat,b.stop.lng], {icon:pinIcon(i+1,' base',0), zIndexOffset:200, title:b.city})
+    const mk = makeMarker([b.stop.lat,b.stop.lng], numIconFn(i+1,' base'), {zIndexOffset:200, title:b.city})
       .bindPopup(`<div class="pop"><div class="t">${esc(b.dates)}</div><h4>${i+1} · ${esc(b.city)}</h4><p>${esc(b.stay)}</p>
         <div class="acts"><a class="btn sm primary" href="#day-${b.day}">Open day ${b.day}</a><a class="btn sm" href="${mapsSearch(b.stop)}" target="_blank" rel="noopener">Open in Maps</a></div></div>`)
-      .on('click', ()=>selectStop(i, true)).addTo(markerLayer);
-    mk._lbl = i+1; mk._cls = ' base'; markers.push(mk);
+      .on('click', ()=>selectStop(i, true));
+    markers.push(mk);
   });
   dayBounds = L.latLngBounds(pts.concat(first?[[first.lat,first.lng]]:[], last?[[last.lat,last.lng]]:[]));
-  fitDay(false); declutter();
+  fitDay(false); applyLayers();
   const items = bases.map((b,i)=>`<li class="stop" id="stop-${i}" data-i="${i}"><div class="num"><span>${i+1}</span></div>
     <div class="body"><div class="time">${esc(b.dates)}</div><h3>${esc(b.city)}</h3><p>${esc(b.stay)}</p>
     <div class="btns"><a class="btn sm primary" href="#day-${b.day}">Day ${b.day} →</a><a class="btn sm" href="${mapsSearch(b.stop)}" target="_blank" rel="noopener">Open in Maps</a></div></div></li>`)
@@ -513,28 +716,66 @@ function renderOverview(){
   $('#list').scrollTop = 0;
 }
 
-function show(v){
-  view = v;
-  if (v === 'overview') renderOverview(); else renderDay(trip.find(d=>d.day===v));
-  markChip();
-  if (v !== 'overview') store.set('lastDay', String(v));
-  const h = v==='overview' ? '#overview' : `#day-${v}`;
-  if (location.hash !== h) history.replaceState(null, '', h);
-  document.title = v==='overview' ? 'Japan 2026 · Overview' : `Japan 2026 · Day ${v}`;
+function renderShopping(){
+  lineLayer.clearLayers(); markerLayer.clearLayers(); clusterLayer.clearLayers(); markers = []; extras = []; activeMk = activeEl = null;
+  trip.forEach(d => addExtras(d, ['shop'], true));
+  const all = trip.flatMap(d => (d.shopStops || []).map((sh, j) => ({d, sh, j})));
+  dayBounds = all.length ? L.latLngBounds(all.map(x => [x.sh.lat, x.sh.lng])) : null;
+  fitDay(false); applyLayers();
+  const groups = CATS.map(c => {
+    const rows = all.filter(x => (x.sh.categories || []).includes(c));
+    if (!rows.length) return '';
+    let html = '', lastDay = null;
+    for (const x of rows) {
+      if (x.d.day !== lastDay) { html += `<li class="dayhdr">Day ${x.d.day} · ${esc(x.d.weekday)} ${esc(shortDate(x.d))} · ${esc(x.d.city)}</li>`; lastDay = x.d.day; }
+      html += shopRowHtml(x.d, x.sh, x.j, false);
+    }
+    return `<details class="shopsec" open data-cats="${c}"><summary>${CAT_LABEL[c]} <span class="count">${rows.length}</span></summary><ul class="shoplist">${html}</ul></details>`;
+  }).join('');
+  $('#list').innerHTML = `
+    <section><div class="kicker">${all.length} places · whole trip</div><h2>Shopping</h2>
+    <div class="stay">Ceramics, prints, antiques, byobu screens and crafts along the route. Places to <b>see</b> show an eye, places to <b>buy</b> a bag.</div></section>
+    ${layersHtml(false)}
+    ${groups || '<p class="empty">No shopping stops in trip.json yet.</p>'}
+    <div class="foot"><p>Tap a place to open its day on the map. Places in several categories appear in each one.</p></div>`;
+  filterShopEls();
+  $('#list').scrollTop = 0;
 }
 
-function selectStop(i, fromMap){
-  if (activeIdx >= 0) { markers[activeIdx]?.getElement()?.querySelector('.pin')?.classList.remove('active'); document.getElementById('stop-'+activeIdx)?.classList.remove('active'); }
-  activeIdx = i;
-  const card = document.getElementById('stop-'+i);
-  card?.classList.add('active');
-  markers[i]?.getElement()?.querySelector('.pin')?.classList.add('active');
-  if (fromMap) card?.scrollIntoView({block:'nearest', behavior:'smooth'});
-  else if (markers[i]) {
-    const ll = markers[i].getLatLng();
-    map.setView(ll, Math.max(map.getZoom(), 15), {animate:true});
-    setTimeout(()=>markers[i].openPopup(), 260);
+function show(v){
+  view = v;
+  if (v === 'overview') renderOverview(); else if (v === 'shopping') renderShopping(); else renderDay(trip.find(d=>d.day===v));
+  markChip();
+  if (typeof v === 'number') store.set('lastDay', String(v));
+  const h = typeof v === 'number' ? `#day-${v}` : `#${v}`;
+  if (location.hash !== h) history.replaceState(null, '', h);
+  document.title = v==='overview' ? 'Japan 2026 · Overview' : v==='shopping' ? 'Japan 2026 · Shopping' : `Japan 2026 · Day ${v}`;
+}
+
+/* Highlight a marker + its list element. From the list: fly the map there and open the popup. */
+function activate(mk, el, fromMap){
+  const prev = activeMk;
+  activeEl?.classList.remove('active');
+  activeMk = mk || null; activeEl = el || null;
+  prev?.getElement()?.querySelector('.pin')?.classList.remove('active');
+  activeEl?.classList.add('active');
+  if (!mk) return;
+  if (!markerLayer.hasLayer(mk)) { mk._vis = true; markerLayer.addLayer(mk); declutter(); }   // hidden by a toggle or inside a bubble: show it anyway
+  mk.getElement()?.querySelector('.pin')?.classList.add('active');
+  if (fromMap) activeEl?.scrollIntoView({block:'nearest', behavior:'smooth'});
+  else {
+    const small = !markers.includes(mk);
+    map.setView(mk.getLatLng(), Math.max(map.getZoom(), small ? 16 : 15), {animate:true});
+    setTimeout(()=>{ mk.openPopup(); mk.getElement()?.querySelector('.pin')?.classList.add('active'); }, 300);
   }
+}
+function selectStop(i, fromMap){ activate(markers[i], document.getElementById('stop-'+i), fromMap); }
+function goShop(day, j){
+  if (view !== day) show(day);
+  const e = extras.find(x => x.kind === 'shop' && x.j === j); if (!e) return;
+  const el = extraEl(e) || document.querySelector(`#shopToday .shoprow[data-j="${j}"]`);
+  el?.scrollIntoView({block:'nearest'});
+  activate(e.mk, el, false);
 }
 
 /* ---------- live walking geometry for legs not in routes.json ---------- */
@@ -580,18 +821,36 @@ new ResizeObserver(()=>map.invalidateSize()).observe($('#map'));
 /* ---------- list + chip interactions ---------- */
 $('#chips').addEventListener('click', e=>{
   const c = e.target.closest('.chip'); if (!c) return;
-  show(c.dataset.v === 'overview' ? 'overview' : +c.dataset.v);
+  show(/^\d+$/.test(c.dataset.v) ? +c.dataset.v : c.dataset.v);
 });
 $('#list').addEventListener('click', e=>{
   const cp = e.target.closest('[data-copy]'); if (cp) { e.preventDefault(); copy(cp.dataset.copy); return; }
   if (e.target.closest('#btnOffline')) { openOffline(); return; }
   const nn = e.target.closest('.nownext [data-i]'); if (nn) { selectStop(+nn.dataset.i, false); return; }
+  const lt = e.target.closest('[data-layer]');
+  if (lt) { const k = lt.dataset.layer; layers[k] = !layers[k]; lt.setAttribute('aria-pressed', layers[k]); store.set('layers', JSON.stringify(layers));
+    if (k === 'shop') { const cr = document.querySelector('.layers .cats'); if (cr) cr.hidden = !layers.shop; }
+    map.closePopup(); applyLayers(); return; }
+  const cc = e.target.closest('[data-cat]');
+  if (cc) { const c = cc.dataset.cat; catOn.has(c) ? catOn.delete(c) : catOn.add(c); cc.setAttribute('aria-pressed', catOn.has(c));
+    store.set('shopCats', JSON.stringify([...catOn])); map.closePopup(); applyLayers(); filterShopEls(); return; }
+  const nb = e.target.closest('.near');
+  if (nb) { const ex = extras.find(x => x.kind === nb.dataset.kind && x.j === +nb.dataset.j); if (ex) activate(ex.mk, nb, false); return; }
+  const sr = e.target.closest('.shoprow');
+  if (sr) { const day = +sr.dataset.day, j = +sr.dataset.j;
+    if (view === day) { const ex = extras.find(x => x.kind === 'shop' && x.j === j); if (ex) activate(ex.mk, sr, false); } else goShop(day, j);
+    return; }
   if (e.target.closest('a,button')) return;
   const card = e.target.closest('.stop'); if (card) selectStop(+card.dataset.i, false);
+});
+document.addEventListener('click', e=>{   // "Open day N" inside a trip-wide shopping popup
+  const g = e.target.closest('[data-goshop]'); if (!g) return;
+  const [day, j] = g.dataset.goshop.split(':').map(Number); map.closePopup(); goShop(day, j);
 });
 window.addEventListener('hashchange', ()=>{ const v = fromHash(); if (v !== null && v !== view) show(v); });
 function fromHash(){
   if (location.hash === '#overview') return 'overview';
+  if (location.hash === '#shopping') return 'shopping';
   const m = location.hash.match(/^#day-(\d+)$/); const n = m && +m[1];
   return n && trip.some(d=>d.day===n) ? n : null;
 }
@@ -608,6 +867,7 @@ const RADII = {14:1.0, 13:2.2, 12:4.5, 11:8};   // vector tiles stop at z14 and 
 function dayTiles(d, set=new Set()){
   const st = d.stops;
   for (const s of st) for (const z in RADII) addAround(set, s.lat, s.lng, RADII[z], +z);
+  for (const x of [...(d.quickStops || []), ...(d.shopStops || [])]) { addAround(set, x.lat, x.lng, .6, 14); addAround(set, x.lat, x.lng, 1.5, 13); }
   st.forEach((s,i)=>{ // walking routes: tiles along the path
     if (!i || s.arriveBy!=='walk') return;
     const g = walkGeom(st[i-1], s) || [[st[i-1].lat,st[i-1].lng],[s.lat,s.lng]];

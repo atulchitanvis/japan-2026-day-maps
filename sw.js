@@ -1,7 +1,7 @@
 /* Japan 2026 Day Maps service worker
    - App shell + trip data: served from cache instantly, refreshed in the background.
    - Map tiles: cache-first (saved as you browse, or via "Offline maps"). */
-const VERSION = 'v2';
+const VERSION = 'v3';
 const SHELL = 'shell-' + VERSION;
 const TILES = 'ofm-v1'; // keep across app updates so saved maps survive
 const LEAFLET = [

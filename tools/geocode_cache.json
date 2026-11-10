@@ -4875,5 +4875,2403 @@
 "139.7650859"
 ]
 }
+],
+"わなか 道頓堀": [],
+"たこ焼道楽 わなか": [],
+"Takoyaki Wanaka Dotonbori Osaka, Japan": [],
+"Takoyaki Wanaka Dotonbori Osaka": [],
+"りくろーおじさんの店 なんば本店": [],
+"りくろーおじさんの店": [
+{
+"place_id": 268711164,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 12346232214,
+"lat": "34.6324091",
+"lon": "135.6056403",
+"category": "shop",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 5.993209735251419e-05,
+"addresstype": "shop",
+"name": "りくろーおじさんの店",
+"display_name": "りくろーおじさんの店, (旧)大阪中央環状線, Yamashirocho 2-chome, Yao, Osaka Prefecture, 581-0802, Japan",
+"boundingbox": [
+"34.6323591",
+"34.6324591",
+"135.6055903",
+"135.6056903"
+]
+},
+{
+"place_id": 268365460,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1138531684,
+"lat": "34.8564069",
+"lon": "135.5209011",
+"category": "shop",
+"type": "pastry",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "shop",
+"name": "りくろーおじさんの店",
+"display_name": "りくろーおじさんの店, Ibaraki Settsu Line, Saito-Yamabuki 1-chome, Ibaraki, Osaka Prefecture, 567-0086, Japan",
+"boundingbox": [
+"34.8562960",
+"34.8565166",
+"135.5207287",
+"135.5210845"
+]
+},
+{
+"place_id": 268466467,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 13067941048,
+"lat": "34.7343039",
+"lon": "135.5019561",
+"category": "shop",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "shop",
+"name": "りくろーおじさんの店",
+"display_name": "りくろーおじさんの店, 新大阪地下道, Miyahara 1-chōme, Yodogawa Ward, Osaka, Osaka Prefecture, 533-0033, Japan",
+"boundingbox": [
+"34.7342539",
+"34.7343539",
+"135.5019061",
+"135.5020061"
+]
+},
+{
+"place_id": 268531355,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 13388081323,
+"lat": "34.7338332",
+"lon": "135.5012009",
+"category": "shop",
+"type": "pastry",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "shop",
+"name": "りくろーおじさんの店",
+"display_name": "りくろーおじさんの店, 新大阪地下道, Miyahara 1-chōme, Yodogawa Ward, Osaka, Osaka Prefecture, 533-0033, Japan",
+"boundingbox": [
+"34.7337832",
+"34.7338832",
+"135.5011509",
+"135.5012509"
+]
+},
+{
+"place_id": 268116945,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 13030991950,
+"lat": "34.7328986",
+"lon": "135.4983116",
+"category": "shop",
+"type": "bakery",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "shop",
+"name": "りくろーおじさんの店",
+"display_name": "りくろーおじさんの店, Shin Midou Suji Street, Nishinakajima 5-chōme, Yodogawa Ward, Osaka, Osaka Prefecture, 532-0003, Japan",
+"boundingbox": [
+"34.7328486",
+"34.7329486",
+"135.4982616",
+"135.4983616"
+]
+}
+],
+"Rikuro Ojisan Namba Honten Osaka, Japan": [],
+"Rikuro Ojisan Namba Honten Osaka": [],
+"Rikuro's Cheesecake, Osaka": [],
+"おにぎりごりちゃん": [
+{
+"place_id": 268762754,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 12519711840,
+"lat": "33.5859801",
+"lon": "130.4043464",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 7.194552529178329e-05,
+"addresstype": "amenity",
+"name": "おにぎりごりちゃん",
+"display_name": "おにぎりごりちゃん, 渡辺通１６００号線, Watanabedori 4-chome, Nishinakasu, Chūō Ward, Fukuoka, Fukuoka Prefecture, 810-0004, Japan",
+"boundingbox": [
+"33.5859301",
+"33.5860301",
+"130.4042964",
+"130.4043964"
+]
+},
+{
+"place_id": 431067121,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 14292042967,
+"lat": "34.7071340",
+"lon": "135.5058324",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 6.113450827797387e-05,
+"addresstype": "amenity",
+"name": "Onigiri Gorichan",
+"display_name": "Onigiri Gorichan, Miyakojima Dōri Street, Nakazaki-nishi 1-chōme, Kita Ward, Osaka, Osaka Prefecture, 530-0016, Japan",
+"boundingbox": [
+"34.7070840",
+"34.7071840",
+"135.5057824",
+"135.5058824"
+]
+}
+],
+"Minoh Falls momiji tempura, Japan": [],
+"Minoh Falls momiji tempura": [],
+"Momiji tempura stalls, Osaka": [],
+"Derailleur Brew Works": [
+{
+"place_id": 267654212,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 11295399424,
+"lat": "34.8354011",
+"lon": "135.4683613",
+"category": "amenity",
+"type": "pub",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "amenity",
+"name": "Derailleur Brew Works 山ノ麓TAP ROOM",
+"display_name": "Derailleur Brew Works 山ノ麓TAP ROOM, Minoh Takimichi, Minoo 1-chome, Minoh, Osaka Prefecture, 562-0002, Japan",
+"boundingbox": [
+"34.8353511",
+"34.8354511",
+"135.4683113",
+"135.4684113"
+]
+}
+],
+"わなか 大阪城": [
+{
+"place_id": 268562945,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 7430229776,
+"lat": "34.6887033",
+"lon": "135.5330702",
+"category": "amenity",
+"type": "fast_food",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "amenity",
+"name": "Takoyaki doraku Wanaka",
+"display_name": "Takoyaki doraku Wanaka, 大阪城公園駅歩道橋, Osakajo, Chūō Ward, Osaka, Osaka Prefecture, 540-8510, Japan",
+"boundingbox": [
+"34.6886533",
+"34.6887533",
+"135.5330202",
+"135.5331202"
+]
+}
+],
+"グルニエ 梅田": [],
+"Grenier": [
+{
+"place_id": 265577560,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 3120401052,
+"lat": "35.6856183",
+"lon": "139.7417545",
+"category": "shop",
+"type": "bakery",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "Le Grenier a Pain",
+"display_name": "Le Grenier a Pain, Nagai zaka, Kojimachi 1, Kōjimachi, Chiyoda, Tokyo, 102-0083, Japan",
+"boundingbox": [
+"35.6855683",
+"35.6856683",
+"139.7417045",
+"139.7418045"
+]
+},
+{
+"place_id": 263547644,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 4691854993,
+"lat": "35.0057281",
+"lon": "135.7633078",
+"category": "shop",
+"type": "bakery",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "shop",
+"name": "Salon de the au Grenier d'Or",
+"display_name": "Salon de the au Grenier d'Or, Sakaimachi Street, Kikuyacho, Nakagyo Ward, Kyoto, Kyoto Prefecture, 604-8117, Japan",
+"boundingbox": [
+"35.0056781",
+"35.0057781",
+"135.7632578",
+"135.7633578"
+]
+},
+{
+"place_id": 268073609,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 6778942057,
+"lat": "34.7215457",
+"lon": "135.2323513",
+"category": "shop",
+"type": "clothes",
+"place_rank": 30,
+"importance": 7.270542458223877e-05,
+"addresstype": "shop",
+"name": "Le grenier de campagne",
+"display_name": "Le grenier de campagne, 将軍通線, Shinohara-honmachi 1-chome, Nada Ward, Kobe, Hyogo Prefecture, 657-0066, Japan",
+"boundingbox": [
+"34.7214957",
+"34.7215957",
+"135.2323013",
+"135.2324013"
+]
+},
+{
+"place_id": 262065884,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1075323312,
+"lat": "39.3165398",
+"lon": "140.5530428",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 5.574654764625036e-05,
+"addresstype": "amenity",
+"name": "Le grenier",
+"display_name": "Le grenier, Yokote-Ōmori-Ōuchi Line, 3-chome, Jori, Yokote, Akita Prefecture, 013-0060, Japan",
+"boundingbox": [
+"39.3164764",
+"39.3166032",
+"140.5529421",
+"140.5531436"
+]
+},
+{
+"place_id": 266846002,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 368703911,
+"lat": "35.0144256",
+"lon": "135.7504743",
+"category": "building",
+"type": "warehouse",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "building",
+"name": "Rice Granary",
+"display_name": "Rice Granary, Horikawa Street, Ikemotocho, Nakagyo Ward, Kyoto, Kyoto Prefecture, 604-8301, Japan",
+"boundingbox": [
+"35.0143761",
+"35.0144791",
+"135.7502149",
+"135.7507347"
+]
+}
+],
+"Grenier Umeda Osaka, Japan": [],
+"Grenier Umeda Osaka": [],
+"味乃家 本店": [
+{
+"place_id": 265108495,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 750632828,
+"lat": "35.4469473",
+"lon": "133.0564960",
+"category": "shop",
+"type": "butcher",
+"place_rank": 30,
+"importance": 6.155718318451235e-05,
+"addresstype": "shop",
+"name": "宮本食肉店",
+"display_name": "宮本食肉店, 宇賀橋, Hamanogi 2-chome, Matsuocho, Matsue, Shimane Prefecture, 690-0049, Japan",
+"boundingbox": [
+"35.4468735",
+"35.4470204",
+"133.0563581",
+"133.0566254"
+]
+},
+{
+"place_id": 263158374,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 11038361920,
+"lat": "35.6023190",
+"lon": "139.5815810",
+"category": "amenity",
+"type": "bicycle_rental",
+"place_rank": 30,
+"importance": 6.791561760886576e-05,
+"addresstype": "amenity",
+"name": "Seven-Eleven",
+"display_name": "Seven-Eleven, Tomei Expressway, Shiboku-honcho 2-chome, Shiboku-honcho, Miyamae Ward, Kawasaki, Kanagawa Prefecture, 216-0031, Japan",
+"boundingbox": [
+"35.6022690",
+"35.6023690",
+"139.5815310",
+"139.5816310"
+]
+}
+],
+"味乃家": [
+{
+"place_id": 268542071,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2345130990,
+"lat": "34.6680810",
+"lon": "135.5010290",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "amenity",
+"name": "味乃家",
+"display_name": "味乃家, Hozenji Koisan Dori, Dotonbori 1, Chūō Ward, Osaka, Osaka Prefecture, 542-0076, Japan",
+"boundingbox": [
+"34.6680310",
+"34.6681310",
+"135.5009790",
+"135.5010790"
+]
+}
+],
+"北極星 心斎橋本店": [
+{
+"place_id": 268848417,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5217319625,
+"lat": "34.6696265",
+"lon": "135.4987392",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "amenity",
+"name": "Hokkyokusei - Shinsaibashi",
+"display_name": "Hokkyokusei - Shinsaibashi, 新屋敷筋, Nishi-Shinsaibashi 2, Chūō Ward, Osaka, Osaka Prefecture, 542-0086, Japan",
+"boundingbox": [
+"34.6695765",
+"34.6696765",
+"135.4986892",
+"135.4987892"
+]
+}
+],
+"ムーケン": [],
+"MooKEN": [
+{
+"place_id": 268237563,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5168778146,
+"lat": "34.6516729",
+"lon": "135.5407330",
+"category": "shop",
+"type": "pastry",
+"place_rank": 30,
+"importance": 5.728618295562703e-05,
+"addresstype": "shop",
+"name": "MooKEN",
+"display_name": "MooKEN, Imazato Suji Street, Tajima 1-chōme, Ikuno Ward, Osaka, Osaka Prefecture, 544-0022, Japan",
+"boundingbox": [
+"34.6516229",
+"34.6517229",
+"135.5406830",
+"135.5407830"
+]
+}
+],
+"MooKEN Shinsaibashi Osaka, Japan": [],
+"MooKEN Shinsaibashi Osaka": [],
+"TOFU SORANO": [
+{
+"place_id": 265066887,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5141366422,
+"lat": "35.6547489",
+"lon": "139.7038811",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "Tofu Cuisine Sorano",
+"display_name": "Tofu Cuisine Sorano, 17, Sakuragaokacho, Shibuya, Tokyo, 150-0031, Japan",
+"boundingbox": [
+"35.6546989",
+"35.6547989",
+"139.7038311",
+"139.7039311"
+]
+}
+],
+"空野": [
+{
+"place_id": 262105490,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5141366422,
+"lat": "35.6547489",
+"lon": "139.7038811",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "Tofu Cuisine Sorano",
+"display_name": "Tofu Cuisine Sorano, 17, Sakuragaokacho, Shibuya, Tokyo, 150-0031, Japan",
+"boundingbox": [
+"35.6546989",
+"35.6547989",
+"139.7038311",
+"139.7039311"
+]
+}
+],
+"Tofu Sorano Minami Senba Osaka, Japan": [],
+"Tofu Sorano Minami Senba Osaka": [],
+"Rikuro's Cheesecake, Ise": [],
+"嵐山よしむら": [
+{
+"place_id": 263527357,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 4485057490,
+"lat": "35.0142595",
+"lon": "135.6759774",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "amenity",
+"name": "岚山Yoshimura",
+"display_name": "岚山Yoshimura, Nijo Station Arashiyama Line, Saga Nakanoshima-chō, Ukyō Ward, Kyoto, Kyoto Prefecture, 616-0000, Japan",
+"boundingbox": [
+"35.0142095",
+"35.0143095",
+"135.6759274",
+"135.6760274"
+]
+}
+],
+"稲荷ふたば": [],
+"Inari Futaba Fushimi, Japan": [
+{
+"place_id": 277827406,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 305218191,
+"lat": "34.9684269",
+"lon": "135.7708201",
+"category": "craft",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "craft",
+"name": "いなり　ふたば",
+"display_name": "いなり　ふたば, Hommachi street, Honmachi 20-chome, 東九条東松ノ木町, Fushimi Ward, Kyoto, Kyoto Prefecture, 612-0007, Japan",
+"boundingbox": [
+"34.9684018",
+"34.9684520",
+"135.7707453",
+"135.7708949"
+]
+}
+],
+"ICHiMARU5": [
+{
+"place_id": 426480209,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 14110570448,
+"lat": "34.9951471",
+"lon": "135.7791358",
+"category": "amenity",
+"type": "fast_food",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "amenity",
+"name": "Ichimaru5",
+"display_name": "Ichimaru5, Chawan-zaka, Shiraitocho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0862, Japan",
+"boundingbox": [
+"34.9950971",
+"34.9951971",
+"135.7790858",
+"135.7791858"
+]
+}
+],
+"かさぎ屋": [
+{
+"place_id": 268495083,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 694982605,
+"lat": "34.1441480",
+"lon": "134.5043485",
+"category": "waterway",
+"type": "stream",
+"place_rank": 22,
+"importance": 0.106715374227512,
+"addresstype": "stream",
+"name": "鍛冶屋川",
+"display_name": "鍛冶屋川, Otoze, Naruto, Itano County, Tokushima Prefecture, 779-0233, Japan",
+"boundingbox": [
+"34.1417672",
+"34.1461184",
+"134.5028558",
+"134.5050854"
+]
+},
+{
+"place_id": 263420700,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 4015673489,
+"lat": "36.7803431",
+"lon": "137.3660245",
+"category": "railway",
+"type": "crossing",
+"place_rank": 30,
+"importance": 5.111390859841333e-05,
+"addresstype": "railway",
+"name": "第1四ツ屋踏切",
+"display_name": "第1四ツ屋踏切, 富山魚津線, Hamayotsuya, Namerikawa, Toyama Prefecture, 936-0021, Japan",
+"boundingbox": [
+"36.7802931",
+"36.7803931",
+"137.3659745",
+"137.3660745"
+]
+},
+{
+"place_id": 269258044,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1037276538,
+"lat": "34.7555311",
+"lon": "135.9273324",
+"category": "tourism",
+"type": "museum",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "tourism",
+"name": "こうもり博物館",
+"display_name": "こうもり博物館, Nara Kasagi Line, Kasagi, Nara, Soraku County, Nara Prefecture, 619-1303, Japan",
+"boundingbox": [
+"34.7554662",
+"34.7555960",
+"135.9272666",
+"135.9273982"
+]
+},
+{
+"place_id": 267814771,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 6342820513,
+"lat": "34.7573723",
+"lon": "135.9364263",
+"category": "shop",
+"type": "clothes",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "shop",
+"name": "久保田呉服店",
+"display_name": "久保田呉服店, Nara Kasagi Line, Kasagi, Soraku County, Kyoto Prefecture, 619-1399, Japan",
+"boundingbox": [
+"34.7573223",
+"34.7574223",
+"135.9363763",
+"135.9364763"
+]
+},
+{
+"place_id": 267199763,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 9961088735,
+"lat": "34.2857220",
+"lon": "135.8315665",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "amenity",
+"name": "黒滝茶屋",
+"display_name": "黒滝茶屋, National Highway Route 309, Kasagi, Kurotaki, Yoshino County, Nara Prefecture, 638-0299, Japan",
+"boundingbox": [
+"34.2856720",
+"34.2857720",
+"135.8315165",
+"135.8316165"
+]
+}
+],
+"Kasagiya Kyoto, Japan": [],
+"Kasagiya Kyoto": [],
+"ふじ波": [
+{
+"place_id": 267187316,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1852017245,
+"lat": "35.3711876",
+"lon": "133.5431666",
+"category": "natural",
+"type": "peak",
+"place_rank": 18,
+"importance": 0.4412852060218995,
+"addresstype": "peak",
+"name": "Daisen",
+"display_name": "Daisen, Saihaku County, Tottori Prefecture, 689-3211, Japan",
+"boundingbox": [
+"35.3711376",
+"35.3712376",
+"133.5431166",
+"133.5432166"
+]
+}
+],
+"藤菜美": [
+{
+"place_id": 264832665,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 10833404254,
+"lat": "35.3976177",
+"lon": "139.3131959",
+"category": "amenity",
+"type": "pub",
+"place_rank": 30,
+"importance": 5.508583199812341e-05,
+"addresstype": "amenity",
+"name": "美酒美菜 天天てんてん",
+"display_name": "美酒美菜 天天てんてん, 伊勢原藤沢線, Isehara 1-chome, Isehara, Kanagawa Prefecture, 259-1132, Japan",
+"boundingbox": [
+"35.3975677",
+"35.3976677",
+"139.3131459",
+"139.3132459"
+]
+},
+{
+"place_id": 265400369,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1035767114,
+"lat": "35.7957454",
+"lon": "139.3054425",
+"category": "landuse",
+"type": "industrial",
+"place_rank": 24,
+"importance": 0.08008593499656669,
+"addresstype": "industrial",
+"name": "東京電力パワーグリッド 藤橋資材置場",
+"display_name": "東京電力パワーグリッド 藤橋資材置場, 3, Fujihashi, Ōme, Tokyo, 198-0022, Japan",
+"boundingbox": [
+"35.7954862",
+"35.7960084",
+"139.3050063",
+"139.3058467"
+]
+},
+{
+"place_id": 266604354,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1090219094,
+"lat": "35.4817275",
+"lon": "133.0485166",
+"category": "shop",
+"type": "trade",
+"place_rank": 30,
+"importance": 6.155718318451235e-05,
+"addresstype": "shop",
+"name": "藤田新建材",
+"display_name": "藤田新建材, Matsue-Kashima-Mihonoseki Line, Kurodacho, Matsue, Shimane Prefecture, 690-0877, Japan",
+"boundingbox": [
+"35.4816699",
+"35.4818019",
+"133.0483506",
+"133.0486869"
+]
+},
+{
+"place_id": 266745169,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 640204850,
+"lat": "35.4763230",
+"lon": "133.0539222",
+"category": "craft",
+"type": "stonemason",
+"place_rank": 30,
+"importance": 6.155718318451235e-05,
+"addresstype": "craft",
+"name": "藤井石材店",
+"display_name": "藤井石材店, Matsue-Kashima-Mihonoseki Line, Kitahoricho, Matsue, Shimane Prefecture, 690-0872, Japan",
+"boundingbox": [
+"35.4762498",
+"35.4764092",
+"133.0538622",
+"133.0539824"
+]
+},
+{
+"place_id": 261396170,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 8329300717,
+"lat": "38.5632219",
+"lon": "140.8679765",
+"category": "office",
+"type": "company",
+"place_rank": 30,
+"importance": 5.003204394593755e-05,
+"addresstype": "office",
+"name": "遠藤石材",
+"display_name": "遠藤石材, national route 457, 字岡町, Kami, Kami County, Miyagi Prefecture, 981-4299, Japan",
+"boundingbox": [
+"38.5631719",
+"38.5632719",
+"140.8679265",
+"140.8680265"
+]
+}
+],
+"Fujinami Kodaiji Kyoto, Japan": [],
+"Fujinami Kodaiji Kyoto": [],
+"THISIS SHIZEN": [
+{
+"place_id": 264791989,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 10844279758,
+"lat": "35.0093167",
+"lon": "135.7599616",
+"category": "shop",
+"type": "garden_centre",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "shop",
+"name": "(thisis)shizen",
+"display_name": "(thisis)shizen, 586-2, Karasuma Street, Banocho, Nakagyo Ward, Kyoto, Kyoto Prefecture, 604-8161, Japan",
+"boundingbox": [
+"35.0092667",
+"35.0093667",
+"135.7599116",
+"135.7600116"
+]
+}
+],
+"MACCHA HOUSE 抹茶館": [
+{
+"place_id": 265112506,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 9966753374,
+"lat": "35.6706654",
+"lon": "139.7036102",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "MACCHA HOUSE 抹茶館",
+"display_name": "MACCHA HOUSE 抹茶館, Brahms Trail, Jingūmae 1, Jingumae, Shibuya, Tokyo, 150-0001, Japan",
+"boundingbox": [
+"35.6706154",
+"35.6707154",
+"139.7035602",
+"139.7036602"
+]
+}
+],
+"抹茶館": [
+{
+"place_id": 266821295,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 11148112705,
+"lat": "35.0044891",
+"lon": "135.7694787",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "amenity",
+"name": "Maccha House",
+"display_name": "Maccha House, 十軒町橋通, Kamiyacho, Nakagyo Ward, Kyoto, Kyoto Prefecture, 604-8505, Japan",
+"boundingbox": [
+"35.0044391",
+"35.0045391",
+"135.7694287",
+"135.7695287"
+]
+},
+{
+"place_id": 269178851,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 12328587351,
+"lat": "33.5885500",
+"lon": "130.4006335",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 7.194552529178329e-05,
+"addresstype": "amenity",
+"name": "Maccha House",
+"display_name": "Maccha House, Tenjin Underground Shopping Arcade, Tenjin 2-chome, Tenjin, Chūō Ward, Fukuoka, Fukuoka Prefecture, 810-0001, Japan",
+"boundingbox": [
+"33.5885000",
+"33.5886000",
+"130.4005835",
+"130.4006835"
+]
+}
+],
+"amam dacotan": [
+{
+"place_id": 267232064,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 13081811501,
+"lat": "35.6644947",
+"lon": "139.7110193",
+"category": "shop",
+"type": "bakery",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "AMAM DACOTAN 表参道店",
+"display_name": "AMAM DACOTAN 表参道店, Aoyama-dōri, Kita-Aoyama 3, Kita-Aoyama, Minato, Tokyo, 107-0061, Japan",
+"boundingbox": [
+"35.6644447",
+"35.6645447",
+"139.7109693",
+"139.7110693"
+]
+}
+],
+"アマムダコタン": [],
+"amam dacotan Kyoto, Japan": [],
+"amam dacotan Kyoto": [],
+"出町ふたば": [
+{
+"place_id": 263119079,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1423946858,
+"lat": "35.3101520",
+"lon": "136.7813570",
+"category": "amenity",
+"type": "kindergarten",
+"place_rank": 30,
+"importance": 6.027084763862085e-05,
+"addresstype": "amenity",
+"name": "ふたば保育園",
+"display_name": "ふたば保育園, ogaki-ichinnomiya line, 八幡五丁目, 西出町, Ichinomiya, Aichi Prefecture, 491-0931, Japan",
+"boundingbox": [
+"35.3101020",
+"35.3102020",
+"136.7813070",
+"136.7814070"
+]
+},
+{
+"place_id": 267516727,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 218004153,
+"lat": "34.9535379",
+"lon": "135.7007856",
+"category": "amenity",
+"type": "pharmacy",
+"place_rank": 30,
+"importance": 5.8209353780377163e-05,
+"addresstype": "amenity",
+"name": "ふたば 薬局",
+"display_name": "ふたば 薬局, Nishikyo Takatsuki Line, Nagata, Terado-cho, Muko, Kyoto Prefecture, 617-0001, Japan",
+"boundingbox": [
+"34.9534843",
+"34.9535914",
+"135.7007460",
+"135.7008251"
+]
+},
+{
+"place_id": 267059789,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1632521073,
+"lat": "35.3354950",
+"lon": "132.6828750",
+"category": "amenity",
+"type": "social_facility",
+"place_rank": 30,
+"importance": 5.750133516437045e-05,
+"addresstype": "amenity",
+"name": "ふたば園更生部",
+"display_name": "ふたば園更生部, National Highway Route 9, Jinzaiokicho, 湖陵町, Izumo, Shimane Prefecture, 699-0822, Japan",
+"boundingbox": [
+"35.3354450",
+"35.3355450",
+"132.6828250",
+"132.6829250"
+]
+},
+{
+"place_id": 267050195,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1632521072,
+"lat": "35.3354950",
+"lon": "132.6828750",
+"category": "amenity",
+"type": "social_facility",
+"place_rank": 30,
+"importance": 5.750133516437045e-05,
+"addresstype": "amenity",
+"name": "ふたば園",
+"display_name": "ふたば園, National Highway Route 9, Jinzaiokicho, 湖陵町, Izumo, Shimane Prefecture, 699-0822, Japan",
+"boundingbox": [
+"35.3354450",
+"35.3355450",
+"132.6828250",
+"132.6829250"
+]
+},
+{
+"place_id": 262448818,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1355297139,
+"lat": "35.9470631",
+"lon": "139.6420837",
+"category": "amenity",
+"type": "parking",
+"place_rank": 30,
+"importance": 6.889372091244399e-05,
+"addresstype": "amenity",
+"name": "ふたば保育園駐車場",
+"display_name": "ふたば保育園駐車場, 出戸橋通り, Higashiomiya 5-chome, Shimacho, Minuma Ward, Saitama, Saitama Prefecture, 337-0051, Japan",
+"boundingbox": [
+"35.9470149",
+"35.9471113",
+"139.6419589",
+"139.6422088"
+]
+}
+],
+"Demachi Futaba Kyoto, Japan": [
+{
+"place_id": 267778942,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 4374432589,
+"lat": "35.0301072",
+"lon": "135.7696274",
+"category": "shop",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "shop",
+"name": "Demachi Futaba",
+"display_name": "Demachi Futaba, Demachi Masugata Shopping Street, Nishincho, Kamigyō Ward, Kyoto, Kyoto Prefecture, 602-0823, Japan",
+"boundingbox": [
+"35.0300572",
+"35.0301572",
+"135.7695774",
+"135.7696774"
+]
+}
+],
+"清水坂": [
+{
+"place_id": 266732160,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1358555591,
+"lat": "35.1628026",
+"lon": "134.9506049",
+"category": "mountain_pass",
+"type": "yes",
+"place_rank": 20,
+"importance": 0.1333833348592355,
+"addresstype": "mountain_pass",
+"name": "清水坂",
+"display_name": "清水坂, Tamba, Hyogo Prefecture, 669-3622, Japan",
+"boundingbox": [
+"35.1627526",
+"35.1628526",
+"134.9505549",
+"134.9506549"
+]
+},
+{
+"place_id": 265380866,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1496917494,
+"lat": "35.7778349",
+"lon": "139.6924506",
+"category": "highway",
+"type": "unclassified",
+"place_rank": 26,
+"importance": 0.053419268329900016,
+"addresstype": "unclassified",
+"name": "清水坂",
+"display_name": "清水坂, Shimura 2, Shimura, Itabashi, Tokyo, 173-0000, Japan",
+"boundingbox": [
+"35.7771559",
+"35.7780079",
+"139.6917434",
+"139.6927987"
+]
+},
+{
+"place_id": 264516380,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 193799885,
+"lat": "35.4316685",
+"lon": "139.3929170",
+"category": "highway",
+"type": "unclassified",
+"place_rank": 26,
+"importance": 0.05337563973449298,
+"addresstype": "unclassified",
+"name": "清水坂",
+"display_name": "清水坂, Sugikubo-kita 1-chome, Sugikubo-Kita, Oya, Ebina, Kanagawa Prefecture, 243-0418, Japan",
+"boundingbox": [
+"35.4313364",
+"35.4317465",
+"139.3920007",
+"139.3937922"
+]
+},
+{
+"place_id": 264774763,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 217744240,
+"lat": "35.7124497",
+"lon": "139.7733821",
+"category": "highway",
+"type": "steps",
+"place_rank": 27,
+"importance": 0.04008593499656671,
+"addresstype": "road",
+"name": "清水坂",
+"display_name": "清水坂, Ueno Park, Taito, Tokyo, 110-0007, Japan",
+"boundingbox": [
+"35.7124488",
+"35.7124508",
+"139.7732823",
+"139.7734819"
+]
+},
+{
+"place_id": 264994414,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5023349490,
+"lat": "35.7032486",
+"lon": "139.7668701",
+"category": "historic",
+"type": "memorial",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "historic",
+"name": "清水坂",
+"display_name": "清水坂, Shimizu Slope, Yushima 2-chome, Yushima, Bunkyō, Tokyo, 113-0034, Japan",
+"boundingbox": [
+"35.7031986",
+"35.7032986",
+"139.7668201",
+"139.7669201"
+]
+}
+],
+"五条坂": [
+{
+"place_id": 267791405,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5589968421,
+"lat": "34.9944348",
+"lon": "135.7763256",
+"category": "tourism",
+"type": "attraction",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "tourism",
+"name": "五条坂",
+"display_name": "五条坂, Gojōzaka, Shiraitocho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0864, Japan",
+"boundingbox": [
+"34.9943848",
+"34.9944848",
+"135.7762756",
+"135.7763756"
+]
+},
+{
+"place_id": 267960539,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2503711865,
+"lat": "34.9942067",
+"lon": "135.7750337",
+"category": "highway",
+"type": "bus_stop",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "highway",
+"name": "五条坂",
+"display_name": "五条坂, Gojō Street, Yoshinocho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0878, Japan",
+"boundingbox": [
+"34.9941567",
+"34.9942567",
+"135.7749837",
+"135.7750837"
+]
+},
+{
+"place_id": 268030541,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 11810261517,
+"lat": "34.9965059",
+"lon": "135.7768225",
+"category": "highway",
+"type": "bus_stop",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "highway",
+"name": "五条坂(清水寺)",
+"display_name": "五条坂(清水寺), Higashioji Street, Bairincho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0864, Japan",
+"boundingbox": [
+"34.9964559",
+"34.9965559",
+"135.7767725",
+"135.7768725"
+]
+},
+{
+"place_id": 267779781,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 9379214715,
+"lat": "34.9937546",
+"lon": "135.7765550",
+"category": "highway",
+"type": "bus_stop",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "highway",
+"name": "五条坂",
+"display_name": "五条坂, Gojō Street, Higashiotowacho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0873, Japan",
+"boundingbox": [
+"34.9937046",
+"34.9938046",
+"135.7765050",
+"135.7766050"
+]
+},
+{
+"place_id": 267785994,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 409367262,
+"lat": "34.9957131",
+"lon": "135.7793069",
+"category": "highway",
+"type": "unclassified",
+"place_rank": 26,
+"importance": 0.2763378134411431,
+"addresstype": "unclassified",
+"name": "Gojōzaka",
+"display_name": "Gojōzaka, Shiraitocho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0862, Japan",
+"boundingbox": [
+"34.9952404",
+"34.9961421",
+"135.7781095",
+"135.7805217"
+]
+}
+],
+"一保堂茶舗": [
+{
+"place_id": 264790415,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5713785721,
+"lat": "35.0031670",
+"lon": "135.7680887",
+"category": "amenity",
+"type": "fast_food",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "amenity",
+"name": "一保堂茶舗",
+"display_name": "一保堂茶舗, Shijo Street, Otabimiyamotocho, Shimogyo Ward, Kyoto, Kyoto Prefecture, 600-8001, Japan",
+"boundingbox": [
+"35.0031170",
+"35.0032170",
+"135.7680387",
+"135.7681387"
+]
+},
+{
+"place_id": 267532680,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 13075419454,
+"lat": "34.6646755",
+"lon": "133.9195774",
+"category": "shop",
+"type": "tea",
+"place_rank": 30,
+"importance": 6.577935454332826e-05,
+"addresstype": "shop",
+"name": "一保堂茶舗",
+"display_name": "一保堂茶舗, オペラ通り, Hommachi, Iwatacho, North Ward, Okayama, Okayama Prefecture, 700-0901, Japan",
+"boundingbox": [
+"34.6646255",
+"34.6647255",
+"133.9195274",
+"133.9196274"
+]
+}
+],
+"新門前通": [
+{
+"place_id": 267134053,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 28368657,
+"lat": "35.0062042",
+"lon": "135.7762872",
+"category": "highway",
+"type": "residential",
+"place_rank": 26,
+"importance": 0.05340864805065992,
+"addresstype": "residential",
+"name": "Shinmonzen-dori",
+"display_name": "Shinmonzen-dori, Nakanocho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0062, Japan",
+"boundingbox": [
+"35.0060886",
+"35.0063092",
+"135.7748393",
+"135.7777344"
+]
+},
+{
+"place_id": 266746304,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 190891727,
+"lat": "35.0064367",
+"lon": "135.7738087",
+"category": "highway",
+"type": "residential",
+"place_rank": 26,
+"importance": 0.05340864805065992,
+"addresstype": "residential",
+"name": "Shinmonzen-dori",
+"display_name": "Shinmonzen-dori, Benzaitencho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0084, Japan",
+"boundingbox": [
+"35.0063173",
+"35.0065140",
+"135.7728329",
+"135.7747314"
+]
+},
+{
+"place_id": 265018514,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 190891721,
+"lat": "35.0063133",
+"lon": "135.7747854",
+"category": "highway",
+"type": "residential",
+"place_rank": 26,
+"importance": 0.05340864805065992,
+"addresstype": "residential",
+"name": "Shinmonzen-dori",
+"display_name": "Shinmonzen-dori, Nakanocho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0082, Japan",
+"boundingbox": [
+"35.0063092",
+"35.0063173",
+"135.7747314",
+"135.7748393"
+]
+}
+],
+"古門前通": [
+{
+"place_id": 266290934,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 228663037,
+"lat": "35.0069628",
+"lon": "135.7753355",
+"category": "highway",
+"type": "residential",
+"place_rank": 26,
+"importance": 0.05340864805065992,
+"addresstype": "residential",
+"name": "Furumonzen-dori",
+"display_name": "Furumonzen-dori, Ishibashicho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0081, Japan",
+"boundingbox": [
+"35.0068223",
+"35.0071601",
+"135.7727810",
+"135.7778132"
+]
+},
+{
+"place_id": 266389815,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 28402281,
+"lat": "35.0068042",
+"lon": "135.7779863",
+"category": "highway",
+"type": "tertiary",
+"place_rank": 26,
+"importance": 0.05340864805065992,
+"addresstype": "tertiary",
+"name": "Furumonzen-dori",
+"display_name": "Furumonzen-dori, Ishibashicho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0066, Japan",
+"boundingbox": [
+"35.0067860",
+"35.0068223",
+"135.7778132",
+"135.7781594"
+]
+}
+],
+"建仁寺": [
+{
+"place_id": 266681527,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 760889100,
+"lat": "35.0002572",
+"lon": "135.7737408",
+"category": "amenity",
+"type": "place_of_worship",
+"place_rank": 30,
+"importance": 0.41523351747267634,
+"addresstype": "amenity",
+"name": "Kennin-ji",
+"display_name": "Kennin-ji, こもれ火小路, Atarashicho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0813, Japan",
+"boundingbox": [
+"34.9987586",
+"35.0015978",
+"135.7725816",
+"135.7766229"
+]
+},
+{
+"place_id": 266649691,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 7997414034,
+"lat": "35.0009941",
+"lon": "135.7726186",
+"category": "historic",
+"type": "memorial",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "historic",
+"name": "建仁寺",
+"display_name": "建仁寺, Yamato-ohji, Hakatacho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0805, Japan",
+"boundingbox": [
+"35.0009441",
+"35.0010441",
+"135.7725686",
+"135.7726686"
+]
+},
+{
+"place_id": 266273876,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 7108605498,
+"lat": "35.0010473",
+"lon": "135.7726287",
+"category": "information",
+"type": "board",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "information",
+"name": "建仁寺",
+"display_name": "建仁寺, Yamato-ohji, Hakatacho, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0805, Japan",
+"boundingbox": [
+"35.0009973",
+"35.0010973",
+"135.7725787",
+"135.7726787"
+]
+}
+],
+"かっぺ 馬籠": [
+{
+"place_id": 268397766,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 7932629185,
+"lat": "35.5277755",
+"lon": "137.5688744",
+"category": "shop",
+"type": "copyshop",
+"place_rank": 30,
+"importance": 5.6289768825772756e-05,
+"addresstype": "shop",
+"name": "CafeKappe かっぺ",
+"display_name": "CafeKappe かっぺ, 中津川南木曽線, Magome, Nakatsugawa, Gifu Prefecture, 508-0502, Japan",
+"boundingbox": [
+"35.5277255",
+"35.5278255",
+"137.5688244",
+"137.5689244"
+]
+}
+],
+"澤田屋": [
+{
+"place_id": 261755277,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 6398815684,
+"lat": "37.2218841",
+"lon": "138.6378632",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 5.806286717016888e-05,
+"addresstype": "amenity",
+"name": "澤田屋",
+"display_name": "澤田屋, 1878, 高柳町岡野町, Kashiwazaki, Niigata Prefecture, 945-1502, Japan",
+"boundingbox": [
+"37.2218341",
+"37.2219341",
+"138.6378132",
+"138.6379132"
+]
+},
+{
+"place_id": 266289610,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1053593261,
+"lat": "35.1524465",
+"lon": "137.5380348",
+"category": "shop",
+"type": "convenience",
+"place_rank": 30,
+"importance": 5.191805905236923e-05,
+"addresstype": "shop",
+"name": "澤田屋",
+"display_name": "澤田屋, National Highway Route 257, Shitara, Kitashitara County, Aichi Prefecture, 441-2432, Japan",
+"boundingbox": [
+"35.1523965",
+"35.1524965",
+"137.5379848",
+"137.5380848"
+]
+},
+{
+"place_id": 264608147,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 651625109,
+"lat": "37.8332808",
+"lon": "140.4517734",
+"category": "craft",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "craft",
+"name": "澤田屋",
+"display_name": "澤田屋, 穴原十綱線, 山岸, Iizakamachi, Fukushima, Fukushima Prefecture, 960-0299, Japan",
+"boundingbox": [
+"37.8331932",
+"37.8333396",
+"140.4517420",
+"140.4518279"
+]
+},
+{
+"place_id": 265503213,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2915495813,
+"lat": "35.6922181",
+"lon": "139.5693200",
+"category": "amenity",
+"type": "fast_food",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "沢田屋",
+"display_name": "沢田屋, Kichijōji Street, Shimo Renjaku 1, Shimo Renjaku, Mitaka, Tokyo, 181-8555, Japan",
+"boundingbox": [
+"35.6921681",
+"35.6922681",
+"139.5692700",
+"139.5693700"
+]
+}
+],
+"沢田屋": [
+{
+"place_id": 265503213,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2915495813,
+"lat": "35.6922181",
+"lon": "139.5693200",
+"category": "amenity",
+"type": "fast_food",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "沢田屋",
+"display_name": "沢田屋, Kichijōji Street, Shimo Renjaku 1, Shimo Renjaku, Mitaka, Tokyo, 181-8555, Japan",
+"boundingbox": [
+"35.6921681",
+"35.6922681",
+"139.5692700",
+"139.5693700"
+]
+},
+{
+"place_id": 261755277,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 6398815684,
+"lat": "37.2218841",
+"lon": "138.6378632",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 5.806286717016888e-05,
+"addresstype": "amenity",
+"name": "澤田屋",
+"display_name": "澤田屋, 1878, 高柳町岡野町, Kashiwazaki, Niigata Prefecture, 945-1502, Japan",
+"boundingbox": [
+"37.2218341",
+"37.2219341",
+"138.6378132",
+"138.6379132"
+]
+},
+{
+"place_id": 266289610,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1053593261,
+"lat": "35.1524465",
+"lon": "137.5380348",
+"category": "shop",
+"type": "convenience",
+"place_rank": 30,
+"importance": 5.191805905236923e-05,
+"addresstype": "shop",
+"name": "澤田屋",
+"display_name": "澤田屋, National Highway Route 257, Shitara, Kitashitara County, Aichi Prefecture, 441-2432, Japan",
+"boundingbox": [
+"35.1523965",
+"35.1524965",
+"137.5379848",
+"137.5380848"
+]
+},
+{
+"place_id": 264608147,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 651625109,
+"lat": "37.8332808",
+"lon": "140.4517734",
+"category": "craft",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "craft",
+"name": "澤田屋",
+"display_name": "澤田屋, 穴原十綱線, 山岸, Iizakamachi, Fukushima, Fukushima Prefecture, 960-0299, Japan",
+"boundingbox": [
+"37.8331932",
+"37.8333396",
+"140.4517420",
+"140.4518279"
+]
+}
+],
+"Sawadaya Tsumago, Japan": [],
+"Sawadaya Tsumago": [],
+"上二之町": [
+{
+"place_id": 263167059,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 8995117339,
+"lat": "36.1417400",
+"lon": "137.2603130",
+"category": "place",
+"type": "quarter",
+"place_rank": 20,
+"importance": 0.13339198825055312,
+"addresstype": "quarter",
+"name": "上二之町",
+"display_name": "上二之町, Takayama, Gifu Prefecture, 506-0846, Japan",
+"boundingbox": [
+"36.1317400",
+"36.1517400",
+"137.2503130",
+"137.2703130"
+]
+}
+],
+"Kami-ninomachi": [],
+"Kami-Ninomachi Takayama, Japan": [],
+"Kami-Ninomachi Takayama": [],
+"Takayama old-town antique shops, Takayama": [],
+"三嶋和ろうそく店": [
+{
+"place_id": 262202621,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 6819919086,
+"lat": "36.2343962",
+"lon": "137.1876510",
+"category": "shop",
+"type": "gift",
+"place_rank": 30,
+"importance": 5.4383916990875374e-05,
+"addresstype": "shop",
+"name": "Japanese candle shop Mishima shoten",
+"display_name": "Japanese candle shop Mishima shoten, 3-12, Setogawa River and Shirakabe Dozo, 古川町向町一丁目, 古川町壱之町, Hida, Gifu Prefecture, 509-4234, Japan",
+"boundingbox": [
+"36.2343462",
+"36.2344462",
+"137.1876010",
+"137.1877010"
+]
+}
+],
+"白川郷 プリンの家": [],
+"プリンの家": [],
+"Shirakawago Purin no Ie, Japan": [],
+"Shirakawago Purin no Ie": [],
+"isotope": [
+{
+"place_id": 262025636,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 534077906,
+"lat": "39.7292484",
+"lon": "140.1339170",
+"category": "building",
+"type": "university",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "building",
+"name": "Radio Isotope Research Center",
+"display_name": "Radio Isotope Research Center, 雄和仁別自転車道線, Tegata-Gakuenmachi, 手形字山崎, Akita, Akita Prefecture, 010-0862, Japan",
+"boundingbox": [
+"39.7291827",
+"39.7293140",
+"140.1337583",
+"140.1340757"
+]
+},
+{
+"place_id": 262715501,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 13588737601,
+"lat": "36.5628415",
+"lon": "136.6493652",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "amenity",
+"name": "isotope アイソトープ",
+"display_name": "isotope アイソトープ, 塩川町, Nagamachi 2-chome, Kiguramachi, Kanazawa, Ishikawa Prefecture, 920-0865, Japan",
+"boundingbox": [
+"36.5627915",
+"36.5628915",
+"136.6493152",
+"136.6494152"
+]
+}
+],
+"新竪町": [
+{
+"place_id": 262035157,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 5446989730,
+"lat": "36.5551719",
+"lon": "136.6566211",
+"category": "place",
+"type": "quarter",
+"place_rank": 20,
+"importance": 0.1333833348592355,
+"addresstype": "quarter",
+"name": "新竪町",
+"display_name": "新竪町, Kanazawa, Ishikawa Prefecture, 920-0995, Japan",
+"boundingbox": [
+"36.5451719",
+"36.5651719",
+"136.6466211",
+"136.6666211"
+]
+},
+{
+"place_id": 262045044,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 8357447409,
+"lat": "36.5559560",
+"lon": "136.6558940",
+"category": "highway",
+"type": "bus_stop",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "highway",
+"name": "Shintate-machi",
+"display_name": "Shintate-machi, Shintatemachi-dori, Shintatemachi 3-chome, 新竪町, Kanazawa, Ishikawa Prefecture, 920-0995, Japan",
+"boundingbox": [
+"36.5559060",
+"36.5560060",
+"136.6558440",
+"136.6559440"
+]
+}
+],
+"Katani shop, Kanazawa": [],
+"Cafe DINA": [
+{
+"place_id": 265686489,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 11276621673,
+"lat": "35.5027562",
+"lon": "138.7684759",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "amenity",
+"name": "Café Dina",
+"display_name": "Café Dina, Funatsu, Fujikawaguchiko, Minamitsuru County, Yamanashi Prefecture, 401-0301, Japan",
+"boundingbox": [
+"35.5027062",
+"35.5028062",
+"138.7684259",
+"138.7685259"
+]
+}
+],
+"カフェ ディナ": [],
+"Cafe DINA Kawaguchiko, Japan": [],
+"Cafe DINA Kawaguchiko": [],
+"Café DINA, Kawaguchiko": [],
+"伊良コーラ": [
+{
+"place_id": 265254302,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 976157700,
+"lat": "35.7149759",
+"lon": "139.6958163",
+"category": "shop",
+"type": "beverages",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "Iyoshi Cola",
+"display_name": "Iyoshi Cola, 2, Takadanobaba　3, Takadanobaba, Shinjuku, Tokyo, 169-0075, Japan",
+"boundingbox": [
+"35.7149333",
+"35.7150184",
+"139.6957508",
+"139.6958817"
+]
+}
+],
+"Iyoshi Cola": [
+{
+"place_id": 265254302,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 976157700,
+"lat": "35.7149759",
+"lon": "139.6958163",
+"category": "shop",
+"type": "beverages",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "Iyoshi Cola",
+"display_name": "Iyoshi Cola, 2, Takadanobaba　3, Takadanobaba, Shinjuku, Tokyo, 169-0075, Japan",
+"boundingbox": [
+"35.7149333",
+"35.7150184",
+"139.6957508",
+"139.6958817"
+]
+}
+],
+"Iyoshi Cola Harajuku, Japan": [],
+"Iyoshi Cola Harajuku": [],
+"SILKREAM": [
+{
+"place_id": 266160048,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 4842658223,
+"lat": "35.6624281",
+"lon": "139.7000590",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "Silkream",
+"display_name": "Silkream, 19-3, Jinnan 1, Jinnan, Shibuya, Tokyo, 150-0041, Japan",
+"boundingbox": [
+"35.6623781",
+"35.6624781",
+"139.7000090",
+"139.7001090"
+]
+}
+],
+"エクセルシオール カフェ 渋谷": [
+{
+"place_id": 266238199,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2234204979,
+"lat": "35.6732470",
+"lon": "139.6671570",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "EXCELSIOR CAFE",
+"display_name": "EXCELSIOR CAFE, 10, Sasazuka 1, Sasazuka, Shibuya, Tokyo, 151-0073, Japan",
+"boundingbox": [
+"35.6731970",
+"35.6732970",
+"139.6671070",
+"139.6672070"
+]
+},
+{
+"place_id": 263458207,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1673403882,
+"lat": "35.6621973",
+"lon": "139.6995238",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "EXCELSIOR CAFE",
+"display_name": "EXCELSIOR CAFE, Finger Avenue, Jinnan 1, Jinnan, Shibuya, Tokyo, 150-0041, Japan",
+"boundingbox": [
+"35.6621473",
+"35.6622473",
+"139.6994738",
+"139.6995738"
+]
+},
+{
+"place_id": 266030969,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 12452359648,
+"lat": "35.6569106",
+"lon": "139.7017247",
+"category": "shop",
+"type": "coffee",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "EXCELSIOR CAFE",
+"display_name": "EXCELSIOR CAFE, 4, Sakuragaokacho, Shibuya, Tokyo, 150-0031, Japan",
+"boundingbox": [
+"35.6568606",
+"35.6569606",
+"139.7016747",
+"139.7017747"
+]
+},
+{
+"place_id": 264816815,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1926694823,
+"lat": "35.6576973",
+"lon": "139.6974816",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "EXCELSIOR CAFE",
+"display_name": "EXCELSIOR CAFE, 渋谷マークシティ駐車場, Dōgenzaka 1, Dōgenzaka, Shibuya, Tokyo, 150-0043, Japan",
+"boundingbox": [
+"35.6576473",
+"35.6577473",
+"139.6974316",
+"139.6975316"
+]
+},
+{
+"place_id": 266177299,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1926673950,
+"lat": "35.6592478",
+"lon": "139.6990945",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "EXCELSIOR CAFE",
+"display_name": "EXCELSIOR CAFE, Dogen-zaka Street, Dōgenzaka 2, Dōgenzaka, Shibuya, Tokyo, 150-0043, Japan",
+"boundingbox": [
+"35.6591978",
+"35.6592978",
+"139.6990445",
+"139.6991445"
+]
+}
+],
+"オリエンタルバザー": [
+{
+"place_id": 270955748,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 6984202279,
+"lat": "40.6780591",
+"lon": "141.3634959",
+"category": "shop",
+"type": "gift",
+"place_rank": 30,
+"importance": 5.365758754859262e-05,
+"addresstype": "shop",
+"name": "オリエンタルバザー",
+"display_name": "オリエンタルバザー, City Hall Street, Omachi 2-chome, Misawa, Aomori Prefecture, 033-0041, Japan",
+"boundingbox": [
+"40.6780091",
+"40.6781091",
+"141.3634459",
+"141.3635459"
+]
+}
+],
+"Oriental Bazaar": [
+{
+"place_id": 262047937,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2718972009,
+"lat": "35.6670568",
+"lon": "139.7071130",
+"category": "shop",
+"type": "department_store",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "Oriental Bazaar",
+"display_name": "Oriental Bazaar, 8, Jingumae 5, Jingumae, Shibuya, Tokyo, 151-0001, Japan",
+"boundingbox": [
+"35.6670068",
+"35.6671068",
+"139.7070630",
+"139.7071630"
+]
+},
+{
+"place_id": 265422511,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 11245012637,
+"lat": "35.6670246",
+"lon": "139.7070235",
+"category": "shop",
+"type": "gift",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "Oriental Bazaar",
+"display_name": "Oriental Bazaar, Cat Street, Jingumae 6, Jingumae, Shibuya, Tokyo, 150-0001, Japan",
+"boundingbox": [
+"35.6669746",
+"35.6670746",
+"139.7069735",
+"139.7070735"
+]
+},
+{
+"place_id": 265781598,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 139043694,
+"lat": "35.6672213",
+"lon": "139.7074126",
+"category": "building",
+"type": "yes",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "building",
+"name": "オリエンタルバザール",
+"display_name": "オリエンタルバザール, Omotesandō, Jingumae 5, Jingumae, Shibuya, Tokyo, 150-0001, Japan",
+"boundingbox": [
+"35.6670560",
+"35.6673749",
+"139.7071229",
+"139.7075836"
+]
+}
+],
+"芋ぴっぴ": [
+{
+"place_id": 266282071,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 10696114404,
+"lat": "35.0022914",
+"lon": "135.7772148",
+"category": "shop",
+"type": "bakery",
+"place_rank": 30,
+"importance": 7.531471732657385e-05,
+"addresstype": "shop",
+"name": "芋ぴっぴ。",
+"display_name": "芋ぴっぴ。, Higashiōji Street, Giommachi-Minamigawa, 辰巳町, Higashiyama Ward, Kyoto, Kyoto Prefecture, 605-0829, Japan",
+"boundingbox": [
+"35.0022414",
+"35.0023414",
+"135.7771648",
+"135.7772648"
+]
+},
+{
+"place_id": 269050506,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 10839392523,
+"lat": "33.8430782",
+"lon": "132.7711030",
+"category": "shop",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 6.24849317158315e-05,
+"addresstype": "shop",
+"name": "芋ぴっぴ。",
+"display_name": "芋ぴっぴ。, Ichibancho-Sinonome Line, Kiyomachi 2-chome, Nishiichimanmachi, Matsuyama, Ehime Prefecture, 790-0004, Japan",
+"boundingbox": [
+"33.8430282",
+"33.8431282",
+"132.7710530",
+"132.7711530"
+]
+},
+{
+"place_id": 264386610,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 10296207972,
+"lat": "34.3460336",
+"lon": "134.0510428",
+"category": "craft",
+"type": "confectionery",
+"place_rank": 30,
+"importance": 6.14747844662702e-05,
+"addresstype": "craft",
+"name": "芋ぴっぴ",
+"display_name": "芋ぴっぴ, Kataharamachi, Takamatsu, Kagawa Prefecture, 760-0040, Japan",
+"boundingbox": [
+"34.3459836",
+"34.3460836",
+"134.0509928",
+"134.0510928"
+]
+},
+{
+"place_id": 265308204,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 11888240322,
+"lat": "35.7140850",
+"lon": "139.7944218",
+"category": "amenity",
+"type": "fast_food",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "芋ぴっぴ。浅草店",
+"display_name": "芋ぴっぴ。浅草店, Okuyama Omairimachi, Asakusa 2, Asakusa, Taito, Tokyo, 111-0032, Japan",
+"boundingbox": [
+"35.7140350",
+"35.7141350",
+"139.7943718",
+"139.7944718"
+]
+}
+],
+"エクセルシオール カフェ 秋葉原": [
+{
+"place_id": 265925078,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 1862474176,
+"lat": "35.6992791",
+"lon": "139.7723868",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "amenity",
+"name": "EXCELSIOR CAFE",
+"display_name": "EXCELSIOR CAFE, 秋葉原駅西側交通広場, Soto-Kanda 1, Soto-Kanda, Chiyoda, Tokyo, 101-0021, Japan",
+"boundingbox": [
+"35.6992291",
+"35.6993291",
+"139.7723368",
+"139.7724368"
+]
+}
+],
+"ヘッケルン": [],
+"Heckeln": [],
+"Heckeln Toranomon Tokyo, Japan": [],
+"Heckeln Toranomon Tokyo": [],
+"Tokyo National Museum, Japan": [
+{
+"place_id": 265402758,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 33439660,
+"lat": "35.7190448",
+"lon": "139.7759676",
+"category": "tourism",
+"type": "museum",
+"place_rank": 30,
+"importance": 0.5471520800209528,
+"addresstype": "tourism",
+"name": "Tokyo National Museum",
+"display_name": "Tokyo National Museum, 9, Ueno Park, Taito, Tokyo, 110-8712, Japan",
+"boundingbox": [
+"35.7169594",
+"35.7211723",
+"139.7734254",
+"139.7782071"
+]
+}
+],
+"渡邊木版美術画舗": [],
+"S. Watanabe": [
+{
+"place_id": 265019219,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "way",
+"osm_id": 1154510483,
+"lat": "35.5607877",
+"lon": "139.5679427",
+"category": "amenity",
+"type": "dentist",
+"place_rank": 30,
+"importance": 7.481574731055188e-05,
+"addresstype": "amenity",
+"name": "ワタナベ歯科医院",
+"display_name": "ワタナベ歯科医院, 花と緑の散歩道, Nakagawa 4-chome, Tsuzuki Ward, Yokohama, Kanagawa Prefecture, 231-0017, Japan",
+"boundingbox": [
+"35.5605577",
+"35.5610143",
+"139.5676393",
+"139.5682485"
+]
+},
+{
+"place_id": 263226101,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 6535012690,
+"lat": "37.7930540",
+"lon": "140.9329873",
+"category": "amenity",
+"type": "doctors",
+"place_rank": 30,
+"importance": 5.498664835579488e-05,
+"addresstype": "amenity",
+"name": "わたなべ内科医院",
+"display_name": "わたなべ内科医院, souma-south bypass, Omagari, Soma, Fukushima Prefecture, 976-0037, Japan",
+"boundingbox": [
+"37.7930040",
+"37.7931040",
+"140.9329373",
+"140.9330373"
+]
+},
+{
+"place_id": 261692629,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2277880693,
+"lat": "37.4964119",
+"lon": "139.9284033",
+"category": "shop",
+"type": "florist",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "shop",
+"name": "ワタナベ花店",
+"display_name": "ワタナベ花店, shinmei avenue, Omachi 1-chome, Nakamachi, Aizuwakamatsu, Fukushima Prefecture, 965-8601, Japan",
+"boundingbox": [
+"37.4963619",
+"37.4964619",
+"139.9283533",
+"139.9284533"
+]
+},
+{
+"place_id": 261711069,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 4408988534,
+"lat": "37.5107637",
+"lon": "139.9393734",
+"category": "amenity",
+"type": "restaurant",
+"place_rank": 30,
+"importance": 5.000152590214416e-05,
+"addresstype": "amenity",
+"name": "わたなべ食堂",
+"display_name": "わたなべ食堂, Sengoku St., Kitatakizawa 2-chome, Yamamimachi, Aizuwakamatsu, Fukushima Prefecture, 965-8601, Japan",
+"boundingbox": [
+"37.5107137",
+"37.5108137",
+"139.9393234",
+"139.9394234"
+]
+},
+{
+"place_id": 268765081,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 12328233742,
+"lat": "33.5862361",
+"lon": "130.4031844",
+"category": "amenity",
+"type": "cafe",
+"place_rank": 30,
+"importance": 7.194552529178329e-05,
+"addresstype": "amenity",
+"name": "Komeda's Coffee",
+"display_name": "Komeda's Coffee, Watanabe Dori, Watanabedori 4-chome, Tenjin, Chūō Ward, Fukuoka, Fukuoka Prefecture, 810-0004, Japan",
+"boundingbox": [
+"33.5861861",
+"33.5862861",
+"130.4031344",
+"130.4032344"
+]
+}
+],
+"S. Watanabe Color Print Ginza, Japan": [],
+"S. Watanabe Color Print Ginza": [],
+"S. Watanabe Color Print Co., Tokyo": [],
+"アンティークモール銀座": [
+{
+"place_id": 264121144,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 2010345667,
+"lat": "34.9757592",
+"lon": "139.0942101",
+"category": "shop",
+"type": "antiques",
+"place_rank": 30,
+"importance": 5.608987563892603e-05,
+"addresstype": "shop",
+"name": "Antique Mall",
+"display_name": "Antique Mall, Ito Station Line, 湯川三丁目, 松原湯端町, Ito, Shizuoka Prefecture, 414-0004, Japan",
+"boundingbox": [
+"34.9757092",
+"34.9758092",
+"139.0941601",
+"139.0942601"
+]
+}
+],
+"Antique Mall Ginza": [
+{
+"place_id": 264850778,
+"licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+"osm_type": "node",
+"osm_id": 4637485891,
+"lat": "35.6740089",
+"lon": "139.7697434",
+"category": "shop",
+"type": "gift",
+"place_rank": 30,
+"importance": 8.593499656667457e-05,
+"addresstype": "shop",
+"name": "antique mall ginza",
+"display_name": "antique mall ginza, Ginza Sakura-dori Street, Ginza 1, Ginza, Chuo, Tokyo, 104-0061, Japan",
+"boundingbox": [
+"35.6739589",
+"35.6740589",
+"139.7696934",
+"139.7697934"
+]
+}
 ]
 }

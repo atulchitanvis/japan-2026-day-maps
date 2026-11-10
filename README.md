@@ -10,6 +10,9 @@ A phone-first web app with a zoomable street map for each day of the Japan trip 
 - **Google Maps hand-off:** every stop has **Open in Maps**, every leg has **Directions**, and each day has **Open full day in Google Maps**.
 - **Booking numbers:** tap a booking pill or tag that contains a reference (e.g. `A47431`) to copy it.
 - **Now / Next:** a banner on today's tab shows the current and next stop. Times like "Morning" or "Lunch" are estimated.
+- **Shopping:** small purple pins for `shopStops` (a bag for places to buy, an eye for places just to see). They aren't joined to the route line. Under the route stop named by `nearStop` you get a **Shopping nearby** line that flies the map there, and a collapsible **Shopping today** section sits under the list. The **🛍 Shopping** tab next to Trip overview lists every shop by category, then by day; tap a row to open that day and its pin. Shop popups show categories, See/Buy, what to find, price range, notes, **Open in Maps** and walking directions from the nearby stop.
+- **Quick bites:** small green pins for `quickStops`, with a **Quick bite nearby** line under their stop. Meal cards also list `backupOptions`.
+- **Layer toggles:** **Route** (line and regular stops), **Meals**, **Quick stops** and **Shopping**, plus shop category chips (Ceramics · Prints · Antiques · Screens · Crafts). The choices are remembered on the phone. When 3 or more shops (or quick stops) overlap, they merge into one count bubble (e.g. 🛍 4); tap it to zoom in.
 - **Works offline:** it's a PWA. The app, `trip.json` and the walking routes are cached on first visit, and the map is cached as you look at it. **⬇ Offline maps** saves tiles in advance for one day or the whole trip.
 
 ## Run locally
@@ -67,6 +70,18 @@ Opening the file straight from disk (`file://`) won't work, because the browser 
 ```
 
 - The first stop of a day has no `arriveBy` or `legNote`.
+- Optional per stop: `"backupOptions": ["…", "…"]`, shown on the card.
+- Each day can also have `quickStops` and `shopStops`. Both are always optional; leave them as `[]` or omit them.
+  ```jsonc
+  "quickStops": [ { "name": "Inari Futaba", "mapsQuery": "Inari Futaba Fushimi, Japan", "lat": 34.9675, "lng": 135.771,
+                    "whatToEat": "Mame-daifuku", "nearStop": 1, "notes": "optional" } ],
+  "shopStops":  [ { "name": "Shinmonzen-dori", "mapsQuery": "Shinmonzen Dori Kyoto, Japan", "lat": 35.0055, "lng": 135.7745,
+                    "categories": ["antiques", "screens"],      // ceramics | prints | antiques | screens | crafts
+                    "visit": "both",                             // see | buy | both
+                    "whatToFind": "byobu, scrolls, lacquer", "priceRange": "¥20,000+",
+                    "nearStop": 4,                               // the route stop's "n" it hangs under
+                    "optional": true, "notes": "Most shops close 5–6pm" } ]
+  ```
 - To find coordinates for a new stop, right-click the place in Google Maps (or long-press it on the phone) and copy the lat, lng.
 - Commit and push. Phones that already have the app open the cached copy first, fetch the new `trip.json` in the background, and redraw with a toast saying "Itinerary updated".
 - If you add or move a stop that you **walk** to, run `python3 tools/routes.py` to refresh `routes.json` with the walking path. If you skip this, the app looks the path up live when online and otherwise draws a straight line.
@@ -74,7 +89,7 @@ Opening the file straight from disk (`file://`) won't work, because the browser 
 
 ## Data notes
 
-- All 127 stops were geocoded with OpenStreetMap Nominatim (`tools/geocode.py`, 1 request/second). See **`GEOCODE_LOG.md`** for what moved and by how much, the **11 stops that couldn't be matched** (their approximate pins are unchanged), and a few worth a quick look.
+- All 127 route stops, 33 quick stops and 20 shop stops were geocoded with OpenStreetMap Nominatim (`tools/geocode.py`, 1 request/second; re-run it after adding places). See **`GEOCODE_LOG.md`** for what moved and by how much, the places that **couldn't be matched** (their pins are unchanged), and a few worth a quick look.
 - The Google Maps buttons search by `mapsQuery`, not by the pin, so they land on Google's own result even where an OSM pin is a little off.
 
 ## Base map

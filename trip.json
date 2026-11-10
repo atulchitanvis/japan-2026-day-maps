@@ -43,9 +43,32 @@
         "notes": "Or Ichiran. Skip Dotonbori if too tired, eat near hotel.",
         "meal": true,
         "arriveBy": "train",
-        "legNote": "Midosuji Line Umeda → Namba, ~15 min"
+        "legNote": "Midosuji Line Umeda → Namba, ~15 min",
+        "backupOptions": [
+          "Ichiran (Dotonbori Tenbekkan) — tonkotsu ramen"
+        ]
       }
-    ]
+    ],
+    "quickStops": [
+      {
+        "name": "Takoyaki Wanaka (Dotonbori)",
+        "mapsQuery": "Takoyaki Wanaka Dotonbori Osaka, Japan",
+        "lat": 34.6688,
+        "lng": 135.503,
+        "whatToEat": "Takoyaki — 50+ year old shop",
+        "nearStop": 3
+      },
+      {
+        "name": "Rikuro's Cheesecake (Namba flagship)",
+        "mapsQuery": "Rikuro Ojisan Namba Honten Osaka, Japan",
+        "lat": 34.6662,
+        "lng": 135.501,
+        "whatToEat": "Jiggly soufflé cheesecake — Osaka original",
+        "nearStop": 3,
+        "notes": "Buy a whole one for the hotel"
+      }
+    ],
+    "shopStops": []
   },
   {
     "day": 2,
@@ -143,9 +166,58 @@
         "notes": "Backups Tengu, Omiya, Daruma. Home via Shin-Imamiya → Loop Line to Osaka.",
         "meal": true,
         "arriveBy": "walk",
-        "legNote": "Walk ~5 min"
+        "legNote": "Walk ~5 min",
+        "backupOptions": [
+          "Daruma / Tengu / Omiya — kushikatsu, Shinsekai"
+        ]
       }
-    ]
+    ],
+    "quickStops": [
+      {
+        "name": "Onigiri Gorichan",
+        "mapsQuery": "Onigiri Gorichan Nakazakicho Osaka, Japan",
+        "lat": 34.70713,
+        "lng": 135.50583,
+        "whatToEat": "Rice balls — quick breakfast near the hotel",
+        "nearStop": 1,
+        "notes": "Before leaving for Minoh"
+      },
+      {
+        "name": "Momiji tempura stalls (Minoh Falls path)",
+        "mapsQuery": "Minoh Falls momiji tempura, Japan",
+        "lat": 34.84,
+        "lng": 135.471,
+        "whatToEat": "Fried maple-leaf tempura — Minoh speciality",
+        "nearStop": 5
+      },
+      {
+        "name": "Derailleur Brew Works",
+        "mapsQuery": "Derailleur Brew Works Minoh, Japan",
+        "lat": 34.8354,
+        "lng": 135.46836,
+        "whatToEat": "Craft beer / soft drinks by Minoh Station",
+        "nearStop": 5,
+        "notes": "Optional"
+      },
+      {
+        "name": "Takoyaki Wanaka (Osaka Castle Park)",
+        "mapsQuery": "Takoyaki Wanaka Osaka Castle Park, Japan",
+        "lat": 34.6887,
+        "lng": 135.53307,
+        "whatToEat": "Takoyaki",
+        "nearStop": 6
+      },
+      {
+        "name": "Grenier",
+        "mapsQuery": "Grenier Umeda Osaka, Japan",
+        "lat": 34.703,
+        "lng": 135.499,
+        "whatToEat": "Crème brûlée mille-feuille",
+        "nearStop": 8,
+        "notes": "Back in Umeda at night"
+      }
+    ],
+    "shopStops": []
   },
   {
     "day": 3,
@@ -256,7 +328,52 @@
         "arriveBy": "train",
         "legNote": "Kintetsu to Osaka-Namba (arr 17:33), walk"
       }
-    ]
+    ],
+    "quickStops": [
+      {
+        "name": "Ajinoya Honten",
+        "mapsQuery": "Ajinoya Honten Namba Osaka, Japan",
+        "lat": 34.66808,
+        "lng": 135.50103,
+        "whatToEat": "Okonomiyaki — Michelin Bib Gourmand, est. 1965",
+        "nearStop": 8,
+        "notes": "Also a dinner option"
+      },
+      {
+        "name": "Hokkyokusei (Shinsaibashi main shop)",
+        "mapsQuery": "Hokkyokusei Shinsaibashi Honten Osaka, Japan",
+        "lat": 34.66963,
+        "lng": 135.49874,
+        "whatToEat": "Omurice — 100+ year legacy",
+        "nearStop": 8,
+        "notes": "Also a dinner option"
+      },
+      {
+        "name": "MooKEN",
+        "mapsQuery": "MooKEN Shinsaibashi Osaka, Japan",
+        "lat": 34.6735,
+        "lng": 135.501,
+        "whatToEat": "Mini cream puffs, ¥800 / 10 pcs",
+        "nearStop": 8
+      },
+      {
+        "name": "Tofu Sorano",
+        "mapsQuery": "Tofu Sorano Minami Senba Osaka, Japan",
+        "lat": 34.677,
+        "lng": 135.505,
+        "whatToEat": "Tofu tiramisu, fresh tofu — Tabelog 3.49",
+        "nearStop": 8
+      },
+      {
+        "name": "Rikuro's Cheesecake (Namba)",
+        "mapsQuery": "Rikuro Ojisan Namba Honten Osaka, Japan",
+        "lat": 34.6662,
+        "lng": 135.501,
+        "whatToEat": "Soufflé cheesecake",
+        "nearStop": 8
+      }
+    ],
+    "shopStops": []
   },
   {
     "day": 4,
@@ -364,7 +481,10 @@
         ],
         "meal": true,
         "arriveBy": "walk",
-        "legNote": "Walk back ~40 min (or taxi)"
+        "legNote": "Walk back ~40 min (or taxi)",
+        "backupOptions": [
+          "Sushi Naritaya — near Arashiyama Stn"
+        ]
       },
       {
         "n": 9,
@@ -403,6 +523,34 @@
         "meal": true,
         "arriveBy": "walk",
         "legNote": "Walk"
+      }
+    ],
+    "quickStops": [
+      {
+        "name": "Arashiyama Yoshimura",
+        "mapsQuery": "Arashiyama Yoshimura, Japan",
+        "lat": 35.01426,
+        "lng": 135.67598,
+        "whatToEat": "Soba with river view — Tabelog 3.51, can queue",
+        "nearStop": 8,
+        "notes": "Backup to Daizen"
+      }
+    ],
+    "shopStops": [
+      {
+        "name": "Tenryu-ji Daruma screen",
+        "mapsQuery": "Tenryuji Temple Kyoto, Japan",
+        "lat": 35.01593,
+        "lng": 135.677,
+        "categories": [
+          "screens"
+        ],
+        "visit": "see",
+        "whatToFind": "Large Daruma screen painting in the entrance hall",
+        "priceRange": "Included in temple entry",
+        "nearStop": 4,
+        "optional": true,
+        "notes": "Already on the route — just look for it"
       }
     ]
   },
@@ -543,7 +691,37 @@
         ],
         "meal": true,
         "arriveBy": "train",
-        "legNote": "Kintetsu to Kyoto (arr 17:01), walk"
+        "legNote": "Kintetsu to Kyoto (arr 17:01), walk",
+        "backupOptions": [
+          "Toridashi Oden Tsujiya — Kyoto Stn West, ★3.17"
+        ]
+      }
+    ],
+    "quickStops": [
+      {
+        "name": "Nakatanidou",
+        "mapsQuery": "Nakatanidou Nara, Japan",
+        "lat": 34.68193,
+        "lng": 135.82886,
+        "whatToEat": "Yomogi mochi, ¥130–250",
+        "nearStop": 3
+      }
+    ],
+    "shopStops": [
+      {
+        "name": "Naramachi craft shops",
+        "mapsQuery": "Naramachi Nara, Japan",
+        "lat": 34.67691,
+        "lng": 135.83015,
+        "categories": [
+          "ceramics",
+          "crafts"
+        ],
+        "visit": "buy",
+        "whatToFind": "Akahada-yaki pottery, Nara sumi ink, hand-printed cloth",
+        "priceRange": "¥2,000–8,000",
+        "nearStop": 8,
+        "optional": true
       }
     ]
   },
@@ -659,7 +837,10 @@
         "notes": "Curry udon ★3.59, cash. Backup Musou Shin Gion.",
         "meal": true,
         "arriveBy": "walk",
-        "legNote": "Walk ~5 min"
+        "legNote": "Walk ~5 min",
+        "backupOptions": [
+          "Musou Shin Gion — vegetable-potage ramen, ★3.21"
+        ]
       },
       {
         "n": 10,
@@ -674,6 +855,155 @@
         ],
         "arriveBy": "bus",
         "legNote": "Bus 206 or taxi"
+      }
+    ],
+    "quickStops": [
+      {
+        "name": "Inari Futaba",
+        "mapsQuery": "Inari Futaba Fushimi, Japan",
+        "lat": 34.96843,
+        "lng": 135.77082,
+        "whatToEat": "Mame-daifuku — zero detour",
+        "nearStop": 1
+      },
+      {
+        "name": "ICHiMARU5",
+        "mapsQuery": "ICHiMARU5 Kiyomizu Kyoto, Japan",
+        "lat": 34.99515,
+        "lng": 135.77914,
+        "whatToEat": "Dango, warabi mochi",
+        "nearStop": 2
+      },
+      {
+        "name": "Kasagiya",
+        "mapsQuery": "Kasagiya Kyoto, Japan",
+        "lat": 34.9978,
+        "lng": 135.7804,
+        "whatToEat": "Warabi mochi, from ¥850",
+        "nearStop": 3,
+        "notes": "Pin approximate — check exact spot"
+      },
+      {
+        "name": "Fujinami (Kodaiji branch)",
+        "mapsQuery": "Fujinami Kodaiji Kyoto, Japan",
+        "lat": 34.9995,
+        "lng": 135.78,
+        "whatToEat": "Mitarashi dango, warabi mochi, matcha set — Tabelog 3.45",
+        "nearStop": 3
+      },
+      {
+        "name": "(THISIS)SHIZEN",
+        "mapsQuery": "THISIS SHIZEN Shinpuhkan Kyoto, Japan",
+        "lat": 35.00932,
+        "lng": 135.75996,
+        "whatToEat": "Ice Bouquet cones — go before 4pm",
+        "nearStop": 4
+      },
+      {
+        "name": "MACCHA HOUSE",
+        "mapsQuery": "Maccha House Kyoto Shijo Kawaramachi, Japan",
+        "lat": 35.00449,
+        "lng": 135.76948,
+        "whatToEat": "Matcha tiramisu",
+        "nearStop": 4
+      },
+      {
+        "name": "amam dacotan Kyoto",
+        "mapsQuery": "amam dacotan Kyoto, Japan",
+        "lat": 35.0,
+        "lng": 135.759,
+        "whatToEat": "Artisan bread, ~120 kinds — Tabelog 3.60",
+        "nearStop": 4,
+        "notes": "Pin approximate"
+      },
+      {
+        "name": "Demachi Futaba",
+        "mapsQuery": "Demachi Futaba Kyoto, Japan",
+        "lat": 35.03011,
+        "lng": 135.76963,
+        "whatToEat": "Original mame-mochi — Tabelog 3.83, real queues",
+        "nearStop": 5,
+        "notes": "Detour: ~15 min taxi from Ginkaku-ji"
+      }
+    ],
+    "shopStops": [
+      {
+        "name": "Kiyomizu-zaka / Gojozaka pottery shops",
+        "mapsQuery": "Kiyomizuzaka Kyoto pottery, Japan",
+        "lat": 34.99571,
+        "lng": 135.77931,
+        "categories": [
+          "ceramics"
+        ],
+        "visit": "buy",
+        "whatToFind": "Kiyomizu-yaki teacups, small plates, incense holders",
+        "priceRange": "¥1,500–8,000",
+        "nearStop": 2,
+        "optional": true
+      },
+      {
+        "name": "Teramachi-dori (north of Oike)",
+        "mapsQuery": "Teramachi Dori Oike Kyoto Ippodo, Japan",
+        "lat": 35.0135,
+        "lng": 135.7675,
+        "categories": [
+          "prints",
+          "antiques",
+          "crafts"
+        ],
+        "visit": "both",
+        "whatToFind": "Antique and print shops, calligraphy, shikishi boards; Ippodo tea main shop",
+        "priceRange": "¥2,000–20,000",
+        "nearStop": 4,
+        "optional": true,
+        "notes": "~10 min walk north from Nishiki"
+      },
+      {
+        "name": "Shinmonzen-dori",
+        "mapsQuery": "Shinmonzen Dori Kyoto, Japan",
+        "lat": 35.00631,
+        "lng": 135.77479,
+        "categories": [
+          "antiques",
+          "screens",
+          "prints",
+          "ceramics"
+        ],
+        "visit": "both",
+        "whatToFind": "Japan's top antique street: byobu, scrolls, lacquer, ceramics",
+        "priceRange": "¥20,000+ (full byobu ¥1 lakh+)",
+        "nearStop": 4,
+        "optional": true,
+        "notes": "Go straight after Nishiki lunch (~13:30) — most shops close 5–6pm"
+      },
+      {
+        "name": "Furumonzen-dori",
+        "mapsQuery": "Furumonzen Dori Kyoto, Japan",
+        "lat": 35.00696,
+        "lng": 135.77534,
+        "categories": [
+          "antiques"
+        ],
+        "visit": "both",
+        "whatToFind": "More antique dealers, same walk as Shinmonzen",
+        "priceRange": "¥10,000+",
+        "nearStop": 4,
+        "optional": true
+      },
+      {
+        "name": "Kennin-ji",
+        "mapsQuery": "Kenninji Temple Kyoto, Japan",
+        "lat": 35.00026,
+        "lng": 135.77374,
+        "categories": [
+          "screens"
+        ],
+        "visit": "see",
+        "whatToFind": "Wind God and Thunder God byobu (replica of the National Treasure), painted sliding doors, twin-dragon ceiling",
+        "priceRange": "~¥800/pp entry",
+        "nearStop": 8,
+        "optional": true,
+        "notes": "5 min from Shinmonzen / Hanamikoji"
       }
     ]
   },
@@ -803,6 +1133,24 @@
         "arriveBy": "walk",
         "legNote": "Walk"
       }
+    ],
+    "quickStops": [],
+    "shopStops": [
+      {
+        "name": "Nakamachi Street craft shops",
+        "mapsQuery": "Nakamachi Street Matsumoto, Japan",
+        "lat": 36.2338,
+        "lng": 137.9715,
+        "categories": [
+          "ceramics",
+          "crafts"
+        ],
+        "visit": "buy",
+        "whatToFind": "Matsumoto folk crafts, wooden ware, everyday pottery",
+        "priceRange": "¥1,500–6,000",
+        "nearStop": 6,
+        "optional": true
+      }
     ]
   },
   {
@@ -866,7 +1214,11 @@
         "notes": "~8 km total, 3-3.5 h. Sawadaya chestnut sweets after.",
         "meal": true,
         "arriveBy": "walk",
-        "legNote": "Trail, downhill and flat"
+        "legNote": "Trail, downhill and flat",
+        "backupOptions": [
+          "Rikyu — soba, gohei mochi",
+          "Omote — sansoba, ★3.29"
+        ]
       },
       {
         "n": 6,
@@ -891,7 +1243,26 @@
         "arriveBy": "train",
         "legNote": "JR Chuo Line ~42 min"
       }
-    ]
+    ],
+    "quickStops": [
+      {
+        "name": "Cafe Kappe",
+        "mapsQuery": "Cafe Kappe Magome, Japan",
+        "lat": 35.52778,
+        "lng": 137.56887,
+        "whatToEat": "Gohei mochi",
+        "nearStop": 3
+      },
+      {
+        "name": "Sawadaya",
+        "mapsQuery": "Sawadaya Tsumago, Japan",
+        "lat": 35.5775,
+        "lng": 137.5965,
+        "whatToEat": "Chestnut sweets (kurikinton)",
+        "nearStop": 5
+      }
+    ],
+    "shopStops": []
   },
   {
     "day": 9,
@@ -964,6 +1335,26 @@
         "arriveBy": "walk",
         "legNote": "Walk ~10 min"
       }
+    ],
+    "quickStops": [],
+    "shopStops": [
+      {
+        "name": "Takayama old-town antique shops",
+        "mapsQuery": "Kami-Ninomachi Takayama, Japan",
+        "lat": 36.142,
+        "lng": 137.2615,
+        "categories": [
+          "antiques",
+          "ceramics",
+          "crafts"
+        ],
+        "visit": "both",
+        "whatToFind": "Old lacquerware, Shibukusa-yaki pottery, Ichii itto-bori carving",
+        "priceRange": "¥2,000–10,000+",
+        "nearStop": 5,
+        "optional": true,
+        "notes": "Can also do on Day 10"
+      }
     ]
   },
   {
@@ -1016,7 +1407,11 @@
         "notes": "Seto River canal, Your Name spots. Ajidokoro Furukawa (before 14:00) or Soba Sho Nakaya.",
         "meal": true,
         "arriveBy": "train",
-        "legNote": "JR Takayama Line ~15 min"
+        "legNote": "JR Takayama Line ~15 min",
+        "backupOptions": [
+          "Soba Sho Nakaya — ★3.50",
+          "Indohanten — Hida Furukawa"
+        ]
       },
       {
         "n": 5,
@@ -1028,6 +1423,38 @@
         "notes": "Second, unhurried pass. Dinner: Kikyoya (ramen).",
         "arriveBy": "train",
         "legNote": "JR back ~15 min, walk"
+      }
+    ],
+    "quickStops": [],
+    "shopStops": [
+      {
+        "name": "Mishima candle shop (Hida Furukawa)",
+        "mapsQuery": "Mishima Rosoku Hida Furukawa, Japan",
+        "lat": 36.2344,
+        "lng": 137.18765,
+        "categories": [
+          "crafts"
+        ],
+        "visit": "buy",
+        "whatToFind": "Hand-painted Japanese candles; watch them being made",
+        "priceRange": "¥500–3,000",
+        "nearStop": 4,
+        "optional": true
+      },
+      {
+        "name": "Takayama antique + Shibukusa-yaki shops",
+        "mapsQuery": "Sanmachi Suji Takayama, Japan",
+        "lat": 36.14087,
+        "lng": 137.25966,
+        "categories": [
+          "antiques",
+          "ceramics"
+        ],
+        "visit": "both",
+        "whatToFind": "Second unhurried pass for antiques and Shibukusa pottery",
+        "priceRange": "¥2,000–10,000+",
+        "nearStop": 5,
+        "optional": true
       }
     ]
   },
@@ -1165,6 +1592,34 @@
         "arriveBy": "walk",
         "legNote": "Walk ~15 min or bus"
       }
+    ],
+    "quickStops": [
+      {
+        "name": "Purin no Ie",
+        "mapsQuery": "Shirakawago Purin no Ie, Japan",
+        "lat": 36.259,
+        "lng": 136.906,
+        "whatToEat": "Pudding",
+        "nearStop": 5,
+        "notes": "Optional"
+      }
+    ],
+    "shopStops": [
+      {
+        "name": "Higashi Chaya craft shops",
+        "mapsQuery": "Higashi Chaya District Kanazawa, Japan",
+        "lat": 36.57256,
+        "lng": 136.66668,
+        "categories": [
+          "ceramics",
+          "crafts"
+        ],
+        "visit": "buy",
+        "whatToFind": "Kutani-yaki porcelain, gold-leaf trays and boxes",
+        "priceRange": "¥2,000–15,000",
+        "nearStop": 9,
+        "optional": true
+      }
     ]
   },
   {
@@ -1267,7 +1722,53 @@
         "notes": "Station front. Tonight: collect Kagayaki tickets, stroller to Yamato (→ Tokyo, 3 Dec).",
         "meal": true,
         "arriveBy": "bus",
-        "legNote": "Bus or taxi ~15 min"
+        "legNote": "Bus or taxi ~15 min",
+        "backupOptions": [
+          "Kanazawa Oden Ippukuya — Omicho Market, ★3.46"
+        ]
+      }
+    ],
+    "quickStops": [
+      {
+        "name": "isotope café",
+        "mapsQuery": "isotope Kanazawa, Japan",
+        "lat": 36.56284,
+        "lng": 136.64937,
+        "whatToEat": "Coffee + snack near Nagamachi",
+        "nearStop": 3,
+        "notes": "Pin approximate"
+      }
+    ],
+    "shopStops": [
+      {
+        "name": "Shintatemachi",
+        "mapsQuery": "Shintatemachi Kanazawa, Japan",
+        "lat": 36.55596,
+        "lng": 136.65589,
+        "categories": [
+          "ceramics",
+          "crafts"
+        ],
+        "visit": "buy",
+        "whatToFind": "Design, craft and vintage shops; modern Kutani",
+        "priceRange": "¥2,000–8,000",
+        "nearStop": 3,
+        "optional": true,
+        "notes": "5 min from Nagamachi"
+      },
+      {
+        "name": "Katani shop (after the gold-leaf class)",
+        "mapsQuery": "Kanazawa Katani gold leaf, Japan",
+        "lat": 36.5735,
+        "lng": 136.6615,
+        "categories": [
+          "crafts"
+        ],
+        "visit": "buy",
+        "whatToFind": "Gold-leaf dishes, boxes, small tabletop items",
+        "priceRange": "¥2,000–15,000",
+        "nearStop": 5,
+        "optional": true
       }
     ]
   },
@@ -1367,7 +1868,9 @@
         "arriveBy": "walk",
         "legNote": "Walk or local bus"
       }
-    ]
+    ],
+    "quickStops": [],
+    "shopStops": []
   },
   {
     "day": 14,
@@ -1408,7 +1911,11 @@
         "notes": "Houtou with a Fuji view.",
         "meal": true,
         "arriveBy": "bus",
-        "legNote": "Bus back"
+        "legNote": "Bus back",
+        "backupOptions": [
+          "Kitchen Fujiyama View",
+          "Forest Restaurant"
+        ]
       },
       {
         "n": 4,
@@ -1444,9 +1951,23 @@
         "notes": "★3.49. Backup Hoto Fudo. Onsen at the hotel.",
         "meal": true,
         "arriveBy": "walk",
-        "legNote": "Walk or bus"
+        "legNote": "Walk or bus",
+        "backupOptions": [
+          "Hoto Fudo (Hoku Honten) — ★3.48"
+        ]
       }
-    ]
+    ],
+    "quickStops": [
+      {
+        "name": "Café DINA",
+        "mapsQuery": "Cafe DINA Kawaguchiko, Japan",
+        "lat": 35.519,
+        "lng": 138.742,
+        "whatToEat": "Breakfast / coffee near Oishi Park",
+        "nearStop": 1
+      }
+    ],
+    "shopStops": []
   },
   {
     "day": 15,
@@ -1580,6 +2101,52 @@
         "arriveBy": "train",
         "legNote": "JR Yamanote Shibuya → Shinjuku, 7 min"
       }
+    ],
+    "quickStops": [
+      {
+        "name": "Iyoshi Cola",
+        "mapsQuery": "Iyoshi Cola Harajuku, Japan",
+        "lat": 35.6645,
+        "lng": 139.7065,
+        "whatToEat": "Craft cola — open 1–7pm",
+        "nearStop": 7
+      },
+      {
+        "name": "SILKREAM",
+        "mapsQuery": "SILKREAM Shibuya, Japan",
+        "lat": 35.66243,
+        "lng": 139.70006,
+        "whatToEat": "Cremia soft serve",
+        "nearStop": 8
+      },
+      {
+        "name": "Excelsior Caffè (Shibuya)",
+        "mapsQuery": "Excelsior Caffe Shibuya, Japan",
+        "lat": 35.65925,
+        "lng": 139.69909,
+        "whatToEat": "Cremia soft serve, reliably stocked",
+        "nearStop": 8
+      }
+    ],
+    "shopStops": [
+      {
+        "name": "Oriental Bazaar",
+        "mapsQuery": "Oriental Bazaar Omotesando Tokyo, Japan",
+        "lat": 35.66722,
+        "lng": 139.70741,
+        "categories": [
+          "screens",
+          "antiques",
+          "prints",
+          "ceramics"
+        ],
+        "visit": "buy",
+        "whatToFind": "3 floors: antique and new byobu (incl. tabletop), kimonos, prints, ceramics; ships abroad",
+        "priceRange": "¥3,000–20,000+ (byobu more)",
+        "nearStop": 7,
+        "optional": true,
+        "notes": "Most realistic place to buy a byobu — check December hours"
+      }
     ]
   },
   {
@@ -1651,7 +2218,11 @@
         "notes": "Ramen ★3.69. Backups Tsumugi Mugi, Manriki.",
         "meal": true,
         "arriveBy": "train",
-        "legNote": "Ginza Line to Suehirocho or taxi, ~10 min"
+        "legNote": "Ginza Line to Suehirocho or taxi, ~10 min",
+        "backupOptions": [
+          "Ramen Tsumugi Mugi — ★3.58",
+          "Spice Ramen Manriki — ★3.52"
+        ]
       },
       {
         "n": 6,
@@ -1697,6 +2268,113 @@
         "meal": true,
         "arriveBy": "train",
         "legNote": "Marunouchi Line → Shinjuku-sanchome, ~20 min"
+      }
+    ],
+    "quickStops": [
+      {
+        "name": "Imo Pippi",
+        "mapsQuery": "Imo Pippi Asakusa, Japan",
+        "lat": 35.71408,
+        "lng": 139.79442,
+        "whatToEat": "Purple sweet-potato ice cream ¥1,400",
+        "nearStop": 3,
+        "notes": "Short walk from Kappabashi"
+      },
+      {
+        "name": "Excelsior Caffè (Akihabara)",
+        "mapsQuery": "Excelsior Caffe Akihabara, Japan",
+        "lat": 35.69928,
+        "lng": 139.77239,
+        "whatToEat": "Cremia soft serve",
+        "nearStop": 6
+      },
+      {
+        "name": "Heckeln",
+        "mapsQuery": "Heckeln Toranomon Tokyo, Japan",
+        "lat": 35.669,
+        "lng": 139.749,
+        "whatToEat": "Jumbo pudding + siphon coffee — Tabelog 3.68",
+        "nearStop": 8,
+        "notes": "Detour from Ginza; open Fri (closed Wed/Sat/Sun)"
+      }
+    ],
+    "shopStops": [
+      {
+        "name": "Tokyo National Museum (Honkan)",
+        "mapsQuery": "Tokyo National Museum, Japan",
+        "lat": 35.71904,
+        "lng": 139.77597,
+        "categories": [
+          "screens",
+          "prints",
+          "ceramics"
+        ],
+        "visit": "see",
+        "whatToFind": "Real historic byobu, ukiyo-e and ceramics in the Japanese Gallery",
+        "priceRange": "~¥1,000/pp entry",
+        "nearStop": 2,
+        "optional": true,
+        "notes": "Inside Ueno Park; 60–90 min; display rotates every few weeks"
+      },
+      {
+        "name": "Kappabashi ceramic shops",
+        "mapsQuery": "Kappabashi Dougu Street, Japan",
+        "lat": 35.71306,
+        "lng": 139.7885,
+        "categories": [
+          "ceramics"
+        ],
+        "visit": "buy",
+        "whatToFind": "Best-value ceramics in Japan: rice bowls, sake sets, plates; seconds bins outside shops",
+        "priceRange": "¥500–5,000",
+        "nearStop": 3,
+        "optional": true
+      },
+      {
+        "name": "Hara Shobo",
+        "mapsQuery": "Hara Shobo Jimbocho, Japan",
+        "lat": 35.69576,
+        "lng": 139.75723,
+        "categories": [
+          "prints"
+        ],
+        "visit": "buy",
+        "whatToFind": "Ukiyo-e woodblock prints — originals and restrikes",
+        "priceRange": "~¥5,000–30,000+",
+        "nearStop": 7,
+        "optional": true,
+        "notes": "Already a route stop"
+      },
+      {
+        "name": "S. Watanabe Color Print Co.",
+        "mapsQuery": "S. Watanabe Color Print Ginza, Japan",
+        "lat": 35.668,
+        "lng": 139.7625,
+        "categories": [
+          "prints"
+        ],
+        "visit": "buy",
+        "whatToFind": "New hand-made woodblock prints (Hokusai, Hiroshige designs)",
+        "priceRange": "~¥10,000–30,000",
+        "nearStop": 8,
+        "optional": true
+      },
+      {
+        "name": "Antique Mall Ginza",
+        "mapsQuery": "Antique Mall Ginza Tokyo, Japan",
+        "lat": 35.67401,
+        "lng": 139.76974,
+        "categories": [
+          "antiques",
+          "screens",
+          "ceramics"
+        ],
+        "visit": "both",
+        "whatToFind": "Many antique dealers under one roof; screens, scrolls, ceramics",
+        "priceRange": "¥3,000+",
+        "nearStop": 8,
+        "optional": true,
+        "notes": "Check December hours"
       }
     ]
   },
@@ -1759,6 +2437,8 @@
         "arriveBy": "flight",
         "legNote": ""
       }
-    ]
+    ],
+    "quickStops": [],
+    "shopStops": []
   }
 ]
